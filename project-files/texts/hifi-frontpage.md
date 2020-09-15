@@ -27,5 +27,7 @@ HAVE A LOOK IN OUR ONLINE SHOP FOR GREAT PRODUCTS AND DEALS.
 ---
 
 Hi-Fi Corner
+
 Edinburgh 2 Joppa Road EH15 2EU
+
 Falkirk 44 Cow Wynd FK1 1PU
