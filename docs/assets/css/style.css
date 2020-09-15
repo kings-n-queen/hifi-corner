@@ -1,7 +1,1 @@
-/* Import CSS moduler */
-
 @import "./font.css";
-body {
-    font-family: 'Museo Sans Rounded';
-    font-weight: 100;
-}
