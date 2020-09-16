@@ -1,2 +1,6 @@
 @import "./font.css";
 @import "./shop-frontpage.css";
+@import "./brands.css";
+body {
+    margin: 0;
+}
