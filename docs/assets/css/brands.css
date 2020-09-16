@@ -1,0 +1,72 @@
+.brands {
+    --border-width: 2em;
+    --brands-content-padding: 2em;
+    background-image: url("../images/brands_headerimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.brands__main {
+    max-width: 1400px;
+    margin: 0 auto;
+    color: hsl(120, 100%, 98%);
+    font-family: 'Museo Sans Rounded 500';
+    /* text-shadow: 0 0 3px black; */
+}
+
+.brands__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: var(--border-width) solid transparent;
+}
+
+.brands__logo {
+    max-width: 120px;
+}
+
+.brands__content {
+    background-color: blue;
+    border: var(--border-width) solid hsl(120, 100%, 98%);
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.brands__imageContainer {
+    background: linear-gradient(60deg, hsl(0, 33%, 1%), hsl(0, 0%, 31%));
+    padding: var(--brands-content-padding);
+}
+
+.brands__imageTitle {
+    color: hsl(44, 26%, 51%);
+    font-size: 0.8em;
+}
+
+.brands__imageLogos {
+    width: 100%;
+}
+
+.brands__text {
+    background-image: url("../images/brands_speaker.jpg");
+    background-size: cover;
+    padding: var(--brands-content-padding);
+}
+
+.brands__title {
+    font-size: 1em;
+    color: hsl(44, 26%, 51%);
+}
+
+.brands__link {
+    color: hsl(44, 26%, 51%);
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 900px) {
+    .brands__content {
+        background-color: blue;
+        border: var(--border-width) solid hsl(120, 100%, 98%);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
