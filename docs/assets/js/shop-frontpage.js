@@ -1,3 +1,5 @@
+import footer from "./footer.js";
+
 let shopCategoriesGrid = document.querySelector(".shopCategories__grid");
 
 let categories = [
@@ -120,3 +122,5 @@ function categoryLink(title, imgPath, permaLink) {
 
     return link;
 }
+
+footer();

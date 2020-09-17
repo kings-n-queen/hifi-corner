@@ -3,6 +3,7 @@
 @import "./frontpage.css";
 @import "./shop-frontpage.css";
 @import "./brands.css";
+@import "./footer.css";
 
 a {
   text-decoration: none;
