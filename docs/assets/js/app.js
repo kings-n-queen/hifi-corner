@@ -2,5 +2,5 @@
 // fetch data fra database.json (evt. i et modul for sig selv?)
 import {changeImg} from "./imgSwitch.js";
 
-const switchButtons = document.querySelectorAll(".imgSwitch i");
+const switchButtons = document.querySelectorAll(".imgSwitch svg");
 switchButtons.forEach(button => button.addEventListener("click", changeImg));
