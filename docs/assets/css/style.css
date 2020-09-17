@@ -6,6 +6,8 @@
 @import "./footer.css";
 @import "./header.css";
 @import "./topline-some-links.css";
+@import "./shop-category-list-header.css";
+@import "./shop-category-list-listview.css";
 
 a {
   text-decoration: none;
