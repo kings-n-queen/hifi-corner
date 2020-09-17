@@ -1,0 +1,93 @@
+.mainFooter {
+    background-color: hsl(44, 26%, 51%);
+    padding: 1em 0;
+    font-family: 'Museo Sans Rounded 300';
+}
+
+.mainFooter__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainFooter__spacing {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.mainFooter__item {
+    padding: 0 1em;
+}
+
+.mainFooter__addressText {
+    margin: 0;
+}
+
+.mainFooter__link {
+    color: hsl(120, 100%, 98%);
+    transition: color 150ms;
+}
+
+.mainFooter__link:hover {
+    color: hsl(44, 26%, 31%);
+}
+
+.mainFooter__separator {
+    color: hsl(120, 100%, 98%);
+    margin: 0 0.25em;
+}
+
+.mainFooter__image {
+    width: 100%;
+    max-width: 350px;
+}
+
+.mainFooter__item--flex {
+    display: flex;
+}
+
+.mainFooter__socialLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid hsl(120, 100%, 98%);
+    border-radius: 50%;
+    padding: 0.35em;
+    margin: 0 0.25em;
+    transition: background-color 150ms;
+}
+
+.mainFooter__socialLink:hover {
+    background-color: hsl(44, 26%, 41%);
+}
+
+.mainFooter__socialIcon {
+    width: 20px;
+    height: 20px;
+    fill: hsl(120, 100%, 98%);
+}
+
+@media only screen and (max-width: 1200px) {
+    .mainFooter__flex {
+        height: 120px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .mainFooter__spacing {
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .mainFooter__flex {
+        height: 230px;
+    }
+    .mainFooter__spacing {
+        height: 100px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mainFooter__item--flex {
+        margin-bottom: 1em;
+    }
+}
