@@ -11,9 +11,7 @@
     padding: 0;
 }
 
-.topline-header-some-links__marker svg,
-.topline-header-some-links__phone svg,
-.topline-header-some-links__mail svg
+.topline-header-some-links svg
     {
     fill: white;
     height: 30px;
