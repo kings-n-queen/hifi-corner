@@ -18,6 +18,7 @@
     text-align: right;
     display: flex;
     justify-content: flex-end;
+    outline: none;
 }
 
 .topline-header-some-links__marker,
@@ -27,6 +28,7 @@ svg {
     fill: white;
     height: 30px;
     padding: 15px;
+    outline: none;
 }
 
 .subscribe{
@@ -43,9 +45,11 @@ svg {
     margin-top: 15px;
     margin-right: 50px;
     margin-left: 15px;
+    outline: none;
 }
 
 .subscribe__icon-logo{
     height: 20px;
     padding: 10px;
+    outline: none;
 }
