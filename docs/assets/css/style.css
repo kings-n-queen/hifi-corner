@@ -1,7 +1,14 @@
 @import "./font.css";
+@import "./imgSwitch.css";
+@import "./frontpage.css";
 @import "./shop-frontpage.css";
 @import "./brands.css";
 @import "./footer.css";
+
+a {
+  text-decoration: none;
+}
+
 body {
     margin: 0;
 }
