@@ -1,15 +1,3 @@
-@font-face {
-    font-family: 'Museo Sans Rounded 100';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Museo Sans Rounded 100'), url('../font/MuseoSansRounded200.woff') format('woff');
-}
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
 .main_header {
     background-color: black;
     list-style: none;
@@ -27,6 +15,7 @@
     color: white;
     text-decoration: none;
     font-size: 13px;
+    font-family: 'Museo Sans Rounded 100';
 }
 
 .main_header a:hover{
