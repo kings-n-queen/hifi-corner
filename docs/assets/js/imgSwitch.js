@@ -8,7 +8,7 @@ const switchImg = document.querySelector(".imgSwitch img");
 let index = 0;
 
 function changeImg(e) {
-    if (e.currentTarget.getAttribute("class") === "fa-angle-right") {
+    if (e.currentTarget.getAttribute("class") === "imgSwitch__rightChevron") {
         if (index < imgSwitchArray.length - 1) {
             index++;
         } else {
