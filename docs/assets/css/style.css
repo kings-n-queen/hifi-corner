@@ -1,4 +1,5 @@
 @import "./font.css";
+@import "./imgSwitch.css";
 @import "./frontpage.css";
 @import "./shop-frontpage.css";
 @import "./brands.css";
@@ -9,6 +10,4 @@ a {
 
 body {
     margin: 0;
-
-  
 }
