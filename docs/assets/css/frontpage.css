@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("/docs/assets/images/frontpage_headerimg.jpg");
+    background-image: url("../images/frontpage_headerimg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,7 +13,7 @@
 .movedSection {
     width: 100%;
     height: 20vh;
-    background-image: url("/docs/assets/images/frontpage_abstractlines.jpg");
+    background-image: url("../images/frontpage_abstractlines.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
