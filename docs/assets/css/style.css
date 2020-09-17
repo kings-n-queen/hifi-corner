@@ -4,6 +4,8 @@
 @import "./shop-frontpage.css";
 @import "./brands.css";
 @import "./footer.css";
+@import "./header.css";
+@import "./topline-some-links.css";
 
 a {
   text-decoration: none;
