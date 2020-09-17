@@ -13,7 +13,7 @@
 .movedSection {
     width: 100%;
     height: 20vh;
-    background-image: url("/docs/assets/images/frontpage_abstractlines.jpg");
+    background-image: url("../images/frontpage_abstractlines.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,7 +91,7 @@
 }
 
 .blogsection__text {
-    color: hsl(44, 26%, 51%);
+    color: hsl(120, 100%, 98%);
     text-transform: uppercase;
     text-align: center;
 }
