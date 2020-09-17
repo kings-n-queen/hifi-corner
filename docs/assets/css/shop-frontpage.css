@@ -1,0 +1,60 @@
+.shopCategories {
+    font-family: 'Museo Sans Rounded 500';
+    display: flex;
+    justify-content: center;
+}
+
+.shopCategories__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+}
+
+.shopCategories__link {
+    position: relative;
+    height: 200px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopCategories__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    filter: sepia(1);
+    transition: filter 300ms;
+}
+
+.shopCategories__link:hover .shopCategories__image {
+    filter: sepia(0);
+}
+
+.shopCategories__title {
+    text-decoration: none;
+    color: hsl(120, 100%, 98%);
+    text-shadow: 0 0 3px black;
+    font-size: 1.2em;
+    padding: 1em;
+    text-align: center;
+}
+
+.shopCategories__link--noImage {
+    background-color: hsl(44, 26%, 51%);
+    transition: background-color 300ms;
+}
+
+.shopCategories__link--noImage:hover {
+    background-color: hsl(44, 26%, 61%);
+}
+
+.shopCategories__title--noImage {
+    padding: 0.5em 1em;
+    background-color: hsl(44, 26%, 41%);
+}
