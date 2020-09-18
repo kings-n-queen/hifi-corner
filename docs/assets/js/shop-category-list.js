@@ -101,12 +101,14 @@ const dummyProjectArray = [
         "permalink": "index.html",
         "imgSrc": "./assets/images/effektforstaerkere/manley_neoclassic300b.jpg",
         "name": "MANLEY NEOCLASSIC 300B AMPLIFIER",
+        "reference": "£1299.00",
         "price": "£739.00"
     },
     {
         "permalink": "index.html",
         "imgSrc": "./assets/images/effektforstaerkere/manley_snapper.jpg",
         "name": "MANLEY SNAPPER POWER AMPLIFIER",
+        "reference": "749.00",
         "price": "£599.00"
     },
     {

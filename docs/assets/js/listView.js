@@ -16,6 +16,13 @@ function displayProducts(arrayOfProducts) {
         productName.className = "card__productName";
         productName.textContent = product.name;
 
+        const priceContainer = document.createElement("div");
+        priceContainer.className = "card__priceContainer";
+
+        const reference = document.createElement("p");
+        reference.className = "card__referencePrice";
+        reference.textContent = product.reference;
+
         const price = document.createElement("p");
         price.className = "card__price";
         price.textContent = product.price;
@@ -24,7 +31,8 @@ function displayProducts(arrayOfProducts) {
         button.className = "card__button";
         button.textContent = "ADD TO CART";
 
-        listView_card.append(productLink, productName, price, button);
+        priceContainer.append(reference, price);
+        listView_card.append(productLink, productName, priceContainer, button);
         viewBox.append(listView_card);
     });
 }

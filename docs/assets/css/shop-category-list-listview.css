@@ -1,11 +1,3 @@
-/* til dummybox */
-.dummybox{
-    height: 60px;
-    background-color: lightgrey;
-    margin-bottom: 10px;
-}
-/* dummybox slut */
-
 .gridView{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
@@ -24,6 +16,13 @@
 }
 .card__productName{
     text-align: center;
+}
+.card__priceContainer{
+    display: flex;
+}
+.card__referencePrice{
+    color: grey;
+    text-decoration-line: line-through;
 }
 .card__price{
     color: hsl(44, 26%, 51%);
