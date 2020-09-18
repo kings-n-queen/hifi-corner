@@ -3,6 +3,7 @@ import breadcrumbs from "./breadcrumbs.js";
 import displayProducts from "./listView.js";
 import { sort, sortNumbersAsc } from "./sort.js";
 import toggleViewState from "./toggleViewState.js";
+import footer from "./footer.js";
 
 // Calling sort() returns an object that contains all relevant values
 // and methods to handle the sorting mechanism
@@ -160,3 +161,5 @@ breadcrumbs(dummyBreadcrumbArray, breadcrumbsContainer);
 displayProducts(dummyProjectArray);
 
 addManufactorers(dummyManufactorerList);
+
+footer();
