@@ -1,0 +1,57 @@
+.shopCategories,
+.shopBy,
+.manufacturer {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+
+.marginBottom {
+    margin-bottom: 10px;
+}
+
+.shopCategories__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.primaryCategory {}
+
+.paddingSub {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.SBMF__container,
+.shopCategories {
+    margin: 10px;
+}
+
+.shopBy__headline {
+    font-size: 1.5rem;
+    color: hsl(44, 26%, 51%);
+    padding-left: 40px;
+}
+
+.shopBy__subHeadline {
+    padding-left: 40px;
+    font-size: 1.2rem;
+}
+
+.Price__headline,
+.manufacturer__headline {
+    font-size: 1.2rem;
+}
+
+.selected {
+    color: rgb(56, 56, 56);
+}
+
+.textColor {
+    color: hsl(44, 26%, 51%);
+}
+
+.hidden {
+    display: none;
+}
