@@ -6,11 +6,16 @@
 @import "./footer.css";
 @import "./header.css";
 @import "./topline-some-links.css";
+@import "./shopCategoriesList.css";
+@import "./sort.css";
 @import "./mbc.css";
 @import "./breadcrumbs.css";
+@import "./shop-category-list.css";
 @import "./shop-category-list-header.css";
 @import "./shop-category-list-listview.css";
 @import "./single-product-description.css";
+@import "./specs.css";
+
 
 a {
     text-decoration: none;
