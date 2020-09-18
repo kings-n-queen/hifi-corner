@@ -1,0 +1,44 @@
+.gridView{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+}
+.listView{
+    display: block;
+}
+.listView .listView__card{
+    grid-template-columns: repeat(4, minmax(250px, 1fr));
+}
+.listView .card__productLink img{
+    max-width: 100px;
+}
+.listView__card{
+    display: grid;
+    font-family: "Museo Sans Rounded 500";
+    max-width: 250px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.card__productName{
+    text-align: center;
+}
+.card__priceContainer{
+    display: flex;
+}
+.card__referencePrice{
+    color: grey;
+    padding: 5px;
+    text-decoration-line: line-through;
+}
+.card__price{
+    color: hsl(44, 26%, 51%);
+    padding: 5px;
+}
+.card__button{
+    background-color: hsl(44, 26%, 51%);
+    color: white;
+    font-size: 0.9em;
+    height: 30px;
+    border: none;
+}
