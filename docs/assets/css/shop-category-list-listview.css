@@ -6,9 +6,12 @@
 }
 /* dummybox slut */
 
-.listView{
+.gridView{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+}
+.listView{
+    display: block;
 }
 .listView__card{
     display: grid;
