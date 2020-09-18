@@ -1,4 +1,4 @@
-.shopCategories,
+.shopCategories_container,
 .shopBy,
 .manufacturer {
     background-color: grey;
@@ -24,7 +24,7 @@
 }
 
 .SBMF__container,
-.shopCategories {
+.shopCategories_container {
     margin: 10px;
 }
 
