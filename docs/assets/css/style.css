@@ -11,7 +11,7 @@
 @import "./breadcrumbs.css";
 @import "./shop-category-list-header.css";
 @import "./shop-category-list-listview.css";
-
+@import "./specs.css";
 a {
     text-decoration: none;
 }
