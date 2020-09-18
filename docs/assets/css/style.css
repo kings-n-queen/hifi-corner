@@ -13,7 +13,10 @@
 @import "./shop-category-list.css";
 @import "./shop-category-list-header.css";
 @import "./shop-category-list-listview.css";
+@import "./single-product-description.css";
 @import "./specs.css";
+
+
 a {
     text-decoration: none;
 }
