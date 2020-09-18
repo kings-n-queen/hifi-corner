@@ -1,0 +1,101 @@
+.description-singleProduct, .payAndFinish-singleProduct{
+    width: auto;
+    font-family: 'Museo Sans Rounded 500';
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+
+.nameOfProduct{
+    font-weight: 600;
+    font-size: large;
+    color: rgb(163, 145, 98); 
+    margin-bottom: 20px;  
+}
+
+
+.otherProductsAndPrice {
+    display: flex;
+    color: hsl(44, 26%, 51%); 
+    margin-bottom: 25px;
+}
+
+.otherProductsFromBrand {
+    font-weight: 600;
+}
+
+
+.singleProductDescription {
+    margin-bottom: 25px;
+}
+
+.singleProductButtons, .singlePay input[type=submit] {
+    font-size: 12px;
+    padding: 1vh;
+    color: white;
+    background: hsl(43, 47%, 73%); 
+    margin-bottom: 20px;   
+}
+
+
+.payAndFinish-singleProduct{
+    margin: 20px ;
+    border: lightgrey 2px solid;
+}
+
+
+.finishSingleProduct {
+    display: flex;
+    padding: 10px;
+    width: 23%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: rgba(211, 211, 211, 0.548);
+}
+
+.finish {
+    margin-left: 10px;
+    margin-bottom: 0;
+    color: hsl(44, 26%, 51%); 
+}
+
+
+.finishSingleProduct label{
+ padding-left: 10px;
+}
+
+
+.singlePay { 
+    background: rgba(211, 211, 211, 0.514);
+    padding-left: 2%;
+    padding: 2vh;
+}
+
+.singlePay input[type=number] {
+    width: 3vh;
+    height: 3vh;
+}
+
+.singlePay label[for=qty] {
+    color: hsl(42, 38%, 50%);
+}
+
+/* PAYPAL */
+.payPal {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.payPal img{
+    width: 20%;
+    border-radius: 5%;
+    margin-left: -7%;
+    margin-top: 10px;
+}
+
+.underPayPal  {
+    font-size: xx-small;
+    margin-left: -30px;
+}
