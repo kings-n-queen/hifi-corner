@@ -11,6 +11,7 @@ function displayProducts(arrayOfProducts) {
         const newImg = document.createElement("img");
         newImg.setAttribute("src", product.imgSrc);
         productLink.append(newImg);
+        productLink.className = "card__productLink";
         
         const productName = document.createElement("p");
         productName.className = "card__productName";
