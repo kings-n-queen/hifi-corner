@@ -1,5 +1,29 @@
+import { mbc, addManufactorers } from "./mbc.js";
 import breadcrumbs from "./breadcrumbs.js";
 import displayProducts from "./listView.js";
+
+mbc();
+
+let dummyManufactorerList = [
+
+    {
+        manufactorer: "ARCAM",
+        permalink: "?manufactorer=arcam"
+    },
+    {
+        manufactorer: "ASTELL AND KERN",
+        permalink: "?manufactorer=astell-kern"
+    },
+    {
+        manufactorer: "ATC",
+        permalink: "?manufactorer=atc"
+    },
+    {
+        manufactorer: "Sony",
+        permalink: "?manufactorer=sony"
+    },
+
+]
 
 //dummyArray
 const dummyProjectArray = [
@@ -70,3 +94,5 @@ let breadcrumbsContainer = document.querySelector(".breadcrumbs__container");
 breadcrumbs(dummyBreadcrumbArray, breadcrumbsContainer);
 
 displayProducts(dummyProjectArray);
+
+addManufactorers(dummyManufactorerList);
