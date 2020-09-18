@@ -22,12 +22,6 @@ let sortObj = {
             sortDescendingCallback = callback;
         }
     },
-    onGridview(callback) {
-        sortGridviewCallback = callback;
-    },
-    onListview(callback) {
-        sortListviewCallback = callback;
-    },
     onView(type, callback) {
         if (type === "grid") {
             sortGridviewCallback = callback;
