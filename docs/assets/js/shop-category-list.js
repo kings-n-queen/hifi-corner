@@ -2,6 +2,7 @@ import { mbc, addManufactorers } from "./mbc.js";
 import breadcrumbs from "./breadcrumbs.js";
 import displayProducts from "./listView.js";
 import { sort, sortNumbersAsc } from "./sort.js";
+import toggleViewState from "./toggleViewState.js";
 
 // Calling sort() returns an object that contains all relevant values
 // and methods to handle the sorting mechanism
@@ -31,9 +32,11 @@ sortObj.onDirection("desc", function() {
 // Define what needs to be done when view is selected
 sortObj.onView("grid", function() {
     console.log("Grid view");
+    toggleViewState("grid");
 });
 sortObj.onView("list", function() {
     console.log("List view");
+    toggleViewState("list");
 });
 
 // SHOW: Amount display
@@ -87,6 +90,7 @@ let dummyManufactorerList = [
 
 //dummyArray
 const dummyProjectArray = [
+
     {
         "permalink": "index.html",
         "imgSrc": "./assets/images/effektforstaerkere/manley_mahi.jpg",
@@ -99,13 +103,13 @@ const dummyProjectArray = [
         "name": "MANLEY NEOCLASSIC 300B AMPLIFIER",
         "price": "£739.00"
     },
-    {   
+    {
         "permalink": "index.html",
         "imgSrc": "./assets/images/effektforstaerkere/manley_snapper.jpg",
         "name": "MANLEY SNAPPER POWER AMPLIFIER",
         "price": "£599.00"
     },
-    {   
+    {
         "permalink": "index.html",
         "imgSrc": "./assets/images/effektforstaerkere/parasound_haloa23.jpg",
         "name": "PARASOUND HALOA 23 POWER AMPLIFIER",
@@ -123,13 +127,13 @@ const dummyProjectArray = [
         "name": "MANLEY NEOCLASSIC 300B AMPLIFIER",
         "price": "£739.00"
     },
-    {   
+    {
         "permalink": "index.html",
         "imgSrc": "./assets/images/effektforstaerkere/manley_snapper.jpg",
         "name": "MANLEY SNAPPER POWER AMPLIFIER",
         "price": "£599.00"
     },
-    {   
+    {
         "permalink": "index.html",
         "imgSrc": "./assets/images/effektforstaerkere/parasound_haloa23.jpg",
         "name": "PARASOUND HALOA 23 POWER AMPLIFIER",
