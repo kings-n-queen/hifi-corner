@@ -6,9 +6,9 @@
 @import "./footer.css";
 @import "./header.css";
 @import "./topline-some-links.css";
-
+@import "./shopCategoriesList.css";
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 body {
