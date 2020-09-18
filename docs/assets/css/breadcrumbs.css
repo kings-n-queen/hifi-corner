@@ -1,7 +1,7 @@
 .breadcrumbs {
     display: flex;
     font-family: 'Museo Sans Rounded 300';
-    padding: 1em 0;
+    padding: 1em;
 }
 
 .breadcrumbs__separator {

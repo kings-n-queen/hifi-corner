@@ -1,4 +1,4 @@
-const viewList = document.getElementById("listetest");
+const viewBox = document.getElementById("viewBox");
 
 function displayProducts(arrayOfProducts) {
     arrayOfProducts.forEach(product => {
@@ -11,10 +11,18 @@ function displayProducts(arrayOfProducts) {
         const newImg = document.createElement("img");
         newImg.setAttribute("src", product.imgSrc);
         productLink.append(newImg);
+        productLink.className = "card__productLink";
         
         const productName = document.createElement("p");
         productName.className = "card__productName";
         productName.textContent = product.name;
+
+        const priceContainer = document.createElement("div");
+        priceContainer.className = "card__priceContainer";
+
+        const reference = document.createElement("p");
+        reference.className = "card__referencePrice";
+        reference.textContent = product.reference;
 
         const price = document.createElement("p");
         price.className = "card__price";
@@ -24,8 +32,9 @@ function displayProducts(arrayOfProducts) {
         button.className = "card__button";
         button.textContent = "ADD TO CART";
 
-        listView_card.append(productLink, productName, price, button);
-        viewList.append(listView_card);
+        priceContainer.append(reference, price);
+        listView_card.append(productLink, productName, priceContainer, button);
+        viewBox.append(listView_card);
     });
 }
 

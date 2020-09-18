@@ -1,0 +1,62 @@
+.sort {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Museo Sans Rounded 300';
+    font-size: 0.8em;
+    background-color: hsl(30, 6%, 93%);
+    border-top: 1px solid hsl(0, 0%, 88%);
+    border-bottom: 1px solid hsl(0, 0%, 88%);
+}
+
+.sort svg {
+    width: 24px;
+    height: 24px;
+}
+
+.sort__area {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.sort__section {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+}
+
+.sort__title {
+    margin: 0 0.5em;
+}
+
+.sort__select {
+    margin-right: 0.5em;
+    padding: 0.25em 0.1em;
+}
+
+.sort__switch {
+    padding: 0.25em;
+}
+
+.sort__switchLarger svg {
+    width: 32px;
+    height: 32px;
+}
+
+.sort__switch svg {
+    fill: hsl(240, 1%, 81%);
+}
+
+.sort__switch.js-active svg {
+    fill: hsl(44, 26%, 51%);
+}
+
+.sort__switch:hover svg {
+    fill: hsl(44, 26%, 31%);
+}
+
+.sort__switch.js-hidden {
+    display: none;
+}
