@@ -10,6 +10,7 @@
 @import "./breadcrumbs.css";
 @import "./shop-category-list-header.css";
 @import "./shop-category-list-listview.css";
+@import "./single-product-description.css";
 
 a {
     text-decoration: none;
