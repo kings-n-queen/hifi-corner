@@ -1,6 +1,8 @@
+import breadcrumbs from "./breadcrumbs.js";
 import displayProducts from "./listView.js";
+
 //dummyArray
-const dummyArray = [
+const dummyProjectArray = [
     {
         "permalink": "index.html",
         "imgSrc": "./assets/images/effektforstaerkere/manley_mahi.jpg",
@@ -51,4 +53,20 @@ const dummyArray = [
     }
 ];
 
-displayProducts(dummyArray);
+let dummyBreadcrumbArray = [
+
+    {
+        title: "Amplifiers",
+        link: "?category=amplifiers"
+    }, {
+        title: "CD players",
+        link: ""
+    }
+
+];
+
+let breadcrumbsContainer = document.querySelector(".breadcrumbs__container");
+
+breadcrumbs(dummyBreadcrumbArray, breadcrumbsContainer);
+
+displayProducts(dummyProjectArray);
