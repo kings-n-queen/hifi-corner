@@ -1,4 +1,4 @@
-const viewList = document.getElementById("listetest");
+const viewBox = document.getElementById("viewBox");
 
 function displayProducts(arrayOfProducts) {
     arrayOfProducts.forEach(product => {
@@ -25,7 +25,7 @@ function displayProducts(arrayOfProducts) {
         button.textContent = "ADD TO CART";
 
         listView_card.append(productLink, productName, price, button);
-        viewList.append(listView_card);
+        viewBox.append(listView_card);
     });
 }
 
