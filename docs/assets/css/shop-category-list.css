@@ -1,0 +1,29 @@
+.mainContent {
+    --category-column-width: 15vw;
+    display: grid;
+    grid-template-columns: var(--category-column-width) auto var(--category-column-width);
+    gap: 0 1em;
+}
+
+.mainContent__fullSpan {
+    grid-column: span 3;
+}
+
+.mainContent__title {
+    margin: 0 0 0.5em;
+}
+
+@media only screen and (max-width: 1200px) {
+    .mainContent {
+        grid-template-columns: 1fr;
+    }
+    .mainContent__fullSpan {
+        grid-column: span 1;
+    }
+    .mainContent__left {
+        display: none;
+    }
+    .mainContent__right {
+        display: none;
+    }
+}
