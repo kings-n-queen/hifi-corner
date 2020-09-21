@@ -1,6 +1,7 @@
 const viewBox = document.getElementById("viewBox");
 
 function displayProducts(arrayOfProducts) {
+    viewBox.innerHTML = "";
     arrayOfProducts.forEach(product => {
         let listView_card = document.createElement("div");
         listView_card.className = "listView__card";
@@ -12,7 +13,7 @@ function displayProducts(arrayOfProducts) {
         newImg.setAttribute("src", product.imgSrc);
         productLink.append(newImg);
         productLink.className = "card__productLink";
-        
+
         const productName = document.createElement("p");
         productName.className = "card__productName";
         productName.textContent = product.name;
@@ -27,7 +28,7 @@ function displayProducts(arrayOfProducts) {
         const price = document.createElement("p");
         price.className = "card__price";
         price.textContent = product.price;
-        
+
         const button = document.createElement("button");
         button.className = "card__button";
         button.textContent = "ADD TO CART";

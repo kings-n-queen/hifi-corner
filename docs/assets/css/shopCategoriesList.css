@@ -1,14 +1,20 @@
 .shopCategories_container,
 .shopBy,
 .manufacturer {
-    background-color: grey;
+    background-color: hsl(30, 6%, 93%);
     display: flex;
     flex-direction: column;
-    max-width: 200px;
+    font-family: 'Museo Sans Rounded 300';
+    padding: 1em;
 }
 
 .marginBottom {
     margin-bottom: 10px;
+}
+
+.shopCategories__listContainer {
+    padding: 0;
+    margin: 0;
 }
 
 .shopCategories__list {
@@ -20,28 +26,23 @@
 
 .paddingSub {
     padding-left: 10px;
-    padding-top: 5px;
-}
-
-.SBMF__container,
-.shopCategories_container {
-    margin: 10px;
 }
 
 .shopBy__headline {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: hsl(44, 26%, 51%);
-    padding-left: 40px;
+    margin: 0;
 }
 
 .shopBy__subHeadline {
-    padding-left: 40px;
     font-size: 1.2rem;
+    margin: 1em 0 0;
 }
 
 .Price__headline,
 .manufacturer__headline {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    text-transform: uppercase;
 }
 
 .selected {
@@ -49,7 +50,12 @@
 }
 
 .textColor {
+    padding-top: 0.25em;
     color: hsl(44, 26%, 51%);
+}
+
+.textColor:hover {
+    color: hsl(44, 26%, 31%);
 }
 
 .hidden {

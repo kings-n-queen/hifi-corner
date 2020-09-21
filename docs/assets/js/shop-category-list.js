@@ -1,167 +1,188 @@
-import { mbc, addManufactorers } from "./mbc.js";
+import updateMBC from "./mbc.js";
 import breadcrumbs from "./breadcrumbs.js";
 import displayProducts from "./listView.js";
-import { sort, sortNumbersAsc } from "./sort.js";
+import sort from "./sort.js";
 import toggleViewState from "./toggleViewState.js";
 import footer from "./footer.js";
 
-// Calling sort() returns an object that contains all relevant values
-// and methods to handle the sorting mechanism
-let sortObj = sort();
+//#region dummyArray
 
-// Setting the count "139 Item(s)"
-// should be set according to the actual product count based on
-// the values in then JSON object (updates the HTML when set)
-sortObj.count = 139;
-
-// SORT BY: Price / productName
-// The parameter "value" contains the value chosen from the dropdown
-sortObj.onSortBy(function(value) {
-    console.log("Sort by: " + value);
-});
-
-// Ascending / Descending (button)
-// Define what needs to be done when sorting in ascending or descending order
-sortObj.onDirection("asc", function() {
-    console.log("Ascending");
-});
-sortObj.onDirection("desc", function() {
-    console.log("Descending");
-});
-
-// VIEW AS: (gridview- / listview- buttons)
-// Define what needs to be done when view is selected
-sortObj.onView("grid", function() {
-    console.log("Grid view");
-    toggleViewState("grid");
-});
-sortObj.onView("list", function() {
-    console.log("List view");
-    toggleViewState("list");
-});
-
-// SHOW: Amount display
-// the parameter "value" contains the value chosen from the dropdown
-sortObj.onSortCount(function(value) {
-    for (let i = 0; i < value; i++) {
-        if (i >= sortObj.count) {
-            break;
-        }
-        console.log("Show card: " + i);
-    }
-});
-
-// GET CURRENT VALUES / SETTINGS
-console.log(sortObj.sortBy); // Contains the selected value from the dropdown "SORT BY:" (price, productName)
-console.log(sortObj.ascending); // true = Ascending, false = Descending
-console.log(sortObj.gridView); // true = Gridview, false = Listview
-console.log(sortObj.count); // Should contain the actual amount of cards from the JSON object (when functionality is up and running)
-console.log(sortObj.maxDisplayCount); // Contains the selected value from the dropdown "SHOW:" (10, 20, 50, 100, 300, 500, 1000)
-
-// Some tests with sorting functions
-let numberArr = [5, 10, 3, 60, 11, 23, 21];
-// console.log(numberArr.sort()); // sort() doesn't work on numbers!
-console.log(sortNumbersAsc(numberArr));
-
-let stringArr = ["Orange", "Banana", "Apple", "Pear"];
-console.log(stringArr.sort());
-
-mbc();
-
-let dummyManufactorerList = [
-
-    {
-        manufactorer: "ARCAM",
-        permalink: "?manufactorer=arcam"
-    },
-    {
-        manufactorer: "ASTELL AND KERN",
-        permalink: "?manufactorer=astell-kern"
-    },
-    {
-        manufactorer: "ATC",
-        permalink: "?manufactorer=atc"
-    },
-    {
-        manufactorer: "Sony",
-        permalink: "?manufactorer=sony"
-    },
-
-]
-
-//dummyArray
 const dummyProjectArray = [
 
     {
-        "permalink": "index.html",
-        "imgSrc": "./assets/images/effektforstaerkere/manley_mahi.jpg",
+        "permalink": "single-product-description.html?product=manley-mahi-power-amplifier",
+        "imgSrc": "./assets/images/power-amplifiers/manley_mahi.jpg",
         "name": "MANLEY MAHI POWER AMPLIFIER",
-        "price": "£329.00"
+        "price": "£329.00",
+        "manufactorer": {
+            "name": "manley",
+            "permalink": "?manufactorer=manley"
+        },
     },
     {
-        "permalink": "index.html",
-        "imgSrc": "./assets/images/effektforstaerkere/manley_neoclassic300b.jpg",
+        "permalink": "single-product-description.html?product=manley-neoclassic-300b-amplifier",
+        "imgSrc": "./assets/images/power-amplifiers/manley_neoclassic300b.jpg",
         "name": "MANLEY NEOCLASSIC 300B AMPLIFIER",
         "reference": "£1299.00",
-        "price": "£739.00"
+        "price": "£739.00",
+        "manufactorer": {
+            "name": "manley",
+            "permalink": "?manufactorer=manley"
+        },
     },
     {
-        "permalink": "index.html",
-        "imgSrc": "./assets/images/effektforstaerkere/manley_snapper.jpg",
+        "permalink": "single-product-description.html?product=manley-snapper-power-amplifier",
+        "imgSrc": "./assets/images/power-amplifiers/manley_snapper.jpg",
         "name": "MANLEY SNAPPER POWER AMPLIFIER",
         "reference": "749.00",
-        "price": "£599.00"
+        "price": "£599.00",
+        "manufactorer": {
+            "name": "manley",
+            "permalink": "?manufactorer=manley"
+        },
     },
     {
-        "permalink": "index.html",
-        "imgSrc": "./assets/images/effektforstaerkere/parasound_haloa23.jpg",
+        "permalink": "single-product-description.html?product=parasound-haloa-23-power-amplifier",
+        "imgSrc": "./assets/images/power-amplifiers/parasound_haloa23.jpg",
         "name": "PARASOUND HALOA 23 POWER AMPLIFIER",
-        "price": "£249.00"
+        "price": "£249.00",
+        "manufactorer": {
+            "name": "parasound",
+            "permalink": "?manufactorer=parasound"
+        },
     },
     {
-        "permalink": "index.html",
-        "imgSrc": "./assets/images/effektforstaerkere/manley_mahi.jpg",
+        "permalink": "single-product-description.html?product=manley-mahi-power-amplifier",
+        "imgSrc": "./assets/images/power-amplifiers/manley_mahi.jpg",
         "name": "MANLEY MAHI POWER AMPLIFIER",
-        "price": "£329.00"
+        "price": "£1329.00",
+        "manufactorer": {
+            "name": "manley",
+            "permalink": "?manufactorer=manley"
+        },
     },
     {
-        "permalink": "index.html",
-        "imgSrc": "./assets/images/effektforstaerkere/manley_neoclassic300b.jpg",
-        "name": "MANLEY NEOCLASSIC 300B AMPLIFIER",
-        "price": "£739.00"
+        "permalink": "single-product-description.html?product=manley-neoclassic-200b-amplifier",
+        "imgSrc": "./assets/images/power-amplifiers/manley_neoclassic300b.jpg",
+        "name": "MANLEY NEOCLASSIC 200B AMPLIFIER",
+        "reference": "£1299.00",
+        "price": "£739.00",
+        "manufactorer": {
+            "name": "manley",
+            "permalink": "?manufactorer=manley"
+        },
     },
     {
-        "permalink": "index.html",
-        "imgSrc": "./assets/images/effektforstaerkere/manley_snapper.jpg",
+        "permalink": "single-product-description.html?product=manley-snapper-power-amplifier",
+        "imgSrc": "./assets/images/power-amplifiers/manley_snapper.jpg",
         "name": "MANLEY SNAPPER POWER AMPLIFIER",
-        "price": "£599.00"
+        "reference": "749.00",
+        "price": "£599.00",
+        "manufactorer": {
+            "name": "manley",
+            "permalink": "?manufactorer=manley"
+        },
     },
     {
-        "permalink": "index.html",
-        "imgSrc": "./assets/images/effektforstaerkere/parasound_haloa23.jpg",
-        "name": "PARASOUND HALOA 23 POWER AMPLIFIER",
-        "price": "£249.00"
-    }
-];
-
-let dummyBreadcrumbArray = [
-
+        "permalink": "single-product-description.html?product=parasound-haloa-21-power-amplifier",
+        "imgSrc": "./assets/images/power-amplifiers/parasound_haloa23.jpg",
+        "name": "PARASOUND HALOA 21 POWER AMPLIFIER",
+        "price": "£249.00",
+        "manufactorer": {
+            "name": "parasound",
+            "permalink": "?manufactorer=parasound"
+        },
+    },
     {
-        title: "Amplifiers",
-        link: "?category=amplifiers"
-    }, {
-        title: "CD players",
-        link: ""
+        "permalink": "single-product-description.html?product=creek-classic-cd",
+        "imgSrc": "./assets/images/cd-players/creek_classic_cd.jpg",
+        "name": "CREEK CLASSIC CD",
+        "price": "£99.00",
+        "manufactorer": {
+            "name": "creek",
+            "permalink": "?manufactorer=creek"
+        },
+    },
+    {
+        "permalink": "single-product-description.html?product=creek-destiny-cd",
+        "imgSrc": "./assets/images/cd-players/creek_destiny_cd.jpg",
+        "name": "CREEK DESTINY CD",
+        "price": "£149.00",
+        "manufactorer": {
+            "name": "creek",
+            "permalink": "?manufactorer=creek"
+        },
     }
-
 ];
 
-let breadcrumbsContainer = document.querySelector(".breadcrumbs__container");
+//#endregion dummyArray
 
-breadcrumbs(dummyBreadcrumbArray, breadcrumbsContainer);
+//#region SORT FUNCTIONS
 
-displayProducts(dummyProjectArray);
+// Calling sort() returns an object that contains all relevant values
+// and methods to handle the sorting mechanism
+let sortBox = sort();
 
-addManufactorers(dummyManufactorerList);
+// Create copy of dummy array (this should be filled with data from the actual JSON object)
+// Updates the HTML in the sort box when set/changed
+sortBox.products = [...dummyProjectArray];
+
+// Display the products in the list (listView.js)
+displayProducts(sortBox.products);
+
+// SORT BY: Price / Name
+sortBox.addSortListener("sortby", sortUpdate);
+
+// Ascending- / Descending- button
+sortBox.addSortListener("asc", sortUpdate);
+sortBox.addSortListener("desc", sortUpdate);
+
+// VIEW AS: (gridview- / listview- button)
+sortBox.addSortListener("grid", toggleView);
+sortBox.addSortListener("list", toggleView);
+
+// SHOW: Amount display
+sortBox.addSortListener("count", sortUpdate);
+
+
+// Sort and display the list
+function sortUpdate() {
+    sortBox.products = [...dummyProjectArray];
+    displayProducts(sortBox.products);
+}
+
+// Toggle between gridview and listview
+function toggleView() {
+    toggleViewState(sortBox.gridView ? "grid" : "list");
+}
+
+//#endregion SORT FUNCTIONS
+
+//#region MBC
+
+updateMBC(dummyProjectArray);
+
+//#endregion MBC
+
+//#region BREADCRUMBS
+
+let dummyBreadcrumbArray = [];
+
+addBreadcrumbItem(dummyBreadcrumbArray, "Home", "index.html");
+addBreadcrumbItem(dummyBreadcrumbArray, "Amplifiers", "?category=amplifiers");
+addBreadcrumbItem(dummyBreadcrumbArray, "Power Amplifiers", "?category=power-amplifiers");
+addBreadcrumbItem(dummyBreadcrumbArray, "MANLEY MAHI POWER AMPLIFIER", "");
+
+breadcrumbs(dummyBreadcrumbArray);
+
+function addBreadcrumbItem(toArray, title, permalink) {
+    toArray.push({ title, permalink });
+}
+
+//#endregion BREADCRUMBS
+
+//#region FOOTER
 
 footer();
+
+//#endregion FOOTER

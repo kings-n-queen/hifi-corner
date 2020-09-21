@@ -5,41 +5,48 @@ let sortGridviewCallback;
 let sortListviewCallback;
 let sortCountCallback;
 
-let sortObj = {
+let sortBox = {
+    productsArray: null,
     sortBy: "price",
     ascending: true,
     gridView: true,
-    sortCount: 0,
     maxDisplayCount: 0,
-    onSortBy(callback) {
-        sortByCallback = callback;
+    get products() {
+        return this.productsArray;
     },
-    onDirection(direction, callback) {
-        if (direction === "asc") {
-            sortAscendingCallback = callback;
-        }
-        if (direction === "desc") {
-            sortDescendingCallback = callback;
-        }
-    },
-    onView(type, callback) {
-        if (type === "grid") {
-            sortGridviewCallback = callback;
-        }
-        if (type === "list") {
-            sortListviewCallback = callback;
-        }
-    },
-    onSortCount(callback) {
-        sortCountCallback = callback;
-    },
-    get count() {
-        return this.sortCount;
-    },
-    set count(value) {
-        let str = value == 1 ? `1 Item` : `${value} Item(s)`;
+    set products(value) {
+        this.productsArray = value;
+        objectSort(this.productsArray, this.sortBy, this.ascending);
+        let displayAmount = Math.min(this.productsArray.length, this.maxDisplayCount);
+        let removeAmount = this.productsArray.length - displayAmount;
+        this.productsArray.splice(displayAmount, removeAmount);
+        let str = this.productsArray.length == 1 ? `1 Item` : `${this.productsArray.length} Item(s)`;
         document.querySelector(".js-sortCount").textContent = str;
-        this.sortCount = value;
+    },
+    addSortListener(type, callback) {
+        switch (type) {
+            case "grid":
+                sortGridviewCallback = callback;
+                break;
+            case "list":
+                sortListviewCallback = callback;
+                break;
+            case "asc":
+                sortAscendingCallback = callback;
+                break;
+            case "desc":
+                sortDescendingCallback = callback;
+                break;
+            case "sortby":
+                sortByCallback = callback;
+                break;
+            case "count":
+                sortCountCallback = callback;
+                break;
+
+            default:
+                break;
+        }
     }
 }
 
@@ -51,39 +58,35 @@ function sort() {
     let listview = document.querySelector(".js-listview");
     let countDropDown = document.getElementById("count");
 
-    sortObj.maxDisplayCount = parseInt(countDropDown.options[countDropDown.options.selectedIndex].value)
+    sortBox.sortBy = sortDropDown.options[sortDropDown.options.selectedIndex].value;
+    sortBox.maxDisplayCount = parseInt(countDropDown.options[countDropDown.options.selectedIndex].value)
 
     // SORT BY
     sortDropDown.addEventListener("change", function() {
-        if (!sortByCallback) {
-            console.warn("King or Queen, please fix this issue! sortObj.onSortBy() is not defined! I refuse to perform this task!");
+        if (!isCallbackDefined(sortByCallback)) {
             return;
         }
-        sortObj.sortBy = this.options[this.options.selectedIndex].value;
-        sortByCallback(sortObj.sortBy);
+        sortBox.sortBy = this.options[this.options.selectedIndex].value;
+        sortByCallback();
     });
 
     // SORT DIRECTION
     sortAscending.addEventListener("click", function(event) {
         event.preventDefault();
-        if (!sortDescendingCallback) {
-            console.warn("King or Queen, please fix this issue! sortObj.onDescending() is not defined! I refuse to perform this task!");
+        if (!isCallbackDefined(sortDescendingCallback)) {
             return;
         }
-        sortAscending.classList.add("js-hidden");
-        sortDescending.classList.remove("js-hidden");
-        sortObj.ascending = false;
+        swicthClassName(sortAscending, sortDescending, "js-hidden");
+        sortBox.ascending = false;
         sortDescendingCallback();
     });
     sortDescending.addEventListener("click", function(event) {
         event.preventDefault();
-        if (!sortAscendingCallback) {
-            console.warn("King or Queen, please fix this issue! sortObj.onAscending() is not defined! I refuse to perform this task!");
+        if (!isCallbackDefined(sortAscendingCallback)) {
             return;
         }
-        sortDescending.classList.add("js-hidden");
-        sortAscending.classList.remove("js-hidden");
-        sortObj.ascending = true;
+        swicthClassName(sortDescending, sortAscending, "js-hidden");
+        sortBox.ascending = true;
         sortAscendingCallback();
     });
 
@@ -93,13 +96,11 @@ function sort() {
         if (gridview.classList.contains("js-active")) {
             return;
         }
-        if (!sortGridviewCallback) {
-            console.warn("King or Queen, please fix this issue! sortObj.onGridview() is not defined! I refuse to perform this task!");
+        if (!isCallbackDefined(sortGridviewCallback)) {
             return;
         }
-        gridview.classList.add("js-active");
-        listview.classList.remove("js-active");
-        sortObj.gridView = true;
+        swicthClassName(gridview, listview, "js-active");
+        sortBox.gridView = true;
         sortGridviewCallback();
     });
     listview.addEventListener("click", function(event) {
@@ -107,33 +108,75 @@ function sort() {
         if (listview.classList.contains("js-active")) {
             return;
         }
-        if (!sortListviewCallback) {
-            console.warn("King or Queen, please fix this issue! sortObj.onListview() is not defined! I refuse to perform this task!");
+        if (!isCallbackDefined(sortListviewCallback)) {
             return;
         }
-        listview.classList.add("js-active");
-        gridview.classList.remove("js-active");
-        sortObj.gridView = false;
+        swicthClassName(listview, gridview, "js-active");
+        sortBox.gridView = false;
         sortListviewCallback();
     });
 
     // LIST VIEW COUNT
     countDropDown.addEventListener("change", function() {
-        if (!sortCountCallback) {
-            console.warn("King or Queen, please fix this issue! sortObj.onSortBy() is not defined! I refuse to perform this task!");
+        if (!isCallbackDefined(sortCountCallback)) {
             return;
         }
-        sortObj.maxDisplayCount = parseInt(this.options[this.options.selectedIndex].value);
-        sortCountCallback(sortObj.maxDisplayCount);
+        sortBox.maxDisplayCount = parseInt(this.options[this.options.selectedIndex].value);
+        sortCountCallback();
     });
 
-    return sortObj;
+    return sortBox;
 }
 
-function sortNumbersAsc(arr) {
-    return arr.sort(function(a, b) {
-        return a - b;
-    });
+function isCallbackDefined(callback) {
+    if (!callback) {
+        console.warn("King or Queen, please fix this issue! sortObj.addSortListener() is not defined! I refuse to perform this task!");
+        return false;
+    }
+    return true;
 }
 
-export { sort, sortNumbersAsc };
+function swicthClassName(elmClassAdd, elmClassRemove, className) {
+    elmClassAdd.classList.add(className);
+    elmClassRemove.classList.remove(className);
+}
+
+// function sortNumbersAsc(arr) {
+//     return arr.sort(function(a, b) {
+//         return a - b;
+//     });
+// }
+
+let key = null;
+let direction = 1;
+
+function compare(a, b) {
+    let compareA = a[key].toUpperCase();
+    let compareB = b[key].toUpperCase();
+
+    if (key === "price") {
+        compareA = extractPrice(compareA);
+        compareB = extractPrice(compareB);
+    }
+
+    let comparison = 0;
+    if (compareA > compareB) {
+        comparison = 1;
+    } else if (compareA < compareB) {
+        comparison = -1;
+    }
+    return comparison * direction;
+}
+
+function extractPrice(price) {
+    let value = price.replace("£", "");
+    return parseFloat(value);
+}
+
+function objectSort(arr, sortKey, ascending = true) {
+    key = sortKey;
+    direction = ascending ? 1 : -1;
+    arr.sort(compare);
+}
+
+export default sort;

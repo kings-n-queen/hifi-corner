@@ -1,19 +1,17 @@
 .mainContent {
-    --category-column-width: 15vw;
+    --category-column-width: 240px;
     display: grid;
     grid-template-columns: var(--category-column-width) auto var(--category-column-width);
-    gap: 0 1em;
+    gap: 0 1.4em;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .mainContent__fullSpan {
     grid-column: span 3;
 }
 
-.mainContent__title {
-    margin: 0 0 0.5em;
-}
-
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1230px) {
     .mainContent {
         grid-template-columns: 1fr;
     }
