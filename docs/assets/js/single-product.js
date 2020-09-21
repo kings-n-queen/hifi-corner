@@ -1,5 +1,6 @@
 import specs from "./specs.js";
 import additionalInfo from "./additional-info.js";
+import footer from "./footer.js";
 
 let dummySpecs = [
 
@@ -47,3 +48,5 @@ let dummyInfo = [
 ]
 
 additionalInfo(dummyInfo);
+
+footer();
