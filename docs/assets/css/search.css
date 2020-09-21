@@ -1,0 +1,12 @@
+form.search{
+    margin-top: 20px;
+    margin-right: 15px;
+    outline: none;
+}
+
+
+form.search input[type=text] {
+    font-size: 17px;
+    float: left;
+    width: 80%;
+  }
