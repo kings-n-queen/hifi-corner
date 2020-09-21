@@ -23,6 +23,7 @@
 .mbc__link {
     color: hsl(44, 26%, 31%);
     padding: 0.25em;
+    text-transform: uppercase;
 }
 
 .mbc__linkAll {

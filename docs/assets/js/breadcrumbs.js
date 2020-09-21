@@ -1,50 +1,44 @@
-function breadcrumbs(array, parent) {
-    parent.innerHTML = "";
+let breadcrumbsContainer = document.querySelector(".breadcrumbs");
+breadcrumbsContainer.innerHTML = "";
+
+function breadcrumbs(array) {
     let arr = [];
-    array.forEach(obj => {
-        let linkElm;
-        if (obj.link === "") {
-            linkElm = createTextElement(obj.title);
+    array.forEach((obj, index) => {
+        let permalink;
+        if (obj.permalink === "") {
+            permalink = createTextElement(obj.title);
         } else {
-            linkElm = createLinkElement(obj.title, obj.link);
+            permalink = createLinkElement(obj.title, obj.permalink);
         }
-        let newObj = {
-            separator: createSeparator("/"),
-            link: linkElm
-        };
-        arr.push(newObj);
+        let separator = index === 0 ? "" : createSeparator("/");
+        arr.push({ separator, permalink });
     });
 
-    breadcrumbHTML();
+    arr.forEach((obj) => {
+        breadcrumbsContainer.append(obj.separator, obj.permalink);
+    });
+}
 
-    function createLinkElement(title, link) {
-        let linkElm = document.createElement("A");
-        linkElm.classList.add("breadcrumbs__link");
-        linkElm.href = link;
-        linkElm.textContent = title;
-        return linkElm;
-    }
+function createLinkElement(title, link) {
+    let linkElm = document.createElement("A");
+    linkElm.classList.add("breadcrumbs__link");
+    linkElm.href = link;
+    linkElm.textContent = title;
+    return linkElm;
+}
 
-    function createTextElement(text) {
-        let txtElm = document.createElement("SPAN");
-        txtElm.classList.add("breadcrumbs__text");
-        txtElm.textContent = text;
-        return txtElm;
-    }
+function createTextElement(text) {
+    let txtElm = document.createElement("SPAN");
+    txtElm.classList.add("breadcrumbs__text");
+    txtElm.textContent = text;
+    return txtElm;
+}
 
-    function createSeparator(character) {
-        let separatorElm = document.createElement("SPAN");
-        separatorElm.classList.add("breadcrumbs__separator");
-        separatorElm.innerHTML = character;
-        return separatorElm;
-    }
-
-    function breadcrumbHTML() {
-        arr.forEach(obj => {
-            parent.appendChild(obj.separator);
-            parent.appendChild(obj.link);
-        });
-    }
+function createSeparator(character) {
+    let separatorElm = document.createElement("SPAN");
+    separatorElm.classList.add("breadcrumbs__separator");
+    separatorElm.innerHTML = character;
+    return separatorElm;
 }
 
 
