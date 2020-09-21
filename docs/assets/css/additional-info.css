@@ -1,0 +1,33 @@
+.additionalInfo {
+    font-family: 'Museo Sans Rounded 300';
+}
+
+.additionalInfo__title {
+    color: hsl(44, 26%, 51%);
+    margin: 0.5em 0;
+}
+
+.additionalInfo__table {
+    margin-bottom: 1em;
+    border: 1px solid hsl(240, 1%, 81%);
+    border-collapse: collapse;
+}
+
+.additionalInfo__data {
+    padding: 0.75em 1.25em 0.75em 0.75em;
+    border: 1px solid hsl(240, 1%, 81%);
+}
+
+.additionalInfo__data:first-of-type {
+    font-family: 'Museo Sans Rounded 500';
+    background-color: hsl(30, 6%, 93%);
+    text-transform: uppercase;
+}
+
+.additionalInfo__link {
+    color: hsl(44, 26%, 51%);
+}
+
+.additionalInfo__link:hover {
+    color: hsl(44, 26%, 31%);
+}
