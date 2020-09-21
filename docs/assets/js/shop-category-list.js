@@ -105,7 +105,7 @@ const dummyProjectArray = [
     },
     {
         "permalink": "single-product-description.html?product=creek-destiny-cd",
-        "imgSrc": "./assets/images/cd-players/creek_destiny_cd.jpg",
+        "imgSrc": "./assets/images/cd-players/creek_Destiny_CD.jpg",
         "name": "CREEK DESTINY CD",
         "price": "£149.00",
         "manufactorer": {
