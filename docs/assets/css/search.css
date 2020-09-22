@@ -1,12 +1,10 @@
-form.search{
-    margin-top: 20px;
+.search__input {
+    margin-top: 18px;
     margin-right: 15px;
     outline: none;
 }
 
-
-form.search input[type=text] {
-    font-size: 17px;
-    float: left;
-    width: 80%;
-  }
+.search__input input{
+    padding: 5px;
+    width: 200px;
+}
