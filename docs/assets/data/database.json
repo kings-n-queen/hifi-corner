@@ -1,6 +1,44 @@
 {
-    "noget": "indhold",
-    "categories": [{
-        "mere": "indhold",
+    "products": [{
+        "navn": "Marantz CD Player CD6007/T1",
+        "andreProdukter": "See other Marantz products",
+        "pris": "$399.00",
+        "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+        "billede": ["/stimappe/billede.jpg"],
+
+        "additionalInformations": {
+            "manufacturer": "Marantz",
+            "manufacturerLink": "Marantz CD Player CD6007/T1",
+            "freeWarranty": "3 years",
+            "deliveryCharge": "Free",
+            "deliveryTime": "1-5 Working days",
+            "cardSurcharges": "No"
+        },
+
+        "description": [
+
+            {
+                "key": "Mechanism:",
+                "value": "JTL-101Y"
+            },
+
+            {
+                "key": "D/A Conversion:",
+                "value": "Multi-bit, Delta-Sigma"
+            },
+
+            {
+                "key": "DAC IC:",
+                "value": "DAC IC:"
+            }
+
+
+
+
+
+
+
+            
+        ]
     }]
 }
