@@ -1,6 +1,11 @@
 import specs from "./specs.js";
+import fetchProducts from "./fetch.js";
 import additionalInfo from "./additional-info.js";
 import footer from "./footer.js";
+
+fetchProducts().then(function(products){
+    console.log(products);
+})
 
 let dummySpecs = [
 
@@ -14,8 +19,6 @@ let dummySpecs = [
     }
 
 ]
-
-specs(dummySpecs);
 
 let dummyInfo = [
 
@@ -46,6 +49,8 @@ let dummyInfo = [
     }
 
 ]
+
+specs(dummySpecs);
 
 additionalInfo(dummyInfo);
 
