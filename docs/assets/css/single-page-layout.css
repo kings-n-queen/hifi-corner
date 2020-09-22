@@ -1,4 +1,4 @@
-.mainContent {
+.mainSinglePage {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0 1.4em;
@@ -7,19 +7,19 @@
     padding: 1em;
 }
 
-.mainContent__image {
+.mainSinglePage__image {
     grid-row: span 3;
 }
 
-.mainContent__fullSpan {
+.mainSinglePage__fullSpan {
     grid-column: span 2;
 }
 
 @media only screen and (max-width: 768px) {
-    .mainContent {
+    .mainSinglePage {
         grid-template-columns: 1fr;
     }
-    .mainContent__fullSpan {
+    .mainSinglePage__fullSpan {
         grid-column: span 1;
     }
 }
