@@ -3,7 +3,7 @@
 .imgSwitch{
 	display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: 100px 1fr 1fr;
 }
 .imgSwitch__productText{
     font-family: "Museo Sans Rounded 300";
@@ -12,9 +12,12 @@
     grid-area: 1 / 1 / 2 / 2;
     align-self: center;
     justify-self: center;
+    text-align: center;
 }
-.imgSwitch img{
-	grid-area: 1 / 2 / 4 / 3;
+.imgSwitch__image{
+    grid-area: 1 / 2 / 4 / 3;
+    justify-self: center;
+    align-self: center;
 }
 .imgSwitch__leftChevron, .imgSwitch__rightChevron{
 	fill: hsl(44, 26%, 51%);
