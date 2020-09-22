@@ -5,8 +5,8 @@
     grid-template-columns: 1fr 1fr;
     gap: 0 1.4em;
     max-width: 1600px;
-    margin: 1em auto;
-    padding: 1em;
+    margin: 0 auto;
+    padding: 0 1em;
 }
 
 .mainSinglePage__image {
