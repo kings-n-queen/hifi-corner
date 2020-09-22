@@ -1,31 +1,19 @@
 let tableBody = document.querySelector(".additionalInfo__body");
 
-function additionalInfo(objArr) {
-    tableBody.innerHTML = "";
-    objArr.forEach(obj => {
-        let row = document.createElement("TR");
-        let dataKey = document.createElement("TD");
-        let dataValue = document.createElement("TD");
-
-        row.classList.add("additionalInfo__row");
-        dataKey.classList.add("additionalInfo__data");
-        dataValue.classList.add("additionalInfo__data");
-
-        dataKey.textContent = obj.key;
-
-        if (obj.permalink) {
-            let link = document.createElement("A");
-            link.href = obj.permalink;
-            link.classList.add("additionalInfo__link");
-            link.textContent = obj.value;
-            dataValue.appendChild(link);
+function additionalInfo(additionalInformations) {
+    for (let i = 0; i < Object.keys(additionalInformations).length; i++) {
+        const key = Object.keys(additionalInformations)[i];
+        const value = additionalInformations[key];
+        let row = tableBody.querySelector(".js-" + key);
+        let td = row.querySelectorAll(".additionalInfo__data");
+        td[0].textContent = key;
+        if (typeof value === "object") {
+            let link = td[1].querySelector(".additionalInfo__link");
+            link.textContent = value.text;
+            link.href = value.href;
         } else {
-            dataValue.textContent = obj.value;
+            td[1].textContent = value;
         }
-
-        row.appendChild(dataKey);
-        row.appendChild(dataValue);
-        tableBody.appendChild(row);
-    });
+    }
 }
 export default additionalInfo;
