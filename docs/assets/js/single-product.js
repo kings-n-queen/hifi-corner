@@ -1,11 +1,14 @@
 import specs from "./specs.js";
-import fetchProducts from "./fetch.js";
+import breadcrumbs from "./breadcrumbs.js";;
+import {setURL, urlGetKey} from "./url-handler.js";
+import fetchProducts from "./fetch.js"
 import additionalInfo from "./additional-info.js";
 import footer from "./footer.js";
 
 fetchProducts().then(function(products){
+    console.log(urlGetKey("product"));
     console.log(products);
-})
+});
 
 let dummySpecs = [
 
@@ -53,5 +56,22 @@ let dummyInfo = [
 specs(dummySpecs);
 
 additionalInfo(dummyInfo);
+
+//#region BREADCRUMBS
+
+let dummyBreadcrumbArray = [];
+
+addBreadcrumbItem(dummyBreadcrumbArray, "Home", "index.html");
+addBreadcrumbItem(dummyBreadcrumbArray, "Amplifiers", "?category=amplifiers");
+addBreadcrumbItem(dummyBreadcrumbArray, "Power Amplifiers", "?category=power-amplifiers");
+addBreadcrumbItem(dummyBreadcrumbArray, "MANLEY MAHI POWER AMPLIFIER", "");
+
+breadcrumbs(dummyBreadcrumbArray);
+
+function addBreadcrumbItem(toArray, title, permalink) {
+    toArray.push({ title, permalink });
+}
+
+//#endregion BREADCRUMBS
 
 footer();
