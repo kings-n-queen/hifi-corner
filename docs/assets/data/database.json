@@ -29,7 +29,12 @@
 
             {
                 "key": "DAC IC:",
-                "value": "DAC IC:"
+                "value": "AK4490"
+            },
+
+            {
+                "key": "titel",
+                "value": "value"
             }
 
 
