@@ -11,6 +11,7 @@
     margin-bottom: 1em;
     border: 1px solid hsl(240, 1%, 81%);
     border-collapse: collapse;
+    width: 100%;
 }
 
 .additionalInfo__data {
@@ -22,6 +23,7 @@
     font-family: 'Museo Sans Rounded 500';
     background-color: hsl(30, 6%, 93%);
     text-transform: uppercase;
+    width: 200px;
 }
 
 .additionalInfo__link {
@@ -30,4 +32,8 @@
 
 .additionalInfo__link:hover {
     color: hsl(44, 26%, 31%);
+}
+
+.DUMMY_CSS_PLEASE_DELETE {
+    width: 100%;
 }

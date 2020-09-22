@@ -9,75 +9,126 @@
 </head>
 
 <body>
-    <section class="description-singleProduct">
+    <div class="topline-header-some-links">
 
-        <div class="nameOfProduct"> MARANTZ PM 6006 UK EDITION INTERGRATED AMPLIFIER</div>
-
-        <article class="otherProductsAndPrice">
-            <div class="otherProductsFromBrand"> See other Marantz products</div>
-            <div class="singlePrice">£429.00</div>
-        </article>
-
-        <div class="singleProductDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem doloremque asperiores nesciunt voluptate consequatur tempora! Consequatur, eius harum. Tempora error et neque non accusamus velit ratione eos repellat eveniet voluptatem.</div>
-
-        <button type="button" class="singleProductButtons">ASK A QUESTION</button>
-        <button type="button" class="singleProductButtons">PART EXCHANGE</button>
-        <button type="button" class="singleProductButtons">PAY BY FINANCE</button>
-        <button type="button" class="singleProductButtons">SEEN A BETTER PRICE?</button>
-        </div>
-    </section>
-
-
-
-    <form class="finishSingleProduct">
-        <input type="radio" name="finishColor" id="black" value="black">
-        <label for="black">Black</label>
-        <br>
-        <input type="radio" name="finishColor" id="silver" value="silver">
-        <label for="silver">Silver</label>
-    </form>
-
-    <section class="payAndFinish-singleProduct">
-        <p class="finish">Finish</p>
-
-        <form class="finishSingleProduct">
-            <input type="radio" name="finishColor" id="black" value="black">
-            <label for="black">Black</label>
-        </form>
-        <form class="finishSingleProduct">
-            <input type="radio" name="finishColor" id="silver" value="silver">
-            <label for="silver">Silver</label>
+        <form class="searchBar">
+            <input type="text" class="searchBar__input" name="search" placeholder="Search entire store here...">
         </form>
 
-        <form class="singlePay">
-            <div class="addToCart">
-                <label for="qty">Qty:</label>
-                <input type="number" id="qty" name="qty">
-                <input type="submit" value=" ADD TO CART">
-        </form>
+        <svg viewBox="0 0 24 24" class="topline-header-some-links__cart">
+            <path
+                d="M17,18C15.89,18 15,18.89 15,20A2,2 0 0,0 17,22A2,2 0 0,0 19,20C19,18.89 18.1,18 17,18M1,2V4H3L6.6,11.59L5.24,14.04C5.09,14.32 5,14.65 5,15A2,2 0 0,0 7,17H19V15H7.42A0.25,0.25 0 0,1 7.17,14.75C7.17,14.7 7.18,14.66 7.2,14.63L8.1,13H15.55C16.3,13 16.96,12.58 17.3,11.97L20.88,5.5C20.95,5.34 21,5.17 21,5A1,1 0 0,0 20,4H5.21L4.27,2M7,18C5.89,18 5,18.89 5,20A2,2 0 0,0 7,22A2,2 0 0,0 9,20C9,18.89 8.1,18 7,18Z">
+            </path>
+        </svg>
+        <p class="topline-header-some-links__text">Cart</p>
 
-        <div class="payPal">
-            -OR-
-            </a><img src="./assets/images/paypal.png" alt="paypal">
-            <p class="underPayPal"> The safer, easier way to pay</p>
-        </div>
-    </section>
-    <section class="additionalInfo">
-        <h2 class="additionalInfo__title">ADDITIONAL INFORMATION</h2>
-        <table class="additionalInfo__table">
-            <tbody class="additionalInfo__body">
-                <!-- JS Content -->
-            </tbody>
-        </table>
-    </section>
-    <section class="specs">
-        <h2 class="specs__title">DESCRIPTION</h2>
-        <table class="specs__table">
-            <tbody class="specs__body">
-                <!-- JS Content -->
-            </tbody>
-        </table>
-    </section>
+        <svg viewBox="0 0 24 24" class="topline-header-some-links__account">
+            <path
+                d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z">
+            </path>
+        </svg>
+        <p class="topline-header-some-links__text">Account</p>
+
+        <svg viewBox="0 0 24 24" class="topline-header-some-links__marker">
+            <path
+                d="M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z">
+            </path>
+        </svg>
+
+        <svg viewBox="0 0 24 24" class="topline-header-some-links__phone">
+            <path
+                d="M20,15.5C18.8,15.5 17.5,15.3 16.4,14.9C16.3,14.9 16.2,14.9 16.1,14.9C15.8,14.9 15.6,15 15.4,15.2L13.2,17.4C10.4,15.9 8,13.6 6.6,10.8L8.8,8.6C9.1,8.3 9.2,7.9 9,7.6C8.7,6.5 8.5,5.2 8.5,4C8.5,3.5 8,3 7.5,3H4C3.5,3 3,3.5 3,4C3,13.4 10.6,21 20,21C20.5,21 21,20.5 21,20V16.5C21,16 20.5,15.5 20,15.5M5,5H6.5C6.6,5.9 6.8,6.8 7,7.6L5.8,8.8C5.4,7.6 5.1,6.3 5,5M19,19C17.7,18.9 16.4,18.6 15.2,18.2L16.4,17C17.2,17.2 18.1,17.4 19,17.4V19Z">
+            </path>
+        </svg>
+
+        <svg viewBox="0 0 24 24" class="topline-header-some-links__mail">
+            <path
+                d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z">
+            </path>
+        </svg>
+
+        <button class="subscribe">
+            <svg viewBox="0 0 24 24" class="subscribe__icon-logo">
+                <path
+                    d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z">
+                </path>
+            </svg>
+            Subscribe
+        </button>
+    </div>
+
+    <header class="main_header">
+        <li><a href="index.html" class="main_header__links">HOME</a></li>
+        <li><a href="#" class="main_header__links">ABOUT US</a></li>
+        <li><a href="brands.html" class="main_header__links">BRANDS</a></li>
+        <li><a href="#" class="main_header__links">BLOG</a></li>
+        <li><a href="#" class="main_header__links">EVENTS</a></li>
+        <li><a href="shop-frontpage.html" class="main_header__links">SHOP</a></li>
+        <li><a href="#" class="main_header__links">CONTACT US</a></li>
+    </header>
+    <main class="mainSinglePage">
+        <section class="mainSinglePage__image">
+            <!-- IMAGE SECTION -->
+            <img class="DUMMY_CSS_PLEASE_DELETE" src="./assets/images/shoppage_speaker_bgimage.jpg" alt="Creek classic CD">
+        </section>
+        <section class="description-singleProduct">
+
+            <div class="nameOfProduct"> MARANTZ PM 6006 UK EDITION INTERGRATED AMPLIFIER</div>
+
+            <article class="otherProductsAndPrice">
+                <div class="otherProductsFromBrand"> See other Marantz products</div>
+                <div class="singlePrice">£429.00</div>
+            </article>
+
+            <div class="singleProductDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem doloremque asperiores nesciunt voluptate consequatur tempora! Consequatur, eius harum. Tempora error et neque non accusamus velit ratione eos repellat eveniet voluptatem.</div>
+
+            <button type="button" class="singleProductButtons">ASK A QUESTION</button>
+            <button type="button" class="singleProductButtons">PART EXCHANGE</button>
+            <button type="button" class="singleProductButtons">PAY BY FINANCE</button>
+            <button type="button" class="singleProductButtons">SEEN A BETTER PRICE?</button>
+            </div>
+        </section>
+        <section class="payAndFinish-singleProduct">
+            <p class="finish">Finish</p>
+
+            <form class="finishSingleProduct">
+                <input type="radio" name="finishColor" id="black" value="black">
+                <label for="black">Black</label>
+                <br>
+                <input type="radio" name="finishColor" id="silver" value="silver">
+                <label for="silver">Silver</label>
+            </form>
+
+            <form class="singlePay">
+                <div class="addToCart">
+                    <label for="qty">Qty:</label>
+                    <input type="number" id="qty" name="qty">
+                    <input type="submit" value=" ADD TO CART">
+            </form>
+
+            <div class="payPal">
+                -OR-
+                </a><img src="./assets/images/paypal.png" alt="paypal">
+                <p class="underPayPal"> The safer, easier way to pay</p>
+            </div>
+        </section>
+        <section class="additionalInfo">
+            <h2 class="additionalInfo__title">ADDITIONAL INFORMATION</h2>
+            <table class="additionalInfo__table">
+                <tbody class="additionalInfo__body">
+                    <!-- JS Content -->
+                </tbody>
+            </table>
+        </section>
+        <section class="specs">
+            <h2 class="specs__title">DESCRIPTION</h2>
+            <table class="specs__table">
+                <tbody class="specs__body">
+                    <!-- JS Content -->
+                </tbody>
+            </table>
+        </section>
+    </main>
     <script src="./assets/js/single-product.js" type="module"></script>
 </body>
 
