@@ -4,6 +4,8 @@ import {setURL, urlGetKey} from "./url-handler.js";
 import fetchProducts from "./fetch.js"
 import additionalInfo from "./additional-info.js";
 import footer from "./footer.js";
+import {singlePageImage, changeLargeImg} from "./singlepage--image.js";
+
 
 fetchProducts().then(function(products){
     console.log(urlGetKey("product"));
@@ -53,6 +55,18 @@ let dummyInfo = [
 
 ]
 
+let dummyImages = 
+    {
+        imgSrc : [ 
+        "./assets/images/lps/Pro_ject_Debut_3_bl.jpg",
+        "./assets/images/lps/Pro_ject_Debut_III_red_1.jpg",
+        "./assets/images/lps/Pro_ject_Debut_III_yellow_1.jpg"    
+        ]
+    }
+
+
+singlePageImage(dummyImages);
+
 specs(dummySpecs);
 
 additionalInfo(dummyInfo);
@@ -73,5 +87,8 @@ function addBreadcrumbItem(toArray, title, permalink) {
 }
 
 //#endregion BREADCRUMBS
+
+const thumbnails = document.querySelectorAll(".thumbnailContainer__image");
+thumbnails.forEach(image => image.addEventListener("click", changeLargeImg));
 
 footer();

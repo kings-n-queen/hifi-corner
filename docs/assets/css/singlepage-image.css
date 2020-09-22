@@ -1,0 +1,12 @@
+.mainSinglePage__image{
+    display: grid;
+}
+
+.mainSinglePage__image__largeImage{
+    align-self: center;
+    justify-self: center;
+}
+
+.thumbnailContainer__image{
+    max-width: 75px;
+}
