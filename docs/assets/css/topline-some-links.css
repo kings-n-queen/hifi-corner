@@ -36,11 +36,26 @@
     margin-left: 15px;
     outline: none;
     cursor: pointer;
-    font-family: 'Museo Sans Rounded 200';
+    font-family: 'Museo Sans Rounded 500';
 }
 
 .subscribe__icon-logo{
     height: 20px;
     padding: 10px;
     outline: none;
+}
+
+.searchBar__input{
+    padding: 5px;
+    width: 250px;
+    margin-top: 18px;
+    margin-right: 20px;
+}
+
+.topline-header-some-links__text{
+    color: white;
+    font-family: 'Museo Sans Rounded 300';
+    display: flex;
+    font-size: 18px;
+    margin-right: 20px;
 }
