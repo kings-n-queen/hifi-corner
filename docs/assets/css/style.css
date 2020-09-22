@@ -16,6 +16,7 @@
 @import "./single-product-description.css";
 @import "./specs.css";
 @import "./additional-info.css";
+@import "./single-page-layout.css";
 a {
     text-decoration: none;
 }
