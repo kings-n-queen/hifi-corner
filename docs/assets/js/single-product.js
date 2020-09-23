@@ -25,35 +25,21 @@ let dummySpecs = [
 
 ]
 
-let dummyInfo = [
-
-    {
-        key: "manufactorer",
-        value: "Marantz"
-    },
-    {
-        key: "manufactorer link",
-        value: "Marantz PM6006",
-        permalink: "single-product-description.html?product=marantz-pm6006"
-    },
-    {
-        key: "free warranty",
-        value: "3 years"
-    },
-    {
-        key: "delivery charge",
-        value: "Free"
-    },
-    {
-        key: "delivery time",
-        value: "1 - 5 working days"
-    },
-    {
-        key: "card surcharges",
-        value: "No"
+let dummyInfo = {
+    additionalInformations: {
+        manufacturer: "Marantz",
+        manufacturerLink: {
+            text: "Marantz CD Player CD6007/T1",
+            href: "single-product-description.html?product=marantz-pm6006"
+        },
+        freeWarranty: "3 years",
+        deliveryCharge: "Free",
+        deliveryTime: "1-5 Working days",
+        cardSurcharges: "No"
     }
+}
 
-]
+additionalInfo(dummyInfo.additionalInformations);
 
 let dummyImages = 
     {
@@ -68,8 +54,6 @@ let dummyImages =
 singlePageImage(dummyImages);
 
 specs(dummySpecs);
-
-additionalInfo(dummyInfo);
 
 //#region BREADCRUMBS
 
