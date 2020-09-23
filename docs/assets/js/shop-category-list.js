@@ -6,6 +6,7 @@ import toggleViewState from "./toggleViewState.js";
 import {setURL, urlGetKey} from "./url-handler.js";
 import fetchProducts from "./fetch.js";
 import footer from "./footer.js";
+import filterProductsByPrice from "./shop-category-list-filterByPrice.js";
 
 fetchProducts().then(function(products){
     console.log(urlGetKey("product"));
@@ -94,7 +95,7 @@ const dummyProjectArray = [
         "permalink": "single-product-description.html?product=parasound-haloa-21-power-amplifier",
         "imgSrc": "./assets/images/power-amplifiers/parasound_haloa23.jpg",
         "name": "PARASOUND HALOA 21 POWER AMPLIFIER",
-        "price": "£249.00",
+        "price": "249.00",
         "manufactorer": {
             "name": "parasound",
             "permalink": "?manufactorer=parasound"
@@ -187,6 +188,23 @@ function addBreadcrumbItem(toArray, title, permalink) {
 }
 
 //#endregion BREADCRUMBS
+
+//#region FILTER FUNCTIONS
+
+let priceRangeButton = document.querySelectorAll(".shopCategories__list");
+priceRangeButton.forEach(function(button){
+    button.addEventListener("click", function(event){
+        if (event.target.classList.contains("subCategory")) {
+            event.preventDefault();
+            console.log(event.target.dataset.minprice);
+            let productsFilteredByPrice = filterProductsByPrice(products, event.target.dataset.minprice, event.target.dataset.maxprice);
+            sortBox.products = [...productsFilteredByPrice];
+            displayProducts(sortBox.products);
+        }
+    })
+});
+
+//#endregion FILTER FUNCTIONS
 
 //#region FOOTER
 
