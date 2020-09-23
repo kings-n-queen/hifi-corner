@@ -66,10 +66,12 @@ const dummyProjectArray = [
 ];
 
 let productTextArray = [];
-let imgSwitchArray = []
+let imgSwitchArray = [];
+let permalinkArray = [];
 
 let switchText = document.querySelector(".imgSwitch__productText");
-const switchImg = document.querySelector(".imgSwitch__image");
+let switchImg = document.querySelector(".imgSwitch__image");
+let productLink = document.querySelector(".imgSwitch a");
 
 let index = 0;
 
@@ -102,12 +104,14 @@ function fetchImgs(products) {
 
     for (let index = 0; index < 3; index++) {
         imgSwitchArray.push(products[index].imgSrc);
-        productTextArray.push(products[index].name);        
+        productTextArray.push(products[index].name);
+        permalinkArray.push(products[index].permalink);        
     }
 }
 
 function fillContentSwitch() {
     switchImg.src = imgSwitchArray[index];
+    productLink.href = permalinkArray[index];
     switchText.textContent = productTextArray[index];
 }
 

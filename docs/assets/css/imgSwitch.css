@@ -14,7 +14,7 @@
     justify-self: center;
     text-align: center;
 }
-.imgSwitch__image{
+.imgSwitch a{
     grid-area: 1 / 2 / 4 / 3;
     justify-self: center;
     align-self: center;
