@@ -6,19 +6,11 @@ import additionalInfo from "./additional-info.js";
 import footer from "./footer.js";
 import {singlePageImage, changeLargeImg} from "./singlepage--image.js";
 
-
 fetchProducts().then(function(products){
-
     console.log(urlGetKey("product"));
     console.log(products);
-});
-
-
     specs(products.products[0].description);
-})
-
-// console.log("test")
-
+});
 
 let dummyInfo = {
     additionalInformations: {
