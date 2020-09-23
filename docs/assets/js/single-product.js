@@ -12,12 +12,8 @@ import search from "./searchbarfunction.js";
 fetchProducts().then(function(products) {
     console.log(urlGetKey("product"));
     console.log(products);
-
-
+    
     productDetailsName(products.products[0].navn, products.products[0].beskrivelse, products.products[0].category, products.products[0].andreProdukter, products.products[0].pris);
-    specs(products.products[0].description);
-});
-
     specs(products.products[0].description);
 });
 
