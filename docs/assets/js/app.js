@@ -8,3 +8,4 @@ switchButtons.forEach(button => button.addEventListener("click", changeImg));
 fillContentSwitch();
 footer();
 search();
+

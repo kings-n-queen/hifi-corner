@@ -4,36 +4,29 @@ import { setURL, urlGetKey } from "./url-handler.js";
 import fetchProducts from "./fetch.js"
 import additionalInfo from "./additional-info.js";
 import footer from "./footer.js";
-import { singlePageImage, changeLargeImg } from "./singlepage--image.js";
+import {singlePageImage, changeLargeImg} from "./singlepage--image.js";
+import productDetailsName from "./single-product-details.js";
 import search from "./searchbarfunction.js";
-
 
 
 fetchProducts().then(function(products) {
     console.log(urlGetKey("product"));
     console.log(products);
+
+
+    productDetailsName(products.products[0].navn, products.products[0].beskrivelse, products.products[0].category, products.products[0].andreProdukter, products.products[0].pris);
+    specs(products.products[0].description);
 });
 
-let dummySpecs = [
-
-    {
-        key: "Power output (8 / 4 Ohm RMS)",
-        value: "45 W / 60 W"
-    },
-    {
-        key: "Frequency Response",
-        value: "10 Hz - 70 kHz"
-    }
-
-]
+    specs(products.products[0].description);
+});
 
 let dummyInfo = {
+    name: "test",
+    permalink: "single-product-description.html?product=marantz-pm6006",
     additionalInformations: {
         manufacturer: "Marantz",
-        manufacturerLink: {
-            text: "Marantz CD Player CD6007/T1",
-            href: "single-product-description.html?product=marantz-pm6006"
-        },
+        manufacturerLink: "Marantz CD Player CD6007/T1",
         freeWarranty: "3 years",
         deliveryCharge: "Free",
         deliveryTime: "1-5 Working days",
@@ -41,7 +34,7 @@ let dummyInfo = {
     }
 }
 
-additionalInfo(dummyInfo.additionalInformations);
+additionalInfo(dummyInfo);
 
 let dummyImages = {
     imgSrc: [
@@ -54,7 +47,8 @@ let dummyImages = {
 
 singlePageImage(dummyImages);
 
-specs(dummySpecs);
+
+additionalInfo(dummyInfo);
 
 //#region BREADCRUMBS
 
@@ -75,6 +69,7 @@ function addBreadcrumbItem(toArray, title, permalink) {
 
 const thumbnails = document.querySelectorAll(".thumbnailContainer__image");
 thumbnails.forEach(image => image.addEventListener("click", changeLargeImg));
+
 
 footer();
 search();
