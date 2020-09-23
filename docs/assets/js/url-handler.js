@@ -1,9 +1,16 @@
-function setURL(url){
+function setURL(url) {
     window.history.pushState({}, "", url);
 }
-function urlGetKey(key){
+
+function urlGetKey(key) {
     let url = new URLSearchParams(window.location.search);
     return url.get(key);
 }
 
-export {setURL, urlGetKey};
+function loadURL(url) {
+    window.location.href = url;
+}
+
+export { setURL, urlGetKey, loadURL };
+
+

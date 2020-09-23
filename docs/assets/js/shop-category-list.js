@@ -3,11 +3,13 @@ import breadcrumbs from "./breadcrumbs.js";
 import displayProducts from "./listView.js";
 import sort from "./sort.js";
 import toggleViewState from "./toggleViewState.js";
-import {setURL, urlGetKey} from "./url-handler.js";
+import { setURL, urlGetKey } from "./url-handler.js";
 import fetchProducts from "./fetch.js";
 import footer from "./footer.js";
+import search from "./searchbarfunction.js";
 
-fetchProducts().then(function(products){
+
+fetchProducts().then(function(products) {
     console.log(urlGetKey("product"));
     console.log(products);
 });
@@ -191,5 +193,6 @@ function addBreadcrumbItem(toArray, title, permalink) {
 //#region FOOTER
 
 footer();
+search();
 
 //#endregion FOOTER
