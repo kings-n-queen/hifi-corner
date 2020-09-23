@@ -17,6 +17,7 @@
 @import "./specs.css";
 @import "./additional-info.css";
 @import "./single-page-layout.css";
+@import "./singlePageFooterButton.css";
 a {
     text-decoration: none;
 }
