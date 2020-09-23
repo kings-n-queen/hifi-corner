@@ -4,21 +4,13 @@ import additionalInfo from "./additional-info.js";
 import footer from "./footer.js";
 
 fetchProducts().then(function(products){
-    console.log(products);
+    console.log(products.products[0].description);
+
+    specs(products.products[0].description);
 })
 
-let dummySpecs = [
+// console.log("test")
 
-    {
-        key: "Power output (8 / 4 Ohm RMS)",
-        value: "45 W / 60 W"
-    },
-    {
-        key: "Frequency Response",
-        value: "10 Hz - 70 kHz"
-    }
-
-]
 
 let dummyInfo = [
 
@@ -49,8 +41,6 @@ let dummyInfo = [
     }
 
 ]
-
-specs(dummySpecs);
 
 additionalInfo(dummyInfo);
 
