@@ -13,12 +13,11 @@ fetchProducts().then(function(products){
 });
 
 let dummyInfo = {
+    name: "test",
+    permalink: "single-product-description.html?product=marantz-pm6006",
     additionalInformations: {
         manufacturer: "Marantz",
-        manufacturerLink: {
-            text: "Marantz CD Player CD6007/T1",
-            href: "single-product-description.html?product=marantz-pm6006"
-        },
+        manufacturerLink: "Marantz CD Player CD6007/T1",
         freeWarranty: "3 years",
         deliveryCharge: "Free",
         deliveryTime: "1-5 Working days",
@@ -26,7 +25,7 @@ let dummyInfo = {
     }
 }
 
-additionalInfo(dummyInfo.additionalInformations);
+additionalInfo(dummyInfo);
 
 let dummyImages = 
     {
@@ -42,8 +41,6 @@ singlePageImage(dummyImages);
 
 
 additionalInfo(dummyInfo);
-
-specs(dummySpecs);
 
 //#region BREADCRUMBS
 
