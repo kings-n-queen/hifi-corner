@@ -7,9 +7,7 @@ import footer from "./footer.js";
 import {singlePageImage, changeLargeImg} from "./singlepage--image.js";
 import productDetailsName from "./single-product-details.js";
 
-
 fetchProducts().then(function(products){
-
     console.log(urlGetKey("product"));
     console.log(products);
 
@@ -18,14 +16,15 @@ fetchProducts().then(function(products){
     specs(products.products[0].description);
 });
 
+    specs(products.products[0].description);
+});
 
 let dummyInfo = {
+    name: "test",
+    permalink: "single-product-description.html?product=marantz-pm6006",
     additionalInformations: {
         manufacturer: "Marantz",
-        manufacturerLink: {
-            text: "Marantz CD Player CD6007/T1",
-            href: "single-product-description.html?product=marantz-pm6006"
-        },
+        manufacturerLink: "Marantz CD Player CD6007/T1",
         freeWarranty: "3 years",
         deliveryCharge: "Free",
         deliveryTime: "1-5 Working days",
@@ -33,7 +32,7 @@ let dummyInfo = {
     }
 }
 
-additionalInfo(dummyInfo.additionalInformations);
+additionalInfo(dummyInfo);
 
 let dummyImages = 
     {
@@ -49,8 +48,6 @@ singlePageImage(dummyImages);
 
 
 additionalInfo(dummyInfo);
-
-specs(dummySpecs);
 
 //#region BREADCRUMBS
 
