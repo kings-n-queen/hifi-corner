@@ -1,7 +1,8 @@
 .breadcrumbs {
     display: flex;
+    flex-wrap: wrap;
     font-family: 'Museo Sans Rounded 300';
-    padding: 1em;
+    padding: 1em 0;
 }
 
 .breadcrumbs__separator {
@@ -12,6 +13,7 @@
 .breadcrumbs__link {
     text-decoration: none;
     color: hsl(44, 26%, 51%);
+    white-space: nowrap;
 }
 
 .breadcrumbs__link:hover {
@@ -20,4 +22,5 @@
 
 .breadcrumbs__text {
     color: hsl(44, 26%, 31%);
+    white-space: nowrap;
 }
