@@ -5,10 +5,17 @@ import fetchProducts from "./fetch.js"
 import additionalInfo from "./additional-info.js";
 import footer from "./footer.js";
 import {singlePageImage, changeLargeImg} from "./singlepage--image.js";
+import productDetailsName from "./single-product-details.js";
 
 fetchProducts().then(function(products){
     console.log(urlGetKey("product"));
     console.log(products);
+
+
+    productDetailsName(products.products[0].navn, products.products[0].beskrivelse, products.products[0].category, products.products[0].andreProdukter, products.products[0].pris);
+    specs(products.products[0].description);
+});
+
     specs(products.products[0].description);
 });
 
