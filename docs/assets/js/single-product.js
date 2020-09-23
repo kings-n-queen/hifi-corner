@@ -1,13 +1,15 @@
 import specs from "./specs.js";
 import breadcrumbs from "./breadcrumbs.js";;
-import {setURL, urlGetKey} from "./url-handler.js";
+import { setURL, urlGetKey } from "./url-handler.js";
 import fetchProducts from "./fetch.js"
 import additionalInfo from "./additional-info.js";
 import footer from "./footer.js";
-import {singlePageImage, changeLargeImg} from "./singlepage--image.js";
+import { singlePageImage, changeLargeImg } from "./singlepage--image.js";
+import search from "./searchbarfunction.js";
 
 
-fetchProducts().then(function(products){
+
+fetchProducts().then(function(products) {
     console.log(urlGetKey("product"));
     console.log(products);
 });
@@ -41,14 +43,13 @@ let dummyInfo = {
 
 additionalInfo(dummyInfo.additionalInformations);
 
-let dummyImages = 
-    {
-        imgSrc : [ 
+let dummyImages = {
+    imgSrc: [
         "./assets/images/lps/Pro_ject_Debut_3_bl.jpg",
         "./assets/images/lps/Pro_ject_Debut_III_red_1.jpg",
-        "./assets/images/lps/Pro_ject_Debut_III_yellow_1.jpg"    
-        ]
-    }
+        "./assets/images/lps/Pro_ject_Debut_III_yellow_1.jpg"
+    ]
+}
 
 
 singlePageImage(dummyImages);
@@ -76,3 +77,4 @@ const thumbnails = document.querySelectorAll(".thumbnailContainer__image");
 thumbnails.forEach(image => image.addEventListener("click", changeLargeImg));
 
 footer();
+search();
