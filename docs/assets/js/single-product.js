@@ -8,22 +8,17 @@ import {singlePageImage, changeLargeImg} from "./singlepage--image.js";
 
 
 fetchProducts().then(function(products){
+
     console.log(urlGetKey("product"));
     console.log(products);
 });
 
-let dummySpecs = [
 
-    {
-        key: "Power output (8 / 4 Ohm RMS)",
-        value: "45 W / 60 W"
-    },
-    {
-        key: "Frequency Response",
-        value: "10 Hz - 70 kHz"
-    }
+    specs(products.products[0].description);
+})
 
-]
+// console.log("test")
+
 
 let dummyInfo = {
     additionalInformations: {
@@ -53,6 +48,9 @@ let dummyImages =
 
 singlePageImage(dummyImages);
 
+
+additionalInfo(dummyInfo);
+
 specs(dummySpecs);
 
 //#region BREADCRUMBS
@@ -74,5 +72,6 @@ function addBreadcrumbItem(toArray, title, permalink) {
 
 const thumbnails = document.querySelectorAll(".thumbnailContainer__image");
 thumbnails.forEach(image => image.addEventListener("click", changeLargeImg));
+
 
 footer();
