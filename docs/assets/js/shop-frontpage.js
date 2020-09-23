@@ -1,4 +1,6 @@
 import footer from "./footer.js";
+import search from "./searchbarfunction.js";
+
 
 let shopCategoriesGrid = document.querySelector(".shopCategories__grid");
 
@@ -124,3 +126,4 @@ function categoryLink(title, imgPath, permaLink) {
 }
 
 footer();
+search();
