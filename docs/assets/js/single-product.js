@@ -10,11 +10,19 @@ import search from "./searchbarfunction.js";
 
 
 fetchProducts().then(function(products) {
-    console.log(urlGetKey("product"));
-    console.log(products);
+    var id = urlGetKey("id");
+    var product;
+    for (let i = 0; i < products.products.length; i++) {
+        if (products.products[i].id == id) {
+            product = products.products[i];
+            break
+        }  
+    }
+    console.log(urlGetKey("id"));
+    console.log(product);
     
-    productDetailsName(products.products[0].navn, products.products[0].beskrivelse, products.products[0].category, products.products[0].andreProdukter, products.products[0].pris);
-    specs(products.products[0].description);
+    productDetailsName(product.navn, product.beskrivelse, product.category, product.andreProdukter, product.pris);
+    specs(product.description);
 });
 
 let dummyInfo = {
