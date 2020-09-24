@@ -1,13 +1,12 @@
 {
     "products": [{
             "navn": "Marantz CD Player CD6007/T1",
-            "ID":"marantz_cd_player_cd6007_t1",
+            "id":"marantz_cd_player_cd6007_t1",
             "andreProdukter": "See other Marantz products",
             "outletPrice":"430.00",
             "pris": "399.00",
             "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
             "billede": ["/stimappe/billede.jpg"],
-            "permaLink": "single-product-description.html",
             "category": "cd_players",
 
             "additionalInformations": {
@@ -67,13 +66,12 @@
 
         {
             "navn": "Audio Research CD6 SE CD Player / DAC",
-            "ID":"audio_research_cd6_se_cd_player_cad",
+            "id":"audio_research_cd6_se_cd_player_cad",
             "andreProdukter": "See other Audio Research products",
             "outletPrice":"",
             "pris": "9,998.00",
             "beskrivelse": "The compact disc format is more than 35 years old, with millions of titles. Simultaneously, digital downloads and computer music storage has skyrocketed in popularity. Combining a super high-resolution compact disc player and a digital-to-analog converter in one compact chassis, the CD6SE is a perfect fit for modern music playback. The CD6SE is positioned to optimize most any digital format with spectacular results.",
             "billede": ["/stimappe/billede.jpg"],
-            "permaLink": "single-product-description.html",
             "category": "CD Players",
 
             "additionalInformations": {
