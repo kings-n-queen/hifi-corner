@@ -1,15 +1,28 @@
 import specs from "./specs.js";
 import breadcrumbs from "./breadcrumbs.js";;
-import {setURL, urlGetKey} from "./url-handler.js";
+import { setURL, urlGetKey } from "./url-handler.js";
 import fetchProducts from "./fetch.js"
 import additionalInfo from "./additional-info.js";
 import footer from "./footer.js";
-import {singlePageImage, changeLargeImg} from "./singlepage--image.js";
+import { singlePageImage, changeLargeImg } from "./singlepage--image.js";
+import productDetailsName from "./single-product-details.js";
+import search from "./searchbarfunction.js";
 
-fetchProducts().then(function(products){
-    console.log(urlGetKey("product"));
-    console.log(products);
-    specs(products.products[0].description);
+
+fetchProducts().then(function(products) {
+    var id = urlGetKey("id");
+    var product;
+    for (let i = 0; i < products.products.length; i++) {
+        if (products.products[i].id == id) {
+            product = products.products[i];
+            break
+        }
+    }
+    console.log(urlGetKey("id"));
+    console.log(product);
+
+    productDetailsName(product.navn, product.beskrivelse, product.category, product.andreProdukter, product.pris);
+    specs(product.description);
 });
 
 let dummyInfo = {
@@ -27,14 +40,13 @@ let dummyInfo = {
 
 additionalInfo(dummyInfo);
 
-let dummyImages = 
-    {
-        imgSrc : [ 
+let dummyImages = {
+    imgSrc: [
         "./assets/images/lps/Pro_ject_Debut_3_bl.jpg",
         "./assets/images/lps/Pro_ject_Debut_III_red_1.jpg",
-        "./assets/images/lps/Pro_ject_Debut_III_yellow_1.jpg"    
-        ]
-    }
+        "./assets/images/lps/Pro_ject_Debut_III_yellow_1.jpg"
+    ]
+}
 
 
 singlePageImage(dummyImages);
@@ -64,3 +76,4 @@ thumbnails.forEach(image => image.addEventListener("click", changeLargeImg));
 
 
 footer();
+search();

@@ -22,8 +22,14 @@
 
 .otherProductsFromBrand {
     font-weight: 600;
+    color: hsl(44, 26%, 51%);
 }
 
+.singlePrice{ 
+    margin-left: 19em;
+    font-size: x-large;
+    margin-bottom: -20px;
+}
 .singleProductDescription {
     margin-bottom: 25px;
 }
