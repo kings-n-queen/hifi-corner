@@ -7,7 +7,7 @@ function displayProducts(arrayOfProducts) {
         listView_card.className = "listView__card";
 
         let productLink = document.createElement("a");
-        productLink.href = product.permalink;
+        productLink.href = "single-product-description.html?id=" + product.id;
 
         const newImg = document.createElement("img");
         newImg.setAttribute("src", product.imgSrc);
