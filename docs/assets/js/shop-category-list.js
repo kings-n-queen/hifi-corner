@@ -8,6 +8,7 @@ import fetchProducts from "./fetch.js";
 import footer from "./footer.js";
 import filterProductsByPrice from "./shop-category-list-filterByPrice.js";
 import filterProductsByManufacturer from "./shop-category-list-filterByManufacturer.js";
+import {numbersForFilterPrice, numbersForFilterManufacturer, displayNumbers} from "./shop-category-list-filterNumbers.js"
 
 fetchProducts().then(function(jsonObj) {
     console.log(urlGetKey("product"));
@@ -106,9 +107,25 @@ function arrange(jsonObj) {
                 displayProducts(sortBox.products);
             }
         })
-    })
+    });
+  
+//#region FILTER NUMBERS
 
-    //#endregion FILTER FUNCTIONS
+let amountOfPrice = document.querySelectorAll(".shopBy span");
+window.onload = amountOfPrice.forEach(element => {
+    let number = numbersForFilterPrice(jsonObj.products, element.dataset.minprice, element.dataset.maxprice);
+    displayNumbers(element, number);
+});
+
+let amountOfManufaturer = document.querySelectorAll(".manufacturer span");
+window.onload = amountOfManufaturer.forEach(element => {
+    let number = numbersForFilterManufacturer(jsonObj.products, element.dataset.manufacturer);
+    displayNumbers(element, number);
+});
+
+//#endregion FILTER NUMBERS
+
+//#endregion FILTER FUNCTIONS
 
     //#region FOOTER
 
