@@ -3,7 +3,7 @@ let mbcList = document.querySelector(".mbc__list");
 
 let eventListenerSet = false;
 
-function viewAllManufactorers() {
+function viewAllManufacturers() {
     if (!eventListenerSet) {
         eventListenerSet = true;
         mbcShowAll.addEventListener("click", function(event) {
@@ -13,34 +13,36 @@ function viewAllManufactorers() {
     }
 }
 
-function addManufactorers(objArr) {
+function addManufacturers(objArr) {
     mbcList.innerHTML = "";
     let names = [];
     let permalinks = {};
-    objArr.forEach(obj => {
-        if (!names.includes(obj.manufactorer.name)) {
-            names.push(obj.manufactorer.name);
-            permalinks[obj.manufactorer.name] = obj.manufactorer.permalink;
+    for (let i = 0; i < objArr.length; i++) {
+        const obj = objArr[i];
+        if (!names.includes(obj.additionalInformations.manufacturer)) {
+            let name = obj.additionalInformations.manufacturer;
+            names.push(name);
+            permalinks[name] = `single-product-description.html?id=${obj.id}`;
         }
-    });
+    }
     names.sort();
     names.forEach(name => {
-        addManufactorer(name, permalinks[name]);
+        addManufacturer(name, permalinks[name]);
     });
     if (names.length > 7) {
         mbcShowAll.classList.remove("js-hidden");
         mbcShowAll.classList.remove("js-showAll");
-        viewAllManufactorers();
+        viewAllManufacturers();
     } else {
         mbcShowAll.classList.add("js-hidden");
     }
 }
 
-function addManufactorer(name, permalink) {
+function addManufacturer(name, permalink) {
     let link = document.createElement("A");
     link.classList.add("mbc__link");
     link.href = permalink;
     link.textContent = name;
     mbcList.appendChild(link);
 }
-export default addManufactorers;
+export default addManufacturers;
