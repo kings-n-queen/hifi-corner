@@ -1,16 +1,17 @@
 {
     "products": [{
-            "navn": "Marantz CD Player CD6007/T1",
-            "id": "marantz_cd_player_cd6007_t1",
-            "andreProdukter": "See other Marantz products",
-            "outletPrice": "430.00",
-            "pris": "399.00",
+            "navn": "Creek Classic CD Player",
+            "id": "creek_classic_cd",
+            "andreProdukter": "See other Creek products",
+            "outletPrice": "1899.00",
+            "pris": "1399.00",
             "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
             "billede": ["./assets/images/cd-players/creek_classic_cd.jpg"],
-            "category": "cd_players",
+            "category": "cd-players",
+            "manufacturer": "creek",
 
             "additionalInformations": {
-                "manufacturer": "Marantz",
+                "manufacturer": "Creek",
                 "manufacturerLink": "",
                 "freeWarranty": "3 years",
                 "deliveryCharge": "Free",
@@ -65,17 +66,604 @@
 
 
         {
-            "navn": "Audio Research CD6 SE CD Player / DAC",
-            "id": "audio_research_cd6_se_cd_player_cad",
-            "andreProdukter": "See other Audio Research products",
-            "outletPrice": "",
-            "pris": "9,998.00",
-            "beskrivelse": "The compact disc format is more than 35 years old, with millions of titles. Simultaneously, digital downloads and computer music storage has skyrocketed in popularity. Combining a super high-resolution compact disc player and a digital-to-analog converter in one compact chassis, the CD6SE is a perfect fit for modern music playback. The CD6SE is positioned to optimize most any digital format with spectacular results.",
-            "billede": ["./assets/images/cd-players/creek_Destiny_CD.jpg"],
-            "category": "CD Players",
+            "navn": "Creek Destiny CD Player",
+            "id": "creek_destiny_cd",
+            "andreProdukter": "See other Creek products",
+            "outletPrice": "899.00",
+            "pris": "399.00",
+            "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+            "billede": ["./assets/images/cd-players/creek_Destiny_cd.jpg"],
+            "category": "cd-players",
+            "manufacturer": "creek",
 
             "additionalInformations": {
-                "manufacturer": "Audio Research",
+                "manufacturer": "Creek",
+                "manufacturerLink": "",
+                "freeWarranty": "3 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+
+            "description": [
+
+                {
+                    "key": "Freqency response:",
+                    "value": "+0-3dB, 3Hz to 96kHz at rated output. 0.15dB 20Hz to 20kHz. (Balanced, 200k ohms load) @ 192kHz sample rate."
+                },
+
+                {
+                    "key": "Distortion:",
+                    "value": "THD+N Less than .004% at 2V RMS BAL output"
+                },
+
+                {
+                    "key": "Signal-noise ratio:",
+                    "value": "110db"
+                },
+
+                {
+                    "key": "Dynamic ranfe (AES17):",
+                    "value": "111db"
+                }
+            ]
+        },
+
+
+        {
+            "navn": "Creek Evo CD Player",
+            "id": "creek_evo_cd",
+            "andreProdukter": "See other Creek products",
+            "outletPrice": "1299.00",
+            "pris": "999.00",
+            "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+            "billede": ["./assets/images/cd-players/creek_evo_cd.jpg"],
+            "category": "cd-players",
+            "manufacturer": "creek",
+
+            "additionalInformations": {
+                "manufacturer": "Creek",
+                "manufacturerLink": "",
+                "freeWarranty": "3 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+
+            "description": [
+
+                {
+                    "key": "Freqency response:",
+                    "value": "+0-3dB, 3Hz to 96kHz at rated output. 0.15dB 20Hz to 20kHz. (Balanced, 200k ohms load) @ 192kHz sample rate."
+                },
+
+                {
+                    "key": "Distortion:",
+                    "value": "THD+N Less than .004% at 2V RMS BAL output"
+                },
+
+                {
+                    "key": "Signal-noise ratio:",
+                    "value": "110db"
+                },
+
+                {
+                    "key": "Dynamic ranfe (AES17):",
+                    "value": "111db"
+                }
+            ]
+        },
+
+
+        {
+            "navn": "Creek Classic DVD Player",
+            "id": "creek_classic_dvd_player",
+            "andreProdukter": "See other Creek products",
+            "outletPrice": "1299.00",
+            "pris": "999.00",
+            "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+            "billede": ["./assets/images/dvd-players/creek_classic.jpg"],
+            "category": "DVD-Players",
+            "manufacturer": "creek",
+
+            "additionalInformations": {
+                "manufacturer": "Creek",
+                "manufacturerLink": "",
+                "freeWarranty": "3 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+
+            "description": [
+
+                {
+                    "key": "Freqency response:",
+                    "value": "+0-3dB, 3Hz to 96kHz at rated output. 0.15dB 20Hz to 20kHz. (Balanced, 200k ohms load) @ 192kHz sample rate."
+                },
+
+                {
+                    "key": "Distortion:",
+                    "value": "THD+N Less than .004% at 2V RMS BAL output"
+                },
+
+                {
+                    "key": "Signal-noise ratio:",
+                    "value": "110db"
+                },
+
+                {
+                    "key": "Dynamic ranfe (AES17):",
+                    "value": "111db"
+                }
+            ]
+        },
+
+
+        {
+            "navn": "Exposure 2010S DVD Player",
+            "id": "exposure_2010s_dvd_player",
+            "andreProdukter": "See other Creek products",
+            "outletPrice": "1299.00",
+            "pris": "999.00",
+            "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+            "billede": ["./assets/images/dvd-players/exposure_2010S.jpg"],
+            "category": "DVD-Players",
+            "manufacturer": "exposure",
+
+            "additionalInformations": {
+                "manufacturer": "Exposure",
+                "manufacturerLink": "",
+                "freeWarranty": "3 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+
+            "description": [
+
+                {
+                    "key": "Freqency response:",
+                    "value": "+0-3dB, 3Hz to 96kHz at rated output. 0.15dB 20Hz to 20kHz. (Balanced, 200k ohms load) @ 192kHz sample rate."
+                },
+
+                {
+                    "key": "Distortion:",
+                    "value": "THD+N Less than .004% at 2V RMS BAL output"
+                },
+
+                {
+                    "key": "Signal-noise ratio:",
+                    "value": "110db"
+                },
+
+                {
+                    "key": "Dynamic ranfe (AES17):",
+                    "value": "111db"
+                }
+            ]
+        },
+
+
+        {
+            "navn": "Parasound D200 DVD Player",
+            "id": "parasound_d200_dvd_player",
+            "andreProdukter": "See other Creek products",
+            "outletPrice": "999.00",
+            "pris": "699.00",
+            "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+            "billede": ["./assets/images/dvd-players/parasound_d200.jpg"],
+            "category": "DVD-Players",
+            "manufacturer": "parasound",
+
+            "additionalInformations": {
+                "manufacturer": "Parasound",
+                "manufacturerLink": "",
+                "freeWarranty": "3 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+
+            "description": [
+
+                {
+                    "key": "Freqency response:",
+                    "value": "+0-3dB, 3Hz to 96kHz at rated output. 0.15dB 20Hz to 20kHz. (Balanced, 200k ohms load) @ 192kHz sample rate."
+                },
+
+                {
+                    "key": "Distortion:",
+                    "value": "THD+N Less than .004% at 2V RMS BAL output"
+                },
+
+                {
+                    "key": "Signal-noise ratio:",
+                    "value": "110db"
+                },
+
+                {
+                    "key": "Dynamic ranfe (AES17):",
+                    "value": "111db"
+                }
+            ]
+        },
+
+
+        {
+            "navn": "Parasound HALOD3 DVD Player",
+            "id": "parasound_halod3_dvd_player",
+            "andreProdukter": "See other Creek products",
+            "outletPrice": "999.00",
+            "pris": "699.00",
+            "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+            "billede": ["./assets/images/dvd-players/parasound_halod3.jpg"],
+            "category": "DVD-Players",
+            "manufacturer": "parasound",
+
+            "additionalInformations": {
+                "manufacturer": "Parasound",
+                "manufacturerLink": "",
+                "freeWarranty": "3 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+
+            "description": [
+
+                {
+                    "key": "Freqency response:",
+                    "value": "+0-3dB, 3Hz to 96kHz at rated output. 0.15dB 20Hz to 20kHz. (Balanced, 200k ohms load) @ 192kHz sample rate."
+                },
+
+                {
+                    "key": "Distortion:",
+                    "value": "THD+N Less than .004% at 2V RMS BAL output"
+                },
+
+                {
+                    "key": "Signal-noise ratio:",
+                    "value": "110db"
+                },
+
+                {
+                    "key": "Dynamic ranfe (AES17):",
+                    "value": "111db"
+                }
+            ]
+        },
+
+
+        {
+            "navn": "Creek A50I Integrated Amplifier",
+            "id": "creek_a50i_integrated_amplifier",
+            "andreProdukter": "See other Creek products",
+            "outletPrice": "999.00",
+            "pris": "699.00",
+            "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+            "billede": ["./assets/images/integrated-amplifiers/creek_a50I.jpg"],
+            "category": "integrated amplifiers",
+            "manufacturer": "creek",
+
+            "additionalInformations": {
+                "manufacturer": "Creek",
+                "manufacturerLink": "",
+                "freeWarranty": "3 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+
+            "description": [
+
+                {
+                    "key": "Freqency response:",
+                    "value": "+0-3dB, 3Hz to 96kHz at rated output. 0.15dB 20Hz to 20kHz. (Balanced, 200k ohms load) @ 192kHz sample rate."
+                },
+
+                {
+                    "key": "Distortion:",
+                    "value": "THD+N Less than .004% at 2V RMS BAL output"
+                },
+
+                {
+                    "key": "Signal-noise ratio:",
+                    "value": "110db"
+                },
+
+                {
+                    "key": "Dynamic ranfe (AES17):",
+                    "value": "111db"
+                }
+            ]
+        },
+
+
+        {
+            "navn": "Creek Classic 5350SE Integrated Amplifier",
+            "id": "creek_classic_5350se_integrated_amplifier",
+            "andreProdukter": "See other Creek products",
+            "outletPrice": "999.00",
+            "pris": "699.00",
+            "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+            "billede": ["./assets/images/integrated-amplifiers/creek_classic5350SE.jpg"],
+            "category": "integrated amplifiers",
+            "manufacturer": "creek",
+
+            "additionalInformations": {
+                "manufacturer": "Creek",
+                "manufacturerLink": "",
+                "freeWarranty": "3 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+
+            "description": [
+
+                {
+                    "key": "Freqency response:",
+                    "value": "+0-3dB, 3Hz to 96kHz at rated output. 0.15dB 20Hz to 20kHz. (Balanced, 200k ohms load) @ 192kHz sample rate."
+                },
+
+                {
+                    "key": "Distortion:",
+                    "value": "THD+N Less than .004% at 2V RMS BAL output"
+                },
+
+                {
+                    "key": "Signal-noise ratio:",
+                    "value": "110db"
+                },
+
+                {
+                    "key": "Dynamic ranfe (AES17):",
+                    "value": "111db"
+                }
+            ]
+        },
+
+
+        {
+            "navn": "Creek Destiny Amp Integrated Amplifier",
+            "id": "creek_destiny_amp_integrated_amplifier",
+            "andreProdukter": "See other Creek products",
+            "outletPrice": "999.00",
+            "pris": "699.00",
+            "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+            "billede": ["./assets/images/integrated-amplifiers/creek_destinyamp.jpg"],
+            "category": "integrated amplifiers",
+            "manufacturer": "creek",
+
+            "additionalInformations": {
+                "manufacturer": "Creek",
+                "manufacturerLink": "",
+                "freeWarranty": "3 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+
+            "description": [
+
+                {
+                    "key": "Freqency response:",
+                    "value": "+0-3dB, 3Hz to 96kHz at rated output. 0.15dB 20Hz to 20kHz. (Balanced, 200k ohms load) @ 192kHz sample rate."
+                },
+
+                {
+                    "key": "Distortion:",
+                    "value": "THD+N Less than .004% at 2V RMS BAL output"
+                },
+
+                {
+                    "key": "Signal-noise ratio:",
+                    "value": "110db"
+                },
+
+                {
+                    "key": "Dynamic ranfe (AES17):",
+                    "value": "111db"
+                }
+            ]
+        },
+
+
+        {
+            "navn": "Manley Snapper Integrated Amplifier",
+            "id": "manley_snapper_integrated_amplifier",
+            "andreProdukter": "See other Creek products",
+            "outletPrice": "999.00",
+            "pris": "699.00",
+            "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+            "billede": ["./assets/images/integrated-amplifiers/manley_snapper.jpg"],
+            "category": "integrated amplifiers",
+            "manufacturer": "manley",
+
+            "additionalInformations": {
+                "manufacturer": "Manley",
+                "manufacturerLink": "",
+                "freeWarranty": "3 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+
+            "description": [
+
+                {
+                    "key": "Freqency response:",
+                    "value": "+0-3dB, 3Hz to 96kHz at rated output. 0.15dB 20Hz to 20kHz. (Balanced, 200k ohms load) @ 192kHz sample rate."
+                },
+
+                {
+                    "key": "Distortion:",
+                    "value": "THD+N Less than .004% at 2V RMS BAL output"
+                },
+
+                {
+                    "key": "Signal-noise ratio:",
+                    "value": "110db"
+                },
+
+                {
+                    "key": "Dynamic ranfe (AES17):",
+                    "value": "111db"
+                }
+            ]
+        },
+
+
+
+        {
+            "navn": "Manley Stingray Integrated Amplifier",
+            "id": "manley_stingray_integrated_amplifier",
+            "andreProdukter": "See other Creek products",
+            "outletPrice": "999.00",
+            "pris": "699.00",
+            "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+            "billede": ["./assets/images/integrated-amplifiers/Manley_Stingray.jpg"],
+            "category": "integrated amplifiers",
+            "manufacturer": "manley",
+
+            "additionalInformations": {
+                "manufacturer": "Manley",
+                "manufacturerLink": "",
+                "freeWarranty": "3 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+
+            "description": [
+
+                {
+                    "key": "Freqency response:",
+                    "value": "+0-3dB, 3Hz to 96kHz at rated output. 0.15dB 20Hz to 20kHz. (Balanced, 200k ohms load) @ 192kHz sample rate."
+                },
+
+                {
+                    "key": "Distortion:",
+                    "value": "THD+N Less than .004% at 2V RMS BAL output"
+                },
+
+                {
+                    "key": "Signal-noise ratio:",
+                    "value": "110db"
+                },
+
+                {
+                    "key": "Dynamic ranfe (AES17):",
+                    "value": "111db"
+                }
+            ]
+        },
+
+
+        {
+            "navn": "Pro Ject Debut 3",
+            "id": "pro_ject_debut",
+            "andreProdukter": "See other Creek products",
+            "outletPrice": "999.00",
+            "pris": "699.00",
+            "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+            "billede": ["./assets/images/lps/Pro_ject_Debut_3_bl.jpg", "./assets/images/lps/Pro_ject_Debut_III_red_1.jpg", "./assets/images/lps/Pro_ject_Debut_III_yellow_1.jpg"],
+            "category": "LPS",
+            "manufacturer": "pro_ject",
+
+            "additionalInformations": {
+                "manufacturer": "Pro Ject",
+                "manufacturerLink": "",
+                "freeWarranty": "3 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+
+            "description": [
+
+                {
+                    "key": "Freqency response:",
+                    "value": "+0-3dB, 3Hz to 96kHz at rated output. 0.15dB 20Hz to 20kHz. (Balanced, 200k ohms load) @ 192kHz sample rate."
+                },
+
+                {
+                    "key": "Distortion:",
+                    "value": "THD+N Less than .004% at 2V RMS BAL output"
+                },
+
+                {
+                    "key": "Signal-noise ratio:",
+                    "value": "110db"
+                },
+
+                {
+                    "key": "Dynamic ranfe (AES17):",
+                    "value": "111db"
+                }
+            ]
+        },
+
+
+        {
+            "navn": "Pro Ject RPM 5",
+            "id": "pro_ject_rpm_5",
+            "andreProdukter": "See other Creek products",
+            "outletPrice": "999.00",
+            "pris": "699.00",
+            "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+            "billede": ["./assets/images/lps/Pro_ject_rpm_5.jpg"],
+            "category": "LPS",
+            "manufacturer": "pro_ject",
+
+            "additionalInformations": {
+                "manufacturer": "Pro Ject",
+                "manufacturerLink": "",
+                "freeWarranty": "3 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+
+            "description": [
+
+                {
+                    "key": "Freqency response:",
+                    "value": "+0-3dB, 3Hz to 96kHz at rated output. 0.15dB 20Hz to 20kHz. (Balanced, 200k ohms load) @ 192kHz sample rate."
+                },
+
+                {
+                    "key": "Distortion:",
+                    "value": "THD+N Less than .004% at 2V RMS BAL output"
+                },
+
+                {
+                    "key": "Signal-noise ratio:",
+                    "value": "110db"
+                },
+
+                {
+                    "key": "Dynamic ranfe (AES17):",
+                    "value": "111db"
+                }
+            ]
+        },
+
+
+        {
+            "navn": "Pro Ject RPM 10",
+            "id": "pro_ject_rpm_10",
+            "andreProdukter": "See other Creek products",
+            "outletPrice": "999.00",
+            "pris": "699.00",
+            "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+            "billede": ["./assets/images/lps/Pro_ject_rpm10.jpg"],
+            "category": "LPS",
+            "manufacturer": "pro_ject",
+
+            "additionalInformations": {
+                "manufacturer": "Pro Ject",
                 "manufacturerLink": "",
                 "freeWarranty": "3 years",
                 "deliveryCharge": "Free",
@@ -111,5 +699,12 @@
 
 
 
+
+
+
+
+
+
+        
     ]
 }
