@@ -8,6 +8,8 @@ import fetchProducts from "./fetch.js";
 import footer from "./footer.js";
 import filterProductsByPrice from "./shop-category-list-filterByPrice.js";
 import filterProductsByManufacturer from "./shop-category-list-filterByManufacturer.js";
+import {numbersForFilterPrice, numbersForFilterManufacturer, displayNumbers} from "./shop-category-list-filterNumbers.js"
+import addManufactorers from "./mbc.js";
 
 fetchProducts().then(function(products){
     console.log(urlGetKey("product"));
@@ -284,7 +286,7 @@ priceRangeButton.forEach(function(button){
     })
 });
 
-let manufactorerButton = document.querySelectorAll(".manufacturer")
+let manufactorerButton = document.querySelectorAll(".manufacturer");
 manufactorerButton.forEach(function(button){
     button.addEventListener("click", function(event){
         if (event.target.classList.contains("subCategory")) {
@@ -294,9 +296,26 @@ manufactorerButton.forEach(function(button){
             displayProducts(sortBox.products);
         }
     })
-})
+});
+
+//#region FILTER NUMBERS
+
+let amountOfPrice = document.querySelectorAll(".shopBy span");
+window.onload = amountOfPrice.forEach(element => {
+    let number = numbersForFilterPrice(dummyProjectArray, element.dataset.minprice, element.dataset.maxprice);
+    displayNumbers(element, number);
+});
+
+let amountOfManufaturer = document.querySelectorAll(".manufacturer span");
+window.onload = amountOfManufaturer.forEach(element => {
+    let number = numbersForFilterManufacturer(dummyProjectArray, element.dataset.manufacturer);
+    displayNumbers(element, number);
+});
+
+//#endregion FILTER NUMBERS
 
 //#endregion FILTER FUNCTIONS
+
 
 //#region FOOTER
 
