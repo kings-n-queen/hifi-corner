@@ -8,8 +8,8 @@ import fetchProducts from "./fetch.js";
 import footer from "./footer.js";
 import filterProductsByPrice from "./shop-category-list-filterByPrice.js";
 import filterProductsByManufacturer from "./shop-category-list-filterByManufacturer.js";
-import {numbersForFilterPrice, numbersForFilterManufacturer, displayNumbers} from "./shop-category-list-filterNumbers.js"
-import categoryHandler from "./shop-category-list-amplifiers.js"
+import {numbersForFilterPrice, numbersForFilterManufacturer, displayNumbers} from "./shop-category-list-filterNumbers.js";
+import categoryHandler from "./shop-category-list-amplifiers.js";
 
 fetchProducts().then(function(jsonObj) {
     console.log(urlGetKey("product"));
