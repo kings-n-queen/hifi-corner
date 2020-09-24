@@ -9,6 +9,9 @@ import {singlePageImage, changeLargeImg} from "./singlepage--image.js";
 import productDetailsName from "./single-product-details.js";
 import search from "./searchbarfunction.js";
 
+// Dette er en test
+// Dette er test nr. 2
+
 
 // test 5201
 fetchProducts().then(function(products) {
