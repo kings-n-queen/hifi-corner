@@ -8,6 +8,7 @@ import {singlePageImage, changeLargeImg} from "./singlepage--image.js";
 import productDetailsName from "./single-product-details.js";
 import search from "./searchbarfunction.js";
 
+// Dette er en test
 
 fetchProducts().then(function(products) {
     console.log(urlGetKey("product"));
