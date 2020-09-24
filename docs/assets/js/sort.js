@@ -7,7 +7,7 @@ let sortCountCallback;
 
 let sortBox = {
     productsArray: null,
-    sortBy: "price",
+    sortBy: "pris",
     ascending: true,
     gridView: true,
     maxDisplayCount: 0,
@@ -154,7 +154,7 @@ function compare(a, b) {
     let compareA = a[key].toUpperCase();
     let compareB = b[key].toUpperCase();
 
-    if (key === "price") {
+    if (key === "pris") {
         compareA = extractPrice(compareA);
         compareB = extractPrice(compareB);
     }
@@ -175,6 +175,7 @@ function extractPrice(price) {
 
 function objectSort(arr, sortKey, ascending = true) {
     key = sortKey;
+    console.log(key)
     direction = ascending ? 1 : -1;
     arr.sort(compare);
 }
