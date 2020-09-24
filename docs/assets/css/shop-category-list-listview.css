@@ -8,8 +8,9 @@
 .listView .listView__card{
     grid-template-columns: repeat(4, minmax(250px, 1fr));
 }
-.listView .card__productLink img{
-    max-width: 100px;
+.listView__card img {
+    max-width: 200px;
+    max-height: 180px;
 }
 .listView__card{
     display: grid;
