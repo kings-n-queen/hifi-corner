@@ -693,18 +693,405 @@
                     "value": "111db"
                 }
             ]
-        }
-
-
-
-
-
-
-
-
-
-
-
+        },
         
+        {
+            "navn": "Manley Mahi",
+            "id": "manley-mahi",
+            "andreProdukter": "See other Manley products",
+            "outletPrice": "699.00",
+            "pris": "499.00",
+            "beskrivelse": "From the transformer to the input terminals, each section of the Artera has been engineered from the ground up to ensure power, musicality and stability. The Artera Stereo produces 140 Watts RMS per channel – ample power for driving first-class loudspeakers, unfaltering even under high dynamic and transient conditions thanks to the patented Current Dumping technology. Special attention has also been paid to the newly developed balanced XLR inputs. The robust connections are yet another string to the Artera Stereo's bow, with an incomparable signal to noise ratio.",
+            "billede": ["./assets/images/power-amplifiers/manley_mahi.jpg"],
+            "category": "power-amplifiers",
+            "manufacturer": "manley",
+
+            "additionalInformations": {
+                "manufacturer": "manley",
+                "manufacturerLink": "",
+                "freeWarranty": "2 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+
+            "description": [
+
+                {
+                    "key": "Dimentions (W × H × D):",
+                    "value": "431 × 188 × 454mm"
+                },
+                {
+                    "key": "Front Panel Height:",
+                    "value": "4U / 176.8mm"
+                },
+
+                {
+                    "key": "Power Requirements:",
+                    "value": "230V, 50Hz"
+                },
+
+                {
+                    "key": "Power Comsumption:",
+                    "value": "650w"
+        },
+                
+        {
+            "navn": "Manley Neoclassic 300 b",
+            "id": "manley-neoclassic300b",
+            "andreProdukter": "See other Manley products",
+            "outletPrice": "900.00",
+            "pris": "799.00",
+            "beskrivelse": "From the transformer to the input terminals, each section of the Artera has been engineered from the ground up to ensure power, musicality and stability. The Artera Stereo produces 140 Watts RMS per channel – ample power for driving first-class loudspeakers, unfaltering even under high dynamic and transient conditions thanks to the patented Current Dumping technology. Special attention has also been paid to the newly developed balanced XLR inputs. The robust connections are yet another string to the Artera Stereo's bow, with an incomparable signal to noise ratio.",
+            "billede": ["./assets/images/power-amplifiers/manley_neoclassic300b.jpg"],
+            "category": "power-amplifiers",
+            "manufacturer": "manley",
+
+            "additionalInformations": {
+                "manufacturer": "manley",
+                "manufacturerLink": "",
+                "freeWarranty": "4 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+
+            "description": [
+
+                {
+                    "key": "Dimentions (W × H × D):",
+                    "value": "431 × 188 × 454mm"
+                },
+                {
+                    "key": "Front Panel Height:",
+                    "value": "4U / 126.8mm"
+                },
+
+                {
+                    "key": "Power Requirements:",
+                    "value": "120V, 60Hz"
+                },
+
+                {
+                    "key": "Power Comsumption:",
+                    "value": "680w"
+        },
+                
+        {
+            "navn": "Manley Snapper",
+            "id": "manley-snapper",
+            "andreProdukter": "See other Manley products",
+            "outletPrice": "499.00",
+            "pris": "369.00",
+            "beskrivelse": "If a tube fails, Adaptive AutoBias will instantly put the amplifier into protection mode so no parts can get damaged. A red LED will light up in front of the tube that needs replacing. Simply plug in another tube, and listen. No guesswork. No smoking amp. No getting out the soldering iron or dropping your amp off at UPS. ",
+            "billede": ["./assets/images/power-amplifiers/manley_snapper.jpg"],
+            "category": "power-amplifiers",
+            "manufacturer": "manley",
+
+            "additionalInformations": {
+                "manufacturer": "manley",
+                "manufacturerLink": "",
+                "freeWarranty": "1 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+
+            "description": [
+
+                {
+                    "key": "Dimentions (W × H × D):",
+                    "value": "431 × 110 × 454mm"
+                },
+                {
+                    "key": "Front Panel Height:",
+                    "value": "4U / 486.8mm"
+                },
+
+                {
+                    "key": "Power Requirements:",
+                    "value": "300V, 30Hz"
+                },
+
+                {
+                    "key": "Power Comsumption:",
+                    "value": "250w"
+            },
+
+            {
+            "navn": "Manley Snapper",
+            "id": "manley-snapper",
+            "andreProdukter": "See other Manley products",
+            "outletPrice": "499.00",
+            "pris": "369.00",
+            "beskrivelse": "If a tube fails, Adaptive AutoBias will instantly put the amplifier into protection mode so no parts can get damaged. A red LED will light up in front of the tube that needs replacing. Simply plug in another tube, and listen. No guesswork. No smoking amp. No getting out the soldering iron or dropping your amp off at UPS. ",
+            "billede": ["./assets/images/power-amplifiers/manley_snapper.jpg"],
+            "category": "power-amplifiers",
+            "manufacturer": "manley",
+
+            "additionalInformations": {
+                "manufacturer": "manley",
+                "manufacturerLink": "",
+                "freeWarranty": "1 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+
+            "description": [
+
+                {
+                    "key": "Dimentions (W × H × D):",
+                    "value": "431 × 110 × 454mm"
+                },
+                {
+                    "key": "Front Panel Height:",
+                    "value": "4U / 486.8mm"
+                },
+
+                {
+                    "key": "Power Requirements:",
+                    "value": "300V, 30Hz"
+                },
+
+                {
+                    "key": "Power Comsumption:",
+                    "value": "250w"
+                },
+
+                {
+                "navn": "Parasound Haloa 23",
+                "id": "parasound-haloa23",
+                "andreProdukter": "See other Parasound products",
+                "outletPrice": "2.210.00",
+                "pris": "1.999.00",
+                "beskrivelse": "Do you have some classic rock albums you used to love so much that have now ended up left on the shelf, un-played for years? How about jazz or classical recordings from the 60’s? Every audiophile has albums that they used to play, but stopped because they are harsh, brittle, or bright. There is a solution. ",
+                "billede": ["./assets/images/power-amplifiers/parasound_haloa23.jpg"],
+                "category": "power-amplifiers",
+                "manufacturer": "parasound",
+        
+                "additionalInformations": {
+                    "manufacturer": "parasound",
+                    "manufacturerLink": "",
+                    "freeWarranty": "2 years",
+                    "deliveryCharge": "Free",
+                    "deliveryTime": "1-5 Working days",
+                    "cardSurcharges": "No"
+                },
+        
+                "description": [
+        
+                {
+                    "key": "Power:",
+                    "value": "Stereo Ultra-linear -44 watts x 2 (EL34) (8Ω, 1% THD)"
+                },
+                {
+                    "key": "Freq. Response:",
+                    "value": "-10Hz-70kHz +/- 1dB 8Hz-75kHz +/- 3dB"
+                },
+                {
+                    "key": "S/N Ratio:",
+                    "value": "91 dB, 105 dBA"
+                },
+                {
+                    "key": "Input Impedance :",
+                    "value": "100kΩ"
+                },
+
+                {
+                "navn": "Creek OBH 22 Passive Premp",
+                "id": "creek_OBH_22_Passive_Preamp",
+                "andreProdukter": "See other Creek products",
+                "outletPrice": "1.210.00",
+                "pris": "1.000.00",
+                "beskrivelse": "Do you have some classic rock albums you used to love so much that have now ended up left on the shelf, un-played for years? How about jazz or classical recordings from the 60’s? Every audiophile has albums that they used to play, but stopped because they are harsh, brittle, or bright. There is a solution. ",
+                "billede": ["./assets/images/power-amplifiers/Creek_OBH_22_Passive_Preamp.jpg"],
+                "category": "preamplifiers",
+                "manufacturer": "creek",
+            
+                "additionalInformations": {
+                    "manufacturer": "creek",
+                    "manufacturerLink": "",
+                    "freeWarranty": "1 years",
+                    "deliveryCharge": "Free",
+                    "deliveryTime": "1-5 Working days",
+                    "cardSurcharges": "No"
+                },
+            
+                "description": [
+            
+                {
+                    "key": "Power:",
+                    "value": "Stereo Ultra-linear -50 watts x 2 (EL34) (8Ω, 1% THD)"
+                },
+                {
+                    "key": "Freq. Response:",
+                    "value": "-20Hz-70kHz +/- 1dB 8Hz-75kHz +/- 3dB"
+                },
+                {
+                    "key": "S/N Ratio:",
+                    "value": "91 dB, 110 dBA"
+                },
+                {
+                    "key": "Input Impedance :",
+                    "value": "200kΩ"
+                },
+    
+                {
+                "navn": "Creek OBH 22 Passive Premp",
+                "id": "creek_OBH_22_Passive_Preamp",
+                "andreProdukter": "See other Creek products",
+                "outletPrice": "1.210.00",
+                "pris": "1.000.00",
+                "beskrivelse": "Do you have some classic rock albums you used to love so much that have now ended up left on the shelf, un-played for years? How about jazz or classical recordings from the 60’s? Every audiophile has albums that they used to play, but stopped because they are harsh, brittle, or bright. There is a solution. ",
+                "billede": ["./assets/images/power-amplifiers/Creek_OBH_22_Passive_Preamp.jpg"],
+                "category": "preamplifiers",
+                "manufacturer": "creek",
+            
+                "additionalInformations": {
+                    "manufacturer": "creek",
+                    "manufacturerLink": "",
+                    "freeWarranty": "1 years",
+                    "deliveryCharge": "Free",
+                    "deliveryTime": "1-5 Working days",
+                    "cardSurcharges": "No"
+                },
+            
+                "description": [
+            
+                {
+                    "key": "Power:",
+                    "value": "Stereo Ultra-linear -50 watts x 2 (EL34) (8Ω, 1% THD)"
+                },
+                {
+                    "key": "Freq. Response:",
+                    "value": "-20Hz-70kHz +/- 1dB 8Hz-75kHz +/- 3dB"
+                },
+                {
+                    "key": "S/N Ratio:",
+                    "value": "91 dB, 110 dBA"
+                },
+                {
+                    "key": "Input Impedance :",
+                    "value": "200kΩ"
+                },
+
+                {
+                "navn": "Parasound Classic 7100",
+                "id": "parasound_classic7100",
+                "andreProdukter": "See other Parasound products",
+                "outletPrice": "510.00",
+                "pris": "499.00",
+                "beskrivelse": "FBA-800 is our most advanced power amplifier. The floating bridge design combines four 20 Watt amplifiers in a single stereo chassis and provides several key benefits. Each channel consists of two amplifiers working as voltage amplifiers driving an output stage of bridged power transistors. The advantages are a low noise floor, better power output relative to the voltage rails (x2) and with the fixed current of the class A mode, low output impedance and better load tolerance.",
+                "billede": ["./assets/images/power-amplifiers/parasound_classic7100.jpg"],
+                "category": "preamplifiers",
+                "manufacturer": "parasound",
+                
+                "additionalInformations": {
+                    "manufacturer": "parasound",
+                    "manufacturerLink": "",
+                    "freeWarranty": "2 years",
+                    "deliveryCharge": "Free",
+                    "deliveryTime": "1-5 Working days",
+                    "cardSurcharges": "No"
+                },
+                
+                "description": [
+                
+                {
+                    "key": "Power:",
+                    "value": "Stereo Ultra-linear -20 watts x 2 (EL34) (9Ω, 5% THD)"
+                },
+                {
+                    "key": "Freq. Response:",
+                    "value": "-50Hz-70kHz +/- 8dB 8Hz-80kHz +/- 4dB"
+                },
+                {
+                    "key": "S/N Ratio:",
+                    "value": "40 dB, 810 dBA"
+                },
+                {
+                    "key": "Input Impedance :",
+                    "value": "100kΩ"
+                },
+
+                {
+                "navn": "Parasound Halop 3",
+                "id": "parasound_halop3",
+                "andreProdukter": "See other Parasound products",
+                "outletPrice": "610.00",
+                "pris": "599.00",
+                "beskrivelse": "FBA-800 is our most advanced power amplifier. The floating bridge design combines four 20 Watt amplifiers in a single stereo chassis and provides several key benefits. Each channel consists of two amplifiers working as voltage amplifiers driving an output stage of bridged power transistors. The advantages are a low noise floor, better power output relative to the voltage rails (x2) and with the fixed current of the class A mode, low output impedance and better load tolerance.",
+                "billede": ["./assets/images/power-amplifiers/parasound_halop3.jpg"],
+                "category": "preamplifiers",
+                "manufacturer": "parasound",
+                    
+                "additionalInformations": {
+                    "manufacturer": "parasound",
+                    "manufacturerLink": "",
+                    "freeWarranty": "2 years",
+                    "deliveryCharge": "Free",
+                    "deliveryTime": "1-5 Working days",
+                    "cardSurcharges": "No"
+                    },
+                    
+                "description": [
+                    
+                {
+                    "key": "Power:",
+                    "value": "Stereo Ultra-linear -70 watts x 2 (EL34) (9Ω, 5% THD)"
+                },
+                {
+                    "key": "Freq. Response:",
+                    "value": "-50Hz-70kHz +/- 9dB 8Hz-80kHz +/- 4dB"
+                },
+                {
+                    "key": "S/N Ratio:",
+                    "value": "10 dB, 710 dBA"
+                },
+                {
+                    "key": "Input Impedance :",
+                    "value": "150kΩ"
+                },
+
+                {
+                "navn": "Project Prebox",
+                "id": "project_prebox",
+                "andreProdukter": "See other Prebox products",
+                "outletPrice": "710.00",
+                "pris": "659.00",
+                "beskrivelse": "These features make it a perfect match with the preamp REVO SC-2, which expresses the same sound personality. But, also for people who want to combine it with other preamps, the REVO PA-160MR can become a perfect partner. For example, with the best tube preamps you can enhance the characteristics of sound, giving an extraordinary ability to drive the speakers without introducing any harshness in the sound and the listening fatigue often present in solid state amplifiers.",
+                "billede": ["./assets/images/power-amplifiers/Project_prebox.jpg"],
+                "category": "preamplifiers",
+                "manufacturer": "project",
+                        
+                "additionalInformations": {
+                    "manufacturer": "project",
+                    "manufacturerLink": "",
+                    "freeWarranty": "1 years",
+                    "deliveryCharge": "Free",
+                    "deliveryTime": "1-5 Working days",
+                    "cardSurcharges": "No"
+                },
+                        
+                "description": [
+                        
+                {
+                    "key": "Power:",
+                    "value": "Stereo Ultra-linear -20 watts x 1 (EL34) (40Ω, 3% THD)"
+                },
+                {
+                    "key": "Freq. Response:",
+                    "value": "20Hz-80kHz +/- 8dB 1Hz-50kHz +/- 4dB"
+                },
+                {
+                    "key": "S/N Ratio:",
+                    "value": "80 dB, 500 dBA"
+                },
+                {
+                    "key": "Input Impedance :",
+                    "value": "480kΩ"
+                }
+               
     ]
 }
