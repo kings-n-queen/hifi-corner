@@ -7,6 +7,7 @@ import {setURL, urlGetKey} from "./url-handler.js";
 import fetchProducts from "./fetch.js";
 import footer from "./footer.js";
 import filterProductsByPrice from "./shop-category-list-filterByPrice.js";
+import filterProductsByManufacturer from "./shop-category-list-filterByManufacturer.js";
 
 fetchProducts().then(function(products){
     console.log(urlGetKey("product"));
@@ -22,6 +23,14 @@ const dummyProjectArray = [
         "imgSrc": "./assets/images/power-amplifiers/manley_mahi.jpg",
         "name": "MANLEY MAHI POWER AMPLIFIER",
         "price": "£329.00",
+        "additionalInformations": {
+            "manufacturer": "Marantz",
+            "manufacturerLink": "",
+            "freeWarranty": "3 years",
+            "deliveryCharge": "Free",
+            "deliveryTime": "1-5 Working days",
+            "cardSurcharges": "No"
+        },
         "manufactorer": {
             "name": "manley",
             "permalink": "?manufactorer=manley"
@@ -33,6 +42,14 @@ const dummyProjectArray = [
         "name": "MANLEY NEOCLASSIC 300B AMPLIFIER",
         "reference": "£1299.00",
         "price": "£739.00",
+        "additionalInformations": {
+            "manufacturer": "Marantz",
+            "manufacturerLink": "",
+            "freeWarranty": "3 years",
+            "deliveryCharge": "Free",
+            "deliveryTime": "1-5 Working days",
+            "cardSurcharges": "No"
+        },
         "manufactorer": {
             "name": "manley",
             "permalink": "?manufactorer=manley"
@@ -44,6 +61,14 @@ const dummyProjectArray = [
         "name": "MANLEY SNAPPER POWER AMPLIFIER",
         "reference": "749.00",
         "price": "£599.00",
+        "additionalInformations": {
+            "manufacturer": "Marantz",
+            "manufacturerLink": "",
+            "freeWarranty": "3 years",
+            "deliveryCharge": "Free",
+            "deliveryTime": "1-5 Working days",
+            "cardSurcharges": "No"
+        },
         "manufactorer": {
             "name": "manley",
             "permalink": "?manufactorer=manley"
@@ -54,6 +79,14 @@ const dummyProjectArray = [
         "imgSrc": "./assets/images/power-amplifiers/parasound_haloa23.jpg",
         "name": "PARASOUND HALOA 23 POWER AMPLIFIER",
         "price": "£249.00",
+        "additionalInformations": {
+            "manufacturer": "Marantz",
+            "manufacturerLink": "",
+            "freeWarranty": "3 years",
+            "deliveryCharge": "Free",
+            "deliveryTime": "1-5 Working days",
+            "cardSurcharges": "No"
+        },
         "manufactorer": {
             "name": "parasound",
             "permalink": "?manufactorer=parasound"
@@ -64,6 +97,14 @@ const dummyProjectArray = [
         "imgSrc": "./assets/images/power-amplifiers/manley_mahi.jpg",
         "name": "MANLEY MAHI POWER AMPLIFIER",
         "price": "£1329.00",
+        "additionalInformations": {
+            "manufacturer": "Marantz",
+            "manufacturerLink": "",
+            "freeWarranty": "3 years",
+            "deliveryCharge": "Free",
+            "deliveryTime": "1-5 Working days",
+            "cardSurcharges": "No"
+        },
         "manufactorer": {
             "name": "manley",
             "permalink": "?manufactorer=manley"
@@ -75,6 +116,14 @@ const dummyProjectArray = [
         "name": "MANLEY NEOCLASSIC 200B AMPLIFIER",
         "reference": "£1299.00",
         "price": "£739.00",
+        "additionalInformations": {
+            "manufacturer": "Marantz",
+            "manufacturerLink": "",
+            "freeWarranty": "3 years",
+            "deliveryCharge": "Free",
+            "deliveryTime": "1-5 Working days",
+            "cardSurcharges": "No"
+        },
         "manufactorer": {
             "name": "manley",
             "permalink": "?manufactorer=manley"
@@ -86,6 +135,14 @@ const dummyProjectArray = [
         "name": "MANLEY SNAPPER POWER AMPLIFIER",
         "reference": "749.00",
         "price": "£599.00",
+        "additionalInformations": {
+            "manufacturer": "Marantz",
+            "manufacturerLink": "",
+            "freeWarranty": "3 years",
+            "deliveryCharge": "Free",
+            "deliveryTime": "1-5 Working days",
+            "cardSurcharges": "No"
+        },
         "manufactorer": {
             "name": "manley",
             "permalink": "?manufactorer=manley"
@@ -96,6 +153,14 @@ const dummyProjectArray = [
         "imgSrc": "./assets/images/power-amplifiers/parasound_haloa23.jpg",
         "name": "PARASOUND HALOA 21 POWER AMPLIFIER",
         "price": "249.00",
+        "additionalInformations": {
+            "manufacturer": "Marantz",
+            "manufacturerLink": "",
+            "freeWarranty": "3 years",
+            "deliveryCharge": "Free",
+            "deliveryTime": "1-5 Working days",
+            "cardSurcharges": "No"
+        },
         "manufactorer": {
             "name": "parasound",
             "permalink": "?manufactorer=parasound"
@@ -106,6 +171,14 @@ const dummyProjectArray = [
         "imgSrc": "./assets/images/cd-players/creek_classic_cd.jpg",
         "name": "CREEK CLASSIC CD",
         "price": "£99.00",
+        "additionalInformations": {
+            "manufacturer": "Marantz",
+            "manufacturerLink": "",
+            "freeWarranty": "3 years",
+            "deliveryCharge": "Free",
+            "deliveryTime": "1-5 Working days",
+            "cardSurcharges": "No"
+        },
         "manufactorer": {
             "name": "creek",
             "permalink": "?manufactorer=creek"
@@ -116,6 +189,14 @@ const dummyProjectArray = [
         "imgSrc": "./assets/images/cd-players/creek_Destiny_CD.jpg",
         "name": "CREEK DESTINY CD",
         "price": "£149.00",
+        "additionalInformations": {
+            "manufacturer": "arcam",
+            "manufacturerLink": "",
+            "freeWarranty": "3 years",
+            "deliveryCharge": "Free",
+            "deliveryTime": "1-5 Working days",
+            "cardSurcharges": "No"
+        },
         "manufactorer": {
             "name": "creek",
             "permalink": "?manufactorer=creek"
@@ -191,18 +272,29 @@ function addBreadcrumbItem(toArray, title, permalink) {
 
 //#region FILTER FUNCTIONS
 
-let priceRangeButton = document.querySelectorAll(".shopCategories__list");
+let priceRangeButton = document.querySelectorAll(".shopBy");
 priceRangeButton.forEach(function(button){
     button.addEventListener("click", function(event){
         if (event.target.classList.contains("subCategory")) {
             event.preventDefault();
-            console.log(event.target.dataset.minprice);
-            let productsFilteredByPrice = filterProductsByPrice(products, event.target.dataset.minprice, event.target.dataset.maxprice);
+            let productsFilteredByPrice = filterProductsByPrice(dummyProjectArray, event.target.dataset.minprice, event.target.dataset.maxprice);
             sortBox.products = [...productsFilteredByPrice];
             displayProducts(sortBox.products);
         }
     })
 });
+
+let manufactorerButton = document.querySelectorAll(".manufacturer")
+manufactorerButton.forEach(function(button){
+    button.addEventListener("click", function(event){
+        if (event.target.classList.contains("subCategory")) {
+            event.preventDefault();
+            let productsFilteredByManufacturer = filterProductsByManufacturer(dummyProjectArray, event.target.dataset.manufacturer);
+            sortBox.products = [...productsFilteredByManufacturer];
+            displayProducts(sortBox.products);
+        }
+    })
+})
 
 //#endregion FILTER FUNCTIONS
 

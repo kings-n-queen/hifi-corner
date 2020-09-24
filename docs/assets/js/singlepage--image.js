@@ -1,14 +1,14 @@
 const singlePageImageContainer = document.querySelector(".mainSinglePage__image");
 
-function singlePageImage(products){
+function singlePageImage(product){
     var largeImage = document.createElement("img");
     largeImage.className = "mainSinglePage__image__largeImage";
-    largeImage.src = products.imgSrc[0];
+    largeImage.src = product.billede[0];
 
     let thumbnailsContainer = document.createElement("div");
     thumbnailsContainer.className = "mainSinglePage__image__thumbnailContainer";
 
-    products.imgSrc.forEach(product => {
+    product.billede.forEach(product => {
         let thumbnailImage = document.createElement("img");
         thumbnailImage.className = "thumbnailContainer__image";
         thumbnailImage.src = product;
