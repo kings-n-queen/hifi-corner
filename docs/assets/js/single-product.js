@@ -12,6 +12,8 @@ import search from "./searchbarfunction.js";
 // Dette er en test
 // Dette er test nr. 2
 
+
+// test 5201
 fetchProducts().then(function(products) {
     console.log(urlGetKey("product"));
     console.log(products);
