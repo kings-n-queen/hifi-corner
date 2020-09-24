@@ -1,4 +1,4 @@
-import updateMBC from "./mbc.js";
+import addManufacturers from "./mbc.js";
 import breadcrumbs from "./breadcrumbs.js";
 import displayProducts from "./listView.js";
 import sort from "./sort.js";
@@ -7,9 +7,10 @@ import {setURL, urlGetKey} from "./url-handler.js";
 import fetchProducts from "./fetch.js";
 import footer from "./footer.js";
 
-fetchProducts().then(function(products){
+fetchProducts().then(function(jsonObj){
     console.log(urlGetKey("product"));
-    console.log(products);
+    console.log(jsonObj);
+    addManufacturers(jsonObj.products);
 });
 
 //#region dummyArray
@@ -164,12 +165,6 @@ function toggleView() {
 }
 
 //#endregion SORT FUNCTIONS
-
-//#region MBC
-
-updateMBC(dummyProjectArray);
-
-//#endregion MBC
 
 //#region BREADCRUMBS
 
