@@ -10,7 +10,7 @@ import productDetailsName from "./single-product-details.js";
 import search from "./searchbarfunction.js";
 
 
-// test 520
+// test 5201
 fetchProducts().then(function(products) {
     console.log(urlGetKey("product"));
     console.log(products);
