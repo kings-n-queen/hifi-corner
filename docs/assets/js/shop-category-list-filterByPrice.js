@@ -1,7 +1,7 @@
 function filterProductsByPrice (products, minPrice, maxPrice) {
     let filteredProducts = [];
     products.forEach(product => {
-        let price = parseFloat(product.price);
+        let price = parseFloat(product.pris);
         if (price >= minPrice && price < maxPrice) {
             filteredProducts.push(product);
         }
