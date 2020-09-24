@@ -1,4 +1,4 @@
-import updateMBC from "./mbc.js";
+import addManufacturers from "./mbc.js";
 import breadcrumbs from "./breadcrumbs.js";
 import displayProducts from "./listView.js";
 import sort from "./sort.js";
@@ -9,10 +9,6 @@ import footer from "./footer.js";
 import filterProductsByPrice from "./shop-category-list-filterByPrice.js";
 import filterProductsByManufacturer from "./shop-category-list-filterByManufacturer.js";
 import {numbersForFilterPrice, numbersForFilterManufacturer, displayNumbers} from "./shop-category-list-filterNumbers.js"
-import addManufactorers from "./mbc.js";
-
-
-
 
 fetchProducts().then(function(jsonObj) {
     console.log(urlGetKey("product"));
@@ -20,201 +16,6 @@ fetchProducts().then(function(jsonObj) {
     arrange(jsonObj);
 
 });
-
-
-
-// //#region dummyArray
-
-// const dummyProjectArray = [
-
-//     {
-//         "permalink": "single-product-description.html?product=manley-mahi-power-amplifier",
-//         "imgSrc": "./assets/images/power-amplifiers/manley_mahi.jpg",
-//         "name": "MANLEY MAHI POWER AMPLIFIER",
-//         "price": "£329.00",
-//         "additionalInformations": {
-//             "manufacturer": "Marantz",
-//             "manufacturerLink": "",
-//             "freeWarranty": "3 years",
-//             "deliveryCharge": "Free",
-//             "deliveryTime": "1-5 Working days",
-//             "cardSurcharges": "No"
-//         },
-//         "manufactorer": {
-//             "name": "manley",
-//             "permalink": "?manufactorer=manley"
-//         },
-//     },
-//     {
-//         "permalink": "single-product-description.html?product=manley-neoclassic-300b-amplifier",
-//         "imgSrc": "./assets/images/power-amplifiers/manley_neoclassic300b.jpg",
-//         "name": "MANLEY NEOCLASSIC 300B AMPLIFIER",
-//         "reference": "£1299.00",
-//         "price": "£739.00",
-//         "additionalInformations": {
-//             "manufacturer": "Marantz",
-//             "manufacturerLink": "",
-//             "freeWarranty": "3 years",
-//             "deliveryCharge": "Free",
-//             "deliveryTime": "1-5 Working days",
-//             "cardSurcharges": "No"
-//         },
-//         "manufactorer": {
-//             "name": "manley",
-//             "permalink": "?manufactorer=manley"
-//         },
-//     },
-//     {
-//         "permalink": "single-product-description.html?product=manley-snapper-power-amplifier",
-//         "imgSrc": "./assets/images/power-amplifiers/manley_snapper.jpg",
-//         "name": "MANLEY SNAPPER POWER AMPLIFIER",
-//         "reference": "749.00",
-//         "price": "£599.00",
-//         "additionalInformations": {
-//             "manufacturer": "Marantz",
-//             "manufacturerLink": "",
-//             "freeWarranty": "3 years",
-//             "deliveryCharge": "Free",
-//             "deliveryTime": "1-5 Working days",
-//             "cardSurcharges": "No"
-//         },
-//         "manufactorer": {
-//             "name": "manley",
-//             "permalink": "?manufactorer=manley"
-//         },
-//     },
-//     {
-//         "permalink": "single-product-description.html?product=parasound-haloa-23-power-amplifier",
-//         "imgSrc": "./assets/images/power-amplifiers/parasound_haloa23.jpg",
-//         "name": "PARASOUND HALOA 23 POWER AMPLIFIER",
-//         "price": "£249.00",
-//         "additionalInformations": {
-//             "manufacturer": "Marantz",
-//             "manufacturerLink": "",
-//             "freeWarranty": "3 years",
-//             "deliveryCharge": "Free",
-//             "deliveryTime": "1-5 Working days",
-//             "cardSurcharges": "No"
-//         },
-//         "manufactorer": {
-//             "name": "parasound",
-//             "permalink": "?manufactorer=parasound"
-//         },
-//     },
-//     {
-//         "permalink": "single-product-description.html?product=manley-mahi-power-amplifier",
-//         "imgSrc": "./assets/images/power-amplifiers/manley_mahi.jpg",
-//         "name": "MANLEY MAHI POWER AMPLIFIER",
-//         "price": "£1329.00",
-//         "additionalInformations": {
-//             "manufacturer": "Marantz",
-//             "manufacturerLink": "",
-//             "freeWarranty": "3 years",
-//             "deliveryCharge": "Free",
-//             "deliveryTime": "1-5 Working days",
-//             "cardSurcharges": "No"
-//         },
-//         "manufactorer": {
-//             "name": "manley",
-//             "permalink": "?manufactorer=manley"
-//         },
-//     },
-//     {
-//         "permalink": "single-product-description.html?product=manley-neoclassic-200b-amplifier",
-//         "imgSrc": "./assets/images/power-amplifiers/manley_neoclassic300b.jpg",
-//         "name": "MANLEY NEOCLASSIC 200B AMPLIFIER",
-//         "reference": "£1299.00",
-//         "price": "£739.00",
-//         "additionalInformations": {
-//             "manufacturer": "Marantz",
-//             "manufacturerLink": "",
-//             "freeWarranty": "3 years",
-//             "deliveryCharge": "Free",
-//             "deliveryTime": "1-5 Working days",
-//             "cardSurcharges": "No"
-//         },
-//         "manufactorer": {
-//             "name": "manley",
-//             "permalink": "?manufactorer=manley"
-//         },
-//     },
-//     {
-//         "permalink": "single-product-description.html?product=manley-snapper-power-amplifier",
-//         "imgSrc": "./assets/images/power-amplifiers/manley_snapper.jpg",
-//         "name": "MANLEY SNAPPER POWER AMPLIFIER",
-//         "reference": "749.00",
-//         "price": "£599.00",
-//         "additionalInformations": {
-//             "manufacturer": "Marantz",
-//             "manufacturerLink": "",
-//             "freeWarranty": "3 years",
-//             "deliveryCharge": "Free",
-//             "deliveryTime": "1-5 Working days",
-//             "cardSurcharges": "No"
-//         },
-//         "manufactorer": {
-//             "name": "manley",
-//             "permalink": "?manufactorer=manley"
-//         },
-//     },
-//     {
-//         "permalink": "single-product-description.html?product=parasound-haloa-21-power-amplifier",
-//         "imgSrc": "./assets/images/power-amplifiers/parasound_haloa23.jpg",
-//         "name": "PARASOUND HALOA 21 POWER AMPLIFIER",
-//         "price": "249.00",
-//         "additionalInformations": {
-//             "manufacturer": "Marantz",
-//             "manufacturerLink": "",
-//             "freeWarranty": "3 years",
-//             "deliveryCharge": "Free",
-//             "deliveryTime": "1-5 Working days",
-//             "cardSurcharges": "No"
-//         },
-//         "manufactorer": {
-//             "name": "parasound",
-//             "permalink": "?manufactorer=parasound"
-//         },
-//     },
-//     {
-//         "permalink": "single-product-description.html?product=creek-classic-cd",
-//         "imgSrc": "./assets/images/cd-players/creek_classic_cd.jpg",
-//         "name": "CREEK CLASSIC CD",
-//         "price": "£99.00",
-//         "additionalInformations": {
-//             "manufacturer": "Marantz",
-//             "manufacturerLink": "",
-//             "freeWarranty": "3 years",
-//             "deliveryCharge": "Free",
-//             "deliveryTime": "1-5 Working days",
-//             "cardSurcharges": "No"
-//         },
-//         "manufactorer": {
-//             "name": "creek",
-//             "permalink": "?manufactorer=creek"
-//         },
-//     },
-//     {
-//         "permalink": "single-product-description.html?product=creek-destiny-cd",
-//         "imgSrc": "./assets/images/cd-players/creek_Destiny_CD.jpg",
-//         "name": "CREEK DESTINY CD",
-//         "price": "£149.00",
-//         "additionalInformations": {
-//             "manufacturer": "arcam",
-//             "manufacturerLink": "",
-//             "freeWarranty": "3 years",
-//             "deliveryCharge": "Free",
-//             "deliveryTime": "1-5 Working days",
-//             "cardSurcharges": "No"
-//         },
-//         "manufactorer": {
-//             "name": "creek",
-//             "permalink": "?manufactorer=creek"
-//         },
-//     }
-// ];
-
-// //#endregion dummyArray
-
 
 function arrange(jsonObj) {
 
@@ -261,7 +62,7 @@ function arrange(jsonObj) {
 
     //#region MBC
 
-    updateMBC(jsonObj.products);
+    addManufacturers(jsonObj.products);
 
     //#endregion MBC
 
@@ -308,17 +109,17 @@ function arrange(jsonObj) {
         })
     });
   
-  //#region FILTER NUMBERS
+//#region FILTER NUMBERS
 
 let amountOfPrice = document.querySelectorAll(".shopBy span");
 window.onload = amountOfPrice.forEach(element => {
-    let number = numbersForFilterPrice(dummyProjectArray, element.dataset.minprice, element.dataset.maxprice);
+    let number = numbersForFilterPrice(jsonObj.products, element.dataset.minprice, element.dataset.maxprice);
     displayNumbers(element, number);
 });
 
 let amountOfManufaturer = document.querySelectorAll(".manufacturer span");
 window.onload = amountOfManufaturer.forEach(element => {
-    let number = numbersForFilterManufacturer(dummyProjectArray, element.dataset.manufacturer);
+    let number = numbersForFilterManufacturer(jsonObj.products, element.dataset.manufacturer);
     displayNumbers(element, number);
 });
 
@@ -326,9 +127,7 @@ window.onload = amountOfManufaturer.forEach(element => {
 
 //#endregion FILTER FUNCTIONS
 
-
     //#region FOOTER
-
 
     footer();
 
