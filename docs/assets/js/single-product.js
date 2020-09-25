@@ -20,14 +20,14 @@ fetchProducts().then(function(jsonObj) {
     }
 
 
-    productDetailsName(product.navn, product.beskrivelse, product.manufacturer, product.andreProdukter, product.pris);
+    productDetailsName(product.navn, product.beskrivelse, product.category, product.andreProdukter, product.pris);
     specs(product.description);
     singlePageImage(product);
     additionalInfo(product);
     var categoryLink = `shop-category-list.html?category=${product.category}`
     setBreadcrumbs(product.category, categoryLink, product.navn);
 
-
+    arrange(jsonObj);
 });
 
 
@@ -39,11 +39,13 @@ function setBreadcrumbs(title, permalink, productName) {
 }
 
 const thumbnails = document.querySelectorAll(".thumbnailContainer__image");
+thumbnails.forEach(image => image.addEventListener("click", changeLargeImg));
+
+const thumbnails = document.querySelectorAll(".thumbnailContainer__image");
     thumbnails.forEach(image => image.addEventListener("click", changeLargeImg));
 
 function arrange(jsonObj) {
 
     footer();
     search();
-
 }

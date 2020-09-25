@@ -16,11 +16,12 @@ let sortBox = {
     },
     set products(value) {
         this.productsArray = value;
+        let totalProductCount = this.productsArray.length;
         objectSort(this.productsArray, this.sortBy, this.ascending);
         let displayAmount = Math.min(this.productsArray.length, this.maxDisplayCount);
         let removeAmount = this.productsArray.length - displayAmount;
         this.productsArray.splice(displayAmount, removeAmount);
-        let str = this.productsArray.length == 1 ? `1 Item` : `${this.productsArray.length} Item(s)`;
+        let str = this.productsArray.length == 1 ? `1 Item` : `${totalProductCount} Item(s)`;
         document.querySelector(".js-sortCount").textContent = str;
     },
     addSortListener(type, callback) {
