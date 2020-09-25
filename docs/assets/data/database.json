@@ -63,8 +63,6 @@
 
             ]
         },
-
-
         {
             "navn": "Creek Destiny CD Player",
             "id": "creek_destiny_cd",
@@ -108,8 +106,6 @@
                 }
             ]
         },
-
-
         {
             "navn": "Creek Evo CD Player",
             "id": "creek_evo_cd",
@@ -153,8 +149,6 @@
                 }
             ]
         },
-
-
         {
             "navn": "Creek Classic DVD Player",
             "id": "creek_classic_dvd_player",
@@ -198,8 +192,6 @@
                 }
             ]
         },
-
-
         {
             "navn": "Exposure 2010S DVD Player",
             "id": "exposure_2010s_dvd_player",
@@ -243,8 +235,6 @@
                 }
             ]
         },
-
-
         {
             "navn": "Parasound D200 DVD Player",
             "id": "parasound_d200_dvd_player",
@@ -288,8 +278,6 @@
                 }
             ]
         },
-
-
         {
             "navn": "Parasound HALOD3 DVD Player",
             "id": "parasound_halod3_dvd_player",
@@ -333,8 +321,6 @@
                 }
             ]
         },
-
-
         {
             "navn": "Creek A50I Integrated Amplifier",
             "id": "creek_a50i_integrated_amplifier",
@@ -378,8 +364,6 @@
                 }
             ]
         },
-
-
         {
             "navn": "Creek Classic 5350SE Integrated Amplifier",
             "id": "creek_classic_5350se_integrated_amplifier",
@@ -423,8 +407,6 @@
                 }
             ]
         },
-
-
         {
             "navn": "Creek Destiny Amp Integrated Amplifier",
             "id": "creek_destiny_amp_integrated_amplifier",
@@ -468,8 +450,6 @@
                 }
             ]
         },
-
-
         {
             "navn": "Manley Snapper Integrated Amplifier",
             "id": "manley_snapper_integrated_amplifier",
@@ -513,9 +493,6 @@
                 }
             ]
         },
-
-
-
         {
             "navn": "Manley Stingray Integrated Amplifier",
             "id": "manley_stingray_integrated_amplifier",
@@ -559,8 +536,6 @@
                 }
             ]
         },
-
-
         {
             "navn": "Pro Ject Debut 3",
             "id": "pro_ject_debut",
@@ -604,8 +579,6 @@
                 }
             ]
         },
-
-
         {
             "navn": "Pro Ject RPM 5",
             "id": "pro_ject_rpm_5",
@@ -649,8 +622,6 @@
                 }
             ]
         },
-
-
         {
             "navn": "Pro Ject RPM 10",
             "id": "pro_ject_rpm_10",
@@ -694,7 +665,6 @@
                 }
             ]
         },
-        
         {
             "navn": "Manley Mahi",
             "id": "manley-mahi",
@@ -734,8 +704,9 @@
                 {
                     "key": "Power Comsumption:",
                     "value": "650w"
+                }
+            ]
         },
-                
         {
             "navn": "Manley Neoclassic 300 b",
             "id": "manley-neoclassic300b",
@@ -775,8 +746,9 @@
                 {
                     "key": "Power Comsumption:",
                     "value": "680w"
+                }
+            ]
         },
-                
         {
             "navn": "Manley Snapper",
             "id": "manley-snapper",
@@ -816,9 +788,10 @@
                 {
                     "key": "Power Comsumption:",
                     "value": "250w"
-            },
-
-            {
+                }
+            ]
+        },
+        {
             "navn": "Manley Snapper",
             "id": "manley-snapper",
             "andreProdukter": "See other Manley products",
@@ -857,108 +830,111 @@
                 {
                     "key": "Power Comsumption:",
                     "value": "250w"
-                },
-
-                {
-                "navn": "Parasound Haloa 23",
-                "id": "parasound-haloa23",
-                "andreProdukter": "See other Parasound products",
-                "outletPrice": "2.210.00",
-                "pris": "1.999.00",
-                "beskrivelse": "Do you have some classic rock albums you used to love so much that have now ended up left on the shelf, un-played for years? How about jazz or classical recordings from the 60’s? Every audiophile has albums that they used to play, but stopped because they are harsh, brittle, or bright. There is a solution. ",
-                "billede": ["./assets/images/power-amplifiers/parasound_haloa23.jpg"],
-                "category": "power-amplifiers",
-                "manufacturer": "parasound",
-        
-                "additionalInformations": {
-                    "manufacturer": "parasound",
-                    "manufacturerLink": "",
-                    "freeWarranty": "2 years",
-                    "deliveryCharge": "Free",
-                    "deliveryTime": "1-5 Working days",
-                    "cardSurcharges": "No"
-                },
-        
-                "description": [
-        
-                {
-                    "key": "Power:",
-                    "value": "Stereo Ultra-linear -44 watts x 2 (EL34) (8Ω, 1% THD)"
-                },
-                {
-                    "key": "Freq. Response:",
-                    "value": "-10Hz-70kHz +/- 1dB 8Hz-75kHz +/- 3dB"
-                },
-                {
-                    "key": "S/N Ratio:",
-                    "value": "91 dB, 105 dBA"
-                },
-                {
-                    "key": "Input Impedance :",
-                    "value": "100kΩ"
-                },
-
-                {
-                "navn": "Creek OBH 22 Passive Premp",
-                "id": "creek_OBH_22_Passive_Preamp",
-                "andreProdukter": "See other Creek products",
-                "outletPrice": "1.210.00",
-                "pris": "1.000.00",
-                "beskrivelse": "Do you have some classic rock albums you used to love so much that have now ended up left on the shelf, un-played for years? How about jazz or classical recordings from the 60’s? Every audiophile has albums that they used to play, but stopped because they are harsh, brittle, or bright. There is a solution. ",
-                "billede": ["./assets/images/power-amplifiers/Creek_OBH_22_Passive_Preamp.jpg"],
-                "category": "preamplifiers",
-                "manufacturer": "creek",
-            
-                "additionalInformations": {
-                    "manufacturer": "creek",
-                    "manufacturerLink": "",
-                    "freeWarranty": "1 years",
-                    "deliveryCharge": "Free",
-                    "deliveryTime": "1-5 Working days",
-                    "cardSurcharges": "No"
-                },
-            
-                "description": [
-            
-                {
-                    "key": "Power:",
-                    "value": "Stereo Ultra-linear -50 watts x 2 (EL34) (8Ω, 1% THD)"
-                },
-                {
-                    "key": "Freq. Response:",
-                    "value": "-20Hz-70kHz +/- 1dB 8Hz-75kHz +/- 3dB"
-                },
-                {
-                    "key": "S/N Ratio:",
-                    "value": "91 dB, 110 dBA"
-                },
-                {
-                    "key": "Input Impedance :",
-                    "value": "200kΩ"
-                },
+                }
+            ]
+        },
+        {
+            "navn": "Parasound Haloa 23",
+            "id": "parasound-haloa23",
+            "andreProdukter": "See other Parasound products",
+            "outletPrice": "2.210.00",
+            "pris": "1.999.00",
+            "beskrivelse": "Do you have some classic rock albums you used to love so much that have now ended up left on the shelf, un-played for years? How about jazz or classical recordings from the 60’s? Every audiophile has albums that they used to play, but stopped because they are harsh, brittle, or bright. There is a solution. ",
+            "billede": ["./assets/images/power-amplifiers/parasound_haloa23.jpg"],
+            "category": "power-amplifiers",
+            "manufacturer": "parasound",
     
-                {
-                "navn": "Creek OBH 22 Passive Premp",
-                "id": "creek_OBH_22_Passive_Preamp",
-                "andreProdukter": "See other Creek products",
-                "outletPrice": "1.210.00",
-                "pris": "1.000.00",
-                "beskrivelse": "Do you have some classic rock albums you used to love so much that have now ended up left on the shelf, un-played for years? How about jazz or classical recordings from the 60’s? Every audiophile has albums that they used to play, but stopped because they are harsh, brittle, or bright. There is a solution. ",
-                "billede": ["./assets/images/power-amplifiers/Creek_OBH_22_Passive_Preamp.jpg"],
-                "category": "preamplifiers",
+            "additionalInformations": {
+                "manufacturer": "parasound",
+                "manufacturerLink": "",
+                "freeWarranty": "2 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+    
+            "description": [
+    
+            {
+                "key": "Power:",
+                "value": "Stereo Ultra-linear -44 watts x 2 (EL34) (8Ω, 1% THD)"
+            },
+            {
+                "key": "Freq. Response:",
+                "value": "-10Hz-70kHz +/- 1dB 8Hz-75kHz +/- 3dB"
+            },
+            {
+                "key": "S/N Ratio:",
+                "value": "91 dB, 105 dBA"
+            },
+            {
+                "key": "Input Impedance :",
+                "value": "100kΩ"
+            }
+        ]
+    },
+        {
+            "navn": "Creek OBH 22 Passive Premp",
+            "id": "creek_OBH_22_Passive_Preamp",
+            "andreProdukter": "See other Creek products",
+            "outletPrice": "1.210.00",
+            "pris": "1.000.00",
+            "beskrivelse": "Do you have some classic rock albums you used to love so much that have now ended up left on the shelf, un-played for years? How about jazz or classical recordings from the 60’s? Every audiophile has albums that they used to play, but stopped because they are harsh, brittle, or bright. There is a solution. ",
+            "billede": ["./assets/images/power-amplifiers/Creek_OBH_22_Passive_Preamp.jpg"],
+            "category": "preamplifiers",
+            "manufacturer": "creek",
+        
+            "additionalInformations": {
                 "manufacturer": "creek",
-            
-                "additionalInformations": {
-                    "manufacturer": "creek",
-                    "manufacturerLink": "",
-                    "freeWarranty": "1 years",
-                    "deliveryCharge": "Free",
-                    "deliveryTime": "1-5 Working days",
-                    "cardSurcharges": "No"
-                },
-            
-                "description": [
-            
+                "manufacturerLink": "",
+                "freeWarranty": "1 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+        
+            "description": [
+        
+            {
+                "key": "Power:",
+                "value": "Stereo Ultra-linear -50 watts x 2 (EL34) (8Ω, 1% THD)"
+            },
+            {
+                "key": "Freq. Response:",
+                "value": "-20Hz-70kHz +/- 1dB 8Hz-75kHz +/- 3dB"
+            },
+            {
+                "key": "S/N Ratio:",
+                "value": "91 dB, 110 dBA"
+            },
+            {
+                "key": "Input Impedance :",
+                "value": "200kΩ"
+            }
+        ]
+    },
+
+        {
+            "navn": "Creek OBH 22 Passive Premp",
+            "id": "creek_OBH_22_Passive_Preamp",
+            "andreProdukter": "See other Creek products",
+            "outletPrice": "1.210.00",
+            "pris": "1.000.00",
+            "beskrivelse": "Do you have some classic rock albums you used to love so much that have now ended up left on the shelf, un-played for years? How about jazz or classical recordings from the 60’s? Every audiophile has albums that they used to play, but stopped because they are harsh, brittle, or bright. There is a solution. ",
+            "billede": ["./assets/images/power-amplifiers/Creek_OBH_22_Passive_Preamp.jpg"],
+            "category": "preamplifiers",
+            "manufacturer": "creek",
+        
+            "additionalInformations": {
+                "manufacturer": "creek",
+                "manufacturerLink": "",
+                "freeWarranty": "1 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+        
+            "description": [
                 {
                     "key": "Power:",
                     "value": "Stereo Ultra-linear -50 watts x 2 (EL34) (8Ω, 1% THD)"
@@ -974,30 +950,30 @@
                 {
                     "key": "Input Impedance :",
                     "value": "200kΩ"
-                },
-
-                {
-                "navn": "Parasound Classic 7100",
-                "id": "parasound_classic7100",
-                "andreProdukter": "See other Parasound products",
-                "outletPrice": "510.00",
-                "pris": "499.00",
-                "beskrivelse": "FBA-800 is our most advanced power amplifier. The floating bridge design combines four 20 Watt amplifiers in a single stereo chassis and provides several key benefits. Each channel consists of two amplifiers working as voltage amplifiers driving an output stage of bridged power transistors. The advantages are a low noise floor, better power output relative to the voltage rails (x2) and with the fixed current of the class A mode, low output impedance and better load tolerance.",
-                "billede": ["./assets/images/power-amplifiers/parasound_classic7100.jpg"],
-                "category": "preamplifiers",
+                }
+            ]
+        },
+        {
+            "navn": "Parasound Classic 7100",
+            "id": "parasound_classic7100",
+            "andreProdukter": "See other Parasound products",
+            "outletPrice": "510.00",
+            "pris": "499.00",
+            "beskrivelse": "FBA-800 is our most advanced power amplifier. The floating bridge design combines four 20 Watt amplifiers in a single stereo chassis and provides several key benefits. Each channel consists of two amplifiers working as voltage amplifiers driving an output stage of bridged power transistors. The advantages are a low noise floor, better power output relative to the voltage rails (x2) and with the fixed current of the class A mode, low output impedance and better load tolerance.",
+            "billede": ["./assets/images/power-amplifiers/parasound_classic7100.jpg"],
+            "category": "preamplifiers",
+            "manufacturer": "parasound",
+            
+            "additionalInformations": {
                 "manufacturer": "parasound",
-                
-                "additionalInformations": {
-                    "manufacturer": "parasound",
-                    "manufacturerLink": "",
-                    "freeWarranty": "2 years",
-                    "deliveryCharge": "Free",
-                    "deliveryTime": "1-5 Working days",
-                    "cardSurcharges": "No"
-                },
-                
-                "description": [
-                
+                "manufacturerLink": "",
+                "freeWarranty": "2 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+            
+            "description": [
                 {
                     "key": "Power:",
                     "value": "Stereo Ultra-linear -20 watts x 2 (EL34) (9Ω, 5% THD)"
@@ -1013,30 +989,30 @@
                 {
                     "key": "Input Impedance :",
                     "value": "100kΩ"
-                },
-
-                {
-                "navn": "Parasound Halop 3",
-                "id": "parasound_halop3",
-                "andreProdukter": "See other Parasound products",
-                "outletPrice": "610.00",
-                "pris": "599.00",
-                "beskrivelse": "FBA-800 is our most advanced power amplifier. The floating bridge design combines four 20 Watt amplifiers in a single stereo chassis and provides several key benefits. Each channel consists of two amplifiers working as voltage amplifiers driving an output stage of bridged power transistors. The advantages are a low noise floor, better power output relative to the voltage rails (x2) and with the fixed current of the class A mode, low output impedance and better load tolerance.",
-                "billede": ["./assets/images/power-amplifiers/parasound_halop3.jpg"],
-                "category": "preamplifiers",
+                }
+            ]
+        },
+        {
+            "navn": "Parasound Halop 3",
+            "id": "parasound_halop3",
+            "andreProdukter": "See other Parasound products",
+            "outletPrice": "610.00",
+            "pris": "599.00",
+            "beskrivelse": "FBA-800 is our most advanced power amplifier. The floating bridge design combines four 20 Watt amplifiers in a single stereo chassis and provides several key benefits. Each channel consists of two amplifiers working as voltage amplifiers driving an output stage of bridged power transistors. The advantages are a low noise floor, better power output relative to the voltage rails (x2) and with the fixed current of the class A mode, low output impedance and better load tolerance.",
+            "billede": ["./assets/images/power-amplifiers/parasound_halop3.jpg"],
+            "category": "preamplifiers",
+            "manufacturer": "parasound",
+                
+            "additionalInformations": {
                 "manufacturer": "parasound",
-                    
-                "additionalInformations": {
-                    "manufacturer": "parasound",
-                    "manufacturerLink": "",
-                    "freeWarranty": "2 years",
-                    "deliveryCharge": "Free",
-                    "deliveryTime": "1-5 Working days",
-                    "cardSurcharges": "No"
-                    },
-                    
-                "description": [
-                    
+                "manufacturerLink": "",
+                "freeWarranty": "2 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+                },
+                
+            "description": [
                 {
                     "key": "Power:",
                     "value": "Stereo Ultra-linear -70 watts x 2 (EL34) (9Ω, 5% THD)"
@@ -1052,30 +1028,29 @@
                 {
                     "key": "Input Impedance :",
                     "value": "150kΩ"
-                },
-
-                {
-                "navn": "Project Prebox",
-                "id": "project_prebox",
-                "andreProdukter": "See other Prebox products",
-                "outletPrice": "710.00",
-                "pris": "659.00",
-                "beskrivelse": "These features make it a perfect match with the preamp REVO SC-2, which expresses the same sound personality. But, also for people who want to combine it with other preamps, the REVO PA-160MR can become a perfect partner. For example, with the best tube preamps you can enhance the characteristics of sound, giving an extraordinary ability to drive the speakers without introducing any harshness in the sound and the listening fatigue often present in solid state amplifiers.",
-                "billede": ["./assets/images/power-amplifiers/Project_prebox.jpg"],
-                "category": "preamplifiers",
+                }
+            ]
+        },
+        {
+            "navn": "Project Prebox",
+            "id": "project_prebox",
+            "andreProdukter": "See other Prebox products",
+            "outletPrice": "710.00",
+            "pris": "659.00",
+            "beskrivelse": "These features make it a perfect match with the preamp REVO SC-2, which expresses the same sound personality. But, also for people who want to combine it with other preamps, the REVO PA-160MR can become a perfect partner. For example, with the best tube preamps you can enhance the characteristics of sound, giving an extraordinary ability to drive the speakers without introducing any harshness in the sound and the listening fatigue often present in solid state amplifiers.",
+            "billede": ["./assets/images/power-amplifiers/Project_prebox.jpg"],
+            "category": "preamplifiers",
+            "manufacturer": "project",
+                    
+            "additionalInformations": {
                 "manufacturer": "project",
-                        
-                "additionalInformations": {
-                    "manufacturer": "project",
-                    "manufacturerLink": "",
-                    "freeWarranty": "1 years",
-                    "deliveryCharge": "Free",
-                    "deliveryTime": "1-5 Working days",
-                    "cardSurcharges": "No"
-                },
-                        
-                "description": [
-                        
+                "manufacturerLink": "",
+                "freeWarranty": "1 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+            "description": [
                 {
                     "key": "Power:",
                     "value": "Stereo Ultra-linear -20 watts x 1 (EL34) (40Ω, 3% THD)"
@@ -1092,6 +1067,7 @@
                     "key": "Input Impedance :",
                     "value": "480kΩ"
                 }
-               
+            ]
+        }      
     ]
 }
