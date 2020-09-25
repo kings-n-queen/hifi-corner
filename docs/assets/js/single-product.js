@@ -27,7 +27,7 @@ fetchProducts().then(function(jsonObj) {
     var categoryLink = `shop-category-list.html?category=${product.category}`
     setBreadcrumbs(product.category, categoryLink, product.navn);
 
-
+    arrange(jsonObj);
 });
 
 
@@ -40,33 +40,9 @@ function setBreadcrumbs(title, permalink, productName) {
 
 function arrange(jsonObj) {
 
-
-
-
-
-    //#region BREADCRUMBS
-
-
-    // let dummyBreadcrumbArray = [];
-
-    // addBreadcrumbItem(dummyBreadcrumbArray, "Home", "index.html");
-    // addBreadcrumbItem(dummyBreadcrumbArray, "Amplifiers", "?category=amplifiers");
-    // addBreadcrumbItem(dummyBreadcrumbArray, "Power Amplifiers", "?category=power-amplifiers");
-    // addBreadcrumbItem(dummyBreadcrumbArray, "MANLEY MAHI POWER AMPLIFIER", "");
-
-    // breadcrumbs(dummyBreadcrumbArray);
-
-    // function addBreadcrumbItem(toArray, title, permalink) {
-    //     toArray.push({ title, permalink });
-    // }
-
-    //#endregion BREADCRUMBS
-
     const thumbnails = document.querySelectorAll(".thumbnailContainer__image");
     thumbnails.forEach(image => image.addEventListener("click", changeLargeImg));
 
-
     footer();
     search();
-
 }
