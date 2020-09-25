@@ -1,4 +1,4 @@
-function productDetailsName(title, beskrivelse, category, andreProdukter, pris) { 
+function productDetailsName(title, beskrivelse, manufacturer, andreProdukter, pris) { 
     var nameOfProduct = document.querySelector (".nameOfProduct");
     nameOfProduct.innerText = title + "MrX";
 
@@ -9,7 +9,7 @@ function productDetailsName(title, beskrivelse, category, andreProdukter, pris) 
 
 
     var otherProductsFromBrand = document.querySelector (".otherProductsFromBrand");
-    otherProductsFromBrand.href= "shop-category-list.html?category=" + category;
+    otherProductsFromBrand.href= "shop-category-list.html?manufacturer=" + manufacturer;
     otherProductsFromBrand.innerText = andreProdukter;
 
 
