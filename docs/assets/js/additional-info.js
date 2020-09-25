@@ -9,8 +9,8 @@ function additionalInfo(product) {
         td[0].textContent = key;
         if (td[1].classList.contains("js-isLink")) {
             let link = td[1].querySelector(".additionalInfo__link");
-            link.textContent = value;
-            link.href = product.permalink;
+            link.textContent = product.navn;
+            link.href = "#";
         } else {
             td[1].textContent = value;
         }
