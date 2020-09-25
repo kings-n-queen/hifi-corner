@@ -1,8 +1,9 @@
 function filterProductsByManfacturer(products, manufacturer) {
     let filteredProducts = [];
     products.forEach(product => {
-        if (product.additionalInformations.manufacturer == manufacturer) { 
+        if (product.manufacturer == manufacturer) { 
             filteredProducts.push(product);
+            console.log(manufacturer);
         }
     });
     console.log(filteredProducts);
