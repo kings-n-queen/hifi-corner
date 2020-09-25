@@ -136,13 +136,15 @@ function arrange(jsonObj) {
         button.addEventListener("click", function(event) {
             if (event.target.classList.contains("subCategory")) {
                 event.preventDefault();
-                let productsFilteredByManufacturer = filterProductsByManufacturer(jsonObj.products, event.target.dataset.manufacturer);
+                setURL(event.target.href);
+                console.log(urlGetKey("manufacturer"));
+                let productsFilteredByManufacturer = filterProductsByManufacturer(jsonObj.products, urlGetKey("manufacturer"));
                 sortBox.products = [...productsFilteredByManufacturer];
                 displayProducts(sortBox.products);
             }
         })
     });
-  
+
     //#region FILTER NUMBERS
 
     let amountOfPrice = document.querySelectorAll(".shopBy span");
