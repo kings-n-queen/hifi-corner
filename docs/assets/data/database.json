@@ -72,7 +72,7 @@
             "outletPrice": "899.00",
             "pris": "399.00",
             "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
-            "billede": ["./assets/images/cd-players/creek_Destiny_cd.jpg"],
+            "billede": ["./assets/images/cd-players/creek_Destiny_CD.jpg"],
             "category": "cd-players",
             "manufacturer": "creek",
 
@@ -163,7 +163,7 @@
             "pris": "999.00",
             "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
             "billede": ["./assets/images/dvd-players/creek_classic.jpg"],
-            "category": "DVD-Players",
+            "category": "dvd-players",
             "manufacturer": "creek",
 
             "additionalInformations": {
@@ -208,7 +208,7 @@
             "pris": "999.00",
             "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
             "billede": ["./assets/images/dvd-players/exposure_2010S.jpg"],
-            "category": "DVD-Players",
+            "category": "dvd-players",
             "manufacturer": "exposure",
 
             "additionalInformations": {
@@ -253,7 +253,7 @@
             "pris": "699.00",
             "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
             "billede": ["./assets/images/dvd-players/parasound_d200.jpg"],
-            "category": "DVD-Players",
+            "category": "dvd-players",
             "manufacturer": "parasound",
 
             "additionalInformations": {
@@ -298,7 +298,7 @@
             "pris": "699.00",
             "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
             "billede": ["./assets/images/dvd-players/parasound_halod3.jpg"],
-            "category": "DVD-Players",
+            "category": "dvd-players",
             "manufacturer": "parasound",
 
             "additionalInformations": {
@@ -343,7 +343,7 @@
             "pris": "699.00",
             "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
             "billede": ["./assets/images/integrated-amplifiers/creek_a50I.jpg"],
-            "category": "integrated amplifiers",
+            "category": "integrated-amplifiers",
             "manufacturer": "creek",
 
             "additionalInformations": {
@@ -388,7 +388,7 @@
             "pris": "699.00",
             "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
             "billede": ["./assets/images/integrated-amplifiers/creek_classic5350SE.jpg"],
-            "category": "integrated amplifiers",
+            "category": "integrated-amplifiers",
             "manufacturer": "creek",
 
             "additionalInformations": {
@@ -433,7 +433,7 @@
             "pris": "699.00",
             "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
             "billede": ["./assets/images/integrated-amplifiers/creek_destinyamp.jpg"],
-            "category": "integrated amplifiers",
+            "category": "integrated-amplifiers",
             "manufacturer": "creek",
 
             "additionalInformations": {
@@ -478,7 +478,7 @@
             "pris": "699.00",
             "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
             "billede": ["./assets/images/integrated-amplifiers/manley_snapper.jpg"],
-            "category": "integrated amplifiers",
+            "category": "integrated-amplifiers",
             "manufacturer": "manley",
 
             "additionalInformations": {
@@ -524,7 +524,7 @@
             "pris": "699.00",
             "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
             "billede": ["./assets/images/integrated-amplifiers/Manley_Stingray.jpg"],
-            "category": "integrated amplifiers",
+            "category": "integrated-amplifiers",
             "manufacturer": "manley",
 
             "additionalInformations": {
@@ -569,7 +569,7 @@
             "pris": "699.00",
             "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
             "billede": ["./assets/images/lps/Pro_ject_Debut_3_bl.jpg", "./assets/images/lps/Pro_ject_Debut_III_red_1.jpg", "./assets/images/lps/Pro_ject_Debut_III_yellow_1.jpg"],
-            "category": "LPS",
+            "category": "lps",
             "manufacturer": "pro_ject",
 
             "additionalInformations": {
@@ -614,7 +614,7 @@
             "pris": "699.00",
             "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
             "billede": ["./assets/images/lps/Pro_ject_rpm_5.jpg"],
-            "category": "LPS",
+            "category": "lps",
             "manufacturer": "pro_ject",
 
             "additionalInformations": {
@@ -659,7 +659,7 @@
             "pris": "699.00",
             "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
             "billede": ["./assets/images/lps/Pro_ject_rpm10.jpg"],
-            "category": "LPS",
+            "category": "lps",
             "manufacturer": "pro_ject",
 
             "additionalInformations": {

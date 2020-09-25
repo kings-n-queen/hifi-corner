@@ -9,12 +9,12 @@ let categories = [
     {
         title: "SHOP BY BRAND",
         imgPath: "shoppage_shopbybrand_bgimage.jpg",
-        permaLink: "?brand=all"
+        permaLink: ""
     },
     {
-        title: "AMPLIFIERS",
+        title: "INTEGRATED AMPLIFIERS",
         imgPath: "shoppage_amplifier_bgimage.jpg",
-        permaLink: "?category=amplifiers"
+        permaLink: "?category=integrated-amplifiers"
     },
     {
         title: "SPEAKERS",
@@ -22,9 +22,9 @@ let categories = [
         permaLink: "?category=speakers"
     },
     {
-        title: "TURNTABLES",
+        title: "DVD PLAYERS",
         imgPath: "shoppage_turntables_bgimage.jpg",
-        permaLink: "?category=turntables"
+        permaLink: "?category=dvd-players"
     },
     {
         title: "CD PLAYERS",
@@ -79,7 +79,7 @@ let categories = [
     {
         title: "VINYL LPS",
         imgPath: "shoppage_vinyllps_bgimage.jpg",
-        permaLink: "?category=vinyl-lps"
+        permaLink: "?category=lps"
     },
     {
         title: "SHOP NOW",

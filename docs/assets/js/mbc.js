@@ -1,7 +1,18 @@
+import { setURL, urlGetKey, loadURL } from "./url-handler.js";
+
 let mbcShowAll = document.querySelector(".mbc__linkAll");
 let mbcList = document.querySelector(".mbc__list");
 
 let eventListenerSet = false;
+let clickCallback;
+
+mbcList.addEventListener("click", function(event){
+    if (event.target.classList.contains("mbc__link") && clickCallback){
+        event.preventDefault();
+        setURL(event.target.href);
+        clickCallback();
+    }
+});
 
 function viewAllManufacturers() {
     if (!eventListenerSet) {
@@ -13,8 +24,11 @@ function viewAllManufacturers() {
     }
 }
 
-function addManufacturers(objArr) {
+function addManufacturers(objArr, callback) {
     mbcList.innerHTML = "";
+    if (callback) {
+        clickCallback = callback;
+    }
     let names = [];
     let permalinks = {};
     for (let i = 0; i < objArr.length; i++) {
@@ -22,7 +36,7 @@ function addManufacturers(objArr) {
         if (!names.includes(obj.additionalInformations.manufacturer)) {
             let name = obj.additionalInformations.manufacturer;
             names.push(name);
-            permalinks[name] = `single-product-description.html?id=${obj.id}`;
+            permalinks[name] = `?manufacturer=${obj.manufacturer}`;
         }
     }
     names.sort();
