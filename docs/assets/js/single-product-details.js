@@ -2,7 +2,7 @@ function productDetailsName(title, beskrivelse, manufacturer, andreProdukter, pr
     var nameOfProduct = document.querySelector (".nameOfProduct");
     nameOfProduct.innerText = title + "MrX";
 
- 
+
     var singleProductDescription = document.querySelector (".singleProductDescription");
     singleProductDescription.innerText = beskrivelse;
 
