@@ -734,6 +734,8 @@
                 {
                     "key": "Power Comsumption:",
                     "value": "650w"
+                }
+            ]
         },
                 
         {
@@ -775,6 +777,8 @@
                 {
                     "key": "Power Comsumption:",
                     "value": "680w"
+                }
+            ]
         },
                 
         {
@@ -816,7 +820,9 @@
                 {
                     "key": "Power Comsumption:",
                     "value": "250w"
-            },
+                }
+            ]
+        },
 
             {
             "navn": "Manley Snapper",
@@ -857,7 +863,9 @@
                 {
                     "key": "Power Comsumption:",
                     "value": "250w"
-                },
+                }
+            ]
+        },
 
                 {
                 "navn": "Parasound Haloa 23",
@@ -896,7 +904,9 @@
                 {
                     "key": "Input Impedance :",
                     "value": "100kΩ"
-                },
+                }
+            ]
+        },
 
                 {
                 "navn": "Creek OBH 22 Passive Premp",
@@ -935,7 +945,9 @@
                 {
                     "key": "Input Impedance :",
                     "value": "200kΩ"
-                },
+                }
+            ]
+        },
     
                 {
                 "navn": "Creek OBH 22 Passive Premp",
@@ -974,7 +986,9 @@
                 {
                     "key": "Input Impedance :",
                     "value": "200kΩ"
-                },
+                }
+            ]
+        },
 
                 {
                 "navn": "Parasound Classic 7100",
@@ -1013,7 +1027,9 @@
                 {
                     "key": "Input Impedance :",
                     "value": "100kΩ"
-                },
+                }
+            ]
+        },
 
                 {
                 "navn": "Parasound Halop 3",
@@ -1052,7 +1068,9 @@
                 {
                     "key": "Input Impedance :",
                     "value": "150kΩ"
-                },
+                }
+            ]
+        },
 
                 {
                 "navn": "Project Prebox",
@@ -1092,6 +1110,639 @@
                     "key": "Input Impedance :",
                     "value": "480kΩ"
                 }
-               
+            ]
+        },
+        {
+            "navn": "Jolida JD102b",
+            "id": "jolida_jd102b",
+            "andreProdukter": "See other Jolida products",
+            "outletPrice": "",
+            "pris": "650",
+            "beskrivelse": "Great sounding, musical amp for small systems or entry level tube amp. High Quality construction, built to last. Heavy gauge steel chassis. Uses Push-Pull EL84/6BQ5s and three 12AX7s which are easy to source and inexpensive. Complete integrated amp with four pairs of inputs and four and eight ohm outputs. Easy to maintain.",
+            "billede": ["./assets/images/cd-players/jolida_JD102b.jpg"],
+            "category": "tube-amplifiers",
+            "manufacturer": "jolida",
+
+            "additionalInformations": {
+                "manufacturer": "jolida",
+                "manufacturerLink": "",
+                "freeWarranty": "1 year",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+
+            "description": [
+
+                {
+                    "key": "Circuit Type:",
+                    "value": "Ultra Linear, Class AB1"
+                },
+
+                {
+                    "key": "Power Output:",
+                    "value": "20 wpc at 8 ohms"
+                },
+
+                {
+                    "key": "Frequency Response:",
+                    "value": "14Hz to 80KHz"
+                },
+
+                {
+                    "key": "Input Impedance:",
+                    "value": "< 250Kohms"
+                },
+
+                {
+                    "key": "Input Sensitivity:",
+                    "value": "Maximum 900mV"
+                },
+
+                {
+                    "key": "Output Impedance:",
+                    "value": "4 ohms and 8 ohms"
+                },
+
+                {
+                    "key": "Negative Feedback:",
+                    "value": " Less than 7dB"
+                },
+
+                {
+                    "key": "Weight:",
+                    "value": "18 pounds"
+                }
+
+            ]
+        },
+		{
+            "navn": "Jolida JD202a",
+            "id": "jolida_jd202a",
+            "andreProdukter": "See other jolida products",
+            "outletPrice": "",
+            "pris": "995.00",
+            "beskrivelse": "Fully Integrated Stereo Amplifier: Input 350mV driving 40 watts, maximum 60 watts output. Multiple Inputs: Front mounted selector switch-CD, Tuner and Aux (for TV, DVD Player, VCR or computer). Custom Wound Audio Transformers with a core of German grain oriented silicon steel. 15th generation proprietary design. Secondary can be configured for a 4 ohm or 8 ohm load. State of the Art Components: ALPS or Panasonic audio potentiometer, gold plated RCA input jacks, gold plated five way speaker connectors. Low Feedback Design: Only 9 dB.",
+            "billede": ["./assets/images/cd-players/jolida_JD202a.jpg"],
+            "category": "tube-amplifiers",
+            "manufacturer": "jolida",
+
+            "additionalInformations": {
+                "manufacturer": "jolida",
+                "manufacturerLink": "",
+                "freeWarranty": "1 year",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+
+            "description": [
+
+                {
+                    "key": "Max Power Output:",
+                    "value": "60 W per channel"
+                },
+
+                {
+                    "key": "Rated Output Power:",
+                    "value": "40 W per channel"
+                },
+
+                {
+                    "key": "Bandwidth:",
+                    "value": "17Hz to 140KHz"
+                },
+
+                {
+                    "key": "Circuit Type:",
+                    "value": "AK4490"
+                },
+
+                {
+                    "key": "Noise Shaper:",
+                    "value": "Ultra Linear, Class AB1"
+                },
+
+                {
+                    "key": "Input Sensitivity:",
+                    "value": "Max. 350mV"
+                },
+
+                {
+                    "key": "Negative Feedback:",
+                    "value": "< 9dB"
+                },
+
+                {
+                    "key": "Weight",
+                    "value": "28 pounds"
+                }
+
+            ]
+        },{
+            "navn": "Jolida JD300b",
+            "id": "jolida_jd300b",
+            "andreProdukter": "See other jolida products",
+            "outletPrice": "",
+            "pris": "1450.00",
+            "beskrivelse": "Fully Integrated Stereo Amplifier with remote control. Input 500mV driving 9 watts, maximum 12 watts output. Multiple Inputs: Front mounted selector switch-CD, Tape Recorder, Tuner and Aux. (for TV, DVD Player, VCR or Computer).",
+            "billede": ["./assets/images/cd-players/jolida_JD300b.jpg"],
+            "category": "tube-amplifiers",
+            "manufacturer": "jolida",
+
+            "additionalInformations": {
+                "manufacturer": "jolida",
+                "manufacturerLink": "",
+                "freeWarranty": "1 year",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+
+            "description": [
+
+                {
+                    "key": "Output Power:",
+                    "value": "9W X 2"
+                },
+
+                {
+                    "key": "Frequency Response:",
+                    "value": "35Hz-67KHz"
+                },
+
+                {
+                    "key": "SNR:",
+                    "value": ">89dB"
+                },
+
+                {
+                    "key": "Input Sensitivity:",
+                    "value": "500mV"
+                },
+
+                {
+                    "key": "Distortion THD:",
+                    "value": "<0.1%"
+                },
+
+                {
+                    "key": "Input Impedance:",
+                    "value": ">50K ohms"
+                },
+
+                {
+                    "key": "Output Impedance:",
+                    "value": "4 and 8 ohms"
+                },
+
+                {
+                    "key": "Weight",
+                    "value": "65 pounds"
+                }
+
+            ]
+        },{
+            "navn": "Jolida JD302b",
+            "id": "jolida_jd302b",
+            "andreProdukter": "See other jolida products",
+            "outletPrice": "925.00",
+            "pris": "899.99",
+            "beskrivelse": "The JD-302B is a very well built unit, weighing in at approximately 39 pounds. Sprouting from its matte black top panel are pair of 12AX7 preamp tubes, a pair of 12AT7 driver tubes, and a quartet of EL34 output tubes. All of the tubes are of Chinese manufacture",
+            "billede": ["./assets/images/cd-players/jolida_JD302b.jpg"],
+            "category": "tube-amplifiers",
+            "manufacturer": "jolida",
+
+            "additionalInformations": {
+                "manufacturer": "jolida",
+                "manufacturerLink": "",
+                "freeWarranty": "2 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+
+            "description": [
+
+                {
+                    "key": "Max Power Output:",
+                    "value": "75 W per channel"
+                },
+
+                {
+                    "key": "Rated Output Power:",
+                    "value": "50 W per channel"
+                },
+
+                {
+                    "key": "Bandwidth:",
+                    "value": "13Hz to 80kHz"
+                },
+
+                {
+                    "key": "Distortion THD:",
+                    "value": "Less than 1%"
+                },
+
+                {
+                    "key": "Circuit Type:",
+                    "value": "Ultra Linear, Class AB"
+                },
+
+                {
+                    "key": "Input Impedance:",
+                    "value": "100K ohms"
+                },
+
+                {
+                    "key": "Negative Feedback:",
+                    "value": "< 5dB"
+                },
+
+                {
+                    "key": "Weight",
+                    "value": "39 pounds"
+                }
+
+            ]
+        },{
+            "navn": "Jolida JD502b",
+            "id": "jolida_jd502b",
+            "andreProdukter": "See other jolida products",
+            "outletPrice": "1799.99",
+            "pris": "1249.99",
+            "beskrivelse": "Uncompromised Build and Quality – An Incredible Value As Well. Fully Integrated Stereo Amplifier: Input 600mV driving 60 watts, maximum 85 watts output. Multiple Inputs: Front mounted selector switch-CD, Tape Recorder, Tuner and Aux (for TV, DVD Player, VCR or Computer).",
+            "billede": ["./assets/images/cd-players/jolida_JD502b.jpg"],
+            "category": "tube-amplifiers",
+            "manufacturer": "jolida",
+
+            "additionalInformations": {
+                "manufacturer": "jolida",
+                "manufacturerLink": "",
+                "freeWarranty": "2 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+
+            "description": [
+
+                {
+                    "key": "Max Power Output:",
+                    "value": "85 W per channel"
+                },
+
+                {
+                    "key": "Rated Output Power:",
+                    "value": "60 W per channel"
+                },
+
+                {
+                    "key": "Bandwidth:",
+                    "value": "15Hz to 80KHz"
+                },
+
+                {
+                    "key": "Distortion THD:",
+                    "value": "Less than 1%"
+                },
+
+                {
+                    "key": "Circuit Type:",
+                    "value": "Ultra Linear, Class AB"
+                },
+
+                {
+                    "key": "Negative Feedback:",
+                    "value": "< 5dB"
+                },
+
+                {
+                    "key": "Input Impedance:",
+                    "value": "100K ohms"
+                },
+
+                {
+                    "key": "Weight",
+                    "value": "39 pounds"
+                }
+
+            ]
+        },{
+            "navn": "Boesendorfer VCS Wall",
+            "id": "boesendorfer_vcs_wall",
+            "andreProdukter": "See other Boesendorfer products",
+            "outletPrice": "3999.99",
+            "pris": "1249.99",
+            "beskrivelse": "Fully Integrated Stereo speaker: Input 350mV driving 40 watts, maximum 60 watts output. Multiple Inputs: Front mounted selector switch-CD, Tuner and Aux (for TV, DVD Player, VCR or computer). Custom Wound Audio Transformers with a core of German grain oriented silicon steel. 15th generation proprietary design. Secondary can be configured for a 4 ohm or 8 ohm load. State of the Art Components: ALPS or Panasonic audio potentiometer, gold plated RCA input jacks, gold plated five way speaker connectors. Low Feedback Design: Only 9 dB.",
+            "billede": ["./assets/images/cd-players/boesendorfer_vcs_wall.gif"],
+            "category": "speakers",
+            "manufacturer": "boesendorfer",
+
+            "additionalInformations": {
+                "manufacturer": "boesendorfer",
+                "manufacturerLink": "",
+                "freeWarranty": "3 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+
+            "description": [
+
+                {
+                    "key": "Mechanism:",
+                    "value": "JTL-101Y"
+                },
+
+                {
+                    "key": "D/A Conversion:",
+                    "value": "Multi-bit, Delta-Sigma"
+                },
+
+                {
+                    "key": "DAC IC:",
+                    "value": "AK4490"
+                },
+
+                {
+                    "key": "Digital Filter:",
+                    "value": "AK4490"
+                },
+
+                {
+                    "key": "Noise Shaper:",
+                    "value": "AK4490"
+                },
+
+                {
+                    "key": "Low Pass Filter: stage:",
+                    "value": "HDAM"
+                },
+
+                {
+                    "key": "Output buffer:",
+                    "value": "HDAM SA2"
+                },
+
+                {
+                    "key": "Headphone amp:",
+                    "value": "HDAM-SA2buffer+OPAMP"
+                }
+
+            ]
+        },{
+            "navn": "Epos M5",
+            "id": "boesendorfer_vcs_wall",
+            "andreProdukter": "See other Boesendorfer products",
+            "outletPrice": "",
+            "pris": "650.00",
+            "beskrivelse": "The M5 is a shielded, biwirable, two-way bass-reflex design. The 1 dome tweeter has a gold-anodized diaphragm of aluminum alloy terminated with a polyamide suspension. The tweeter's rear-cavity loading and high-efficiency neodymium magnet are claimed to improve its transient response and eliminate temporal smearing",
+            "billede": ["./assets/images/speakers/epos_m5.gif"],
+            "category": "speakers",
+            "manufacturer": "boesendorfer",
+
+            "additionalInformations": {
+                "manufacturer": "boesendorfer",
+                "manufacturerLink": "",
+                "freeWarranty": "3 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+
+            "description": [
+
+                {
+                    "key": "Power handling:",
+                    "value": "75 Watt"
+                },
+
+                {
+                    "key": "Frequency response:",
+                    "value": "60Hz-20kHz"
+                },
+
+                {
+                    "key": "Impedance:",
+                    "value": "4 ohm nominal"
+                },
+
+                {
+                    "key": "Sensitivity:",
+                    "value": "88dB/1W/1m"
+                },
+
+                {
+                    "key": "Amplifier compatibility:",
+                    "value": "25-100 Watt"
+                },
+
+                {
+                    "key": "Configuration:",
+                    "value": "2-Way"
+                },
+
+                {
+                    "key": "Baby shark:",
+                    "value": "dudududududu"
+                },
+
+                {
+                    "key": "Weight",
+                    "value": "5.6 kg"
+                }
+
+            ]
+        },{
+            "navn": "Harbeth HL7 ES2",
+            "id": "harbeth_hl7es2",
+            "andreProdukter": "See other Harbeth products",
+            "outletPrice": "",
+            "pris": "2795.00",
+            "beskrivelse": "Enjoying music on these Harbeth’s is a trulyextraordinary experience, for at the heart of the Compact7ES-2 is the single biggest advance in loudspeakerengineering for a generation: - RADIALTM Harbeth’sunique, patented cone technology.",
+            "billede": ["./assets/images/speakers/harbeth_hl7es2.jpg"],
+            "category": "speakers",
+            "manufacturer": "harbeth",
+
+            "additionalInformations": {
+                "manufacturer": "harbeth",
+                "manufacturerLink": "",
+                "freeWarranty": "3 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+
+            "description": [
+
+                {
+                    "key": "Transducer system:",
+                    "value": "Vented 2 way"
+                },
+
+                {
+                    "key": "Frequency response:",
+                    "value": "46Hz-20kHz"
+                },
+
+                {
+                    "key": "Sensitivity:",
+                    "value": "87dB 1W/1m"
+                },
+
+                {
+                    "key": "Amplifier suggestion:",
+                    "value": "88dB/1W/1m"
+                },
+
+                {
+                    "key": "Nominal Impedance:",
+                    "value": "8 ohms nominal"
+                },
+
+                {
+                    "key": "Power handling:",
+                    "value": "150W programme"
+                },
+
+                {
+                    "key": "Connector:",
+                    "value": "Four 4mm"
+                },
+
+                {
+                    "key": "Weight",
+                    "value": "13.6 kg"
+                }
+
+            ]
+        },{
+            "navn": "Harbeth Monitor 30",
+            "id": "harbeth_monitor30",
+            "andreProdukter": "See other Harbeth products",
+            "outletPrice": "",
+            "pris": "3195.00",
+            "beskrivelse": "The Harbeth Monitor 30 was designed to slot right into professional applications of the old BBC LS5/9 monitor, for which it is a drop-in replacement. It is designed for medium-sized rooms, offering lower bass response and higher sound pressure levels than the near-field, small room-only, Monitor 20/HL P3ES-2/LS3/5a.",
+            "billede": ["./assets/images/cd-players/harbeth_monitor30.jpg"],
+            "category": "speakers",
+            "manufacturer": "harbeth",
+
+            "additionalInformations": {
+                "manufacturer": "harbeth",
+                "manufacturerLink": "",
+                "freeWarranty": "3 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+
+            "description": [
+
+                {
+                    "key": "Transducer system:",
+                    "value": "Vented 2-way"
+                },
+
+                {
+                    "key": "Frequency response:",
+                    "value": "50Hz-20kHz"
+                },
+
+                {
+                    "key": "Impedance:",
+                    "value": "8 ohm nominal"
+                },
+
+                {
+                    "key": "Sensitivity",
+                    "value": "88dB/1W/1m"
+                },
+
+                {
+                    "key": "Amplifier compatibility:",
+                    "value": "25-150 Watt"
+                },
+
+                {
+                    "key": "Configuration:",
+                    "value": "2-Way"
+                },
+
+                {
+                    "key": "Connector:",
+                    "value": "Four 4mm"
+                },
+
+                {
+                    "key": "Weight",
+                    "value": "13.4 kg"
+                }
+
+            ]
+        },{
+            "navn": "Harbeth P3 ES2",
+            "id": "harbeth_p3es2",
+            "andreProdukter": "See other Harbeth products",
+            "outletPrice": "",
+            "pris": "1595.00",
+            "beskrivelse": "The Harbeth Monitor 30 was designed to slot right into professional applications of the old BBC LS5/9 monitor, for which it is a drop-in replacement. It is designed for medium-sized rooms, offering lower bass response and higher sound pressure levels than the near-field, small room-only, Monitor 20/HL P3ES-2/LS3/5a.",
+            "billede": ["./assets/images/cd-players/harbeth_p3es2.jpg"],
+            "category": "speakers",
+            "manufacturer": "harbeth",
+
+            "additionalInformations": {
+                "manufacturer": "harbeth",
+                "manufacturerLink": "",
+                "freeWarranty": "3 years",
+                "deliveryCharge": "Free",
+                "deliveryTime": "1-5 Working days",
+                "cardSurcharges": "No"
+            },
+
+            "description": [
+
+                {
+                    "key": "Transducer system:",
+                    "value": "Sealed 2-way"
+                },
+
+                {
+                    "key": "Frequency response:",
+                    "value": "75Hz-20kHz"
+                },
+
+                {
+                    "key": "Impedance:",
+                    "value": "6 ohm nominal"
+                },
+
+                {
+                    "key": "Sensitivity",
+                    "value": "83dB/1W/1m"
+                },
+
+                {
+                    "key": "Amplifier compatibility:",
+                    "value": "25-120 Watt"
+                },
+
+                {
+                    "key": "Configuration:",
+                    "value": "2-Way"
+                },
+
+                {
+                    "key": "Connector:",
+                    "value": "Four 4mm"
+                },
+
+                {
+                    "key": "Weight",
+                    "value": "5.9 kg"
+                }
+
+            ]
+        }
     ]
 }
