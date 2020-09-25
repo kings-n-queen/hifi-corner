@@ -72,7 +72,7 @@
             "outletPrice": "899.00",
             "pris": "399.00",
             "beskrivelse": "Sarum T builds on the success of our acclaimed Sarum Super ARAY range and introduces our breakthrough proprietary insulation material, Taylon®, bringing a major performance upgrade. Sarum T brings the remarkable benefits of our proprietary dielectric at a new, more accessible price level. Previous generations of Sarum Super ARAY cables have featured a PTFE dielectric. The upgrade to Taylon® introduces a raft of performance benefits.",
-            "billede": ["./assets/images/cd-players/creek_Destiny_cd.jpg"],
+            "billede": ["./assets/images/cd-players/creek_Destiny_CD.jpg"],
             "category": "cd-players",
             "manufacturer": "creek",
 
@@ -203,7 +203,7 @@
         {
             "navn": "Exposure 2010S DVD Player",
             "id": "exposure_2010s_dvd_player",
-            "andreProdukter": "See other Creek products",
+            "andreProdukter": "See other Exposure products",
             "outletPrice": "1691.00",
             "pris": "658.00",
             "beskrivelse": "The high-purity copper developed from the necessity of wiring large-scale integration circuits is also known as high-quality audio cables. High-purity copper wire of 99.9999% (6Nines) purity adopted for the cable is further silver-coated and finished with the most suitable structure to drive the earspeaker.",
@@ -248,7 +248,7 @@
         {
             "navn": "Parasound D200 DVD Player",
             "id": "parasound_d200_dvd_player",
-            "andreProdukter": "See other Creek products",
+            "andreProdukter": "See other Parasound products",
             "outletPrice": "933.00",
             "pris": "254.00",
             "beskrivelse": "Multilayer fixed electrode MLER (Multi-Layer-Elect-Rords) established with SR-009 has evolved to MLER 2. The finish and etching process that smoothes the edge of the electrode opening reduces air resistance and further improves sound permeability. Also, the electrodes themselves are gold plated with high specific gravity to minimize the resonance of the ultra-thin electrode. At the same time, due to the effect of reducing the electric resistance of the electrode itself by gold plating, we have opened up a new ground for high speed, clarity, silky details, and powerful texture.",
@@ -293,7 +293,7 @@
         {
             "navn": "Parasound HALOD3 DVD Player",
             "id": "parasound_halod3_dvd_player",
-            "andreProdukter": "See other Creek products",
+            "andreProdukter": "See other Parasound products",
             "outletPrice": "1558.00",
             "pris": "658.00",
             "beskrivelse": "A modern classic, Sennheiser’s reference class HD 800 headphones deliver sound that is as natural as possible and true in every detail. Improving on a seemingly perfect formula is not a task undertaken lightly, but Sennheiser’s engineers have succeeded in enhancing still further the sound reproduction in the open, circumaural HD 800 S.",
@@ -473,7 +473,7 @@
         {
             "navn": "Manley Snapper Integrated Amplifier",
             "id": "manley_snapper_integrated_amplifier",
-            "andreProdukter": "See other Creek products",
+            "andreProdukter": "See other Manley products",
             "outletPrice": "2589.00",
             "pris": "948.00",
             "beskrivelse": "Bring immersive, cinematically vertical Dolby Atmos sound or surround sound home with the Q50a Dolby Atmos-Enabled Surround Speaker. Equipped with the latest Uni-Q driver array and other advanced technologies, dynamics is excellent while response is accurate and clean.",
@@ -518,7 +518,7 @@
         {
             "navn": "Manley Stingray Integrated Amplifier",
             "id": "manley_stingray_integrated_amplifier",
-            "andreProdukter": "See other Creek products",
+            "andreProdukter": "See other Manley products",
             "outletPrice": "",
             "pris": "10597.00",
             "beskrivelse": "6.5” Flush-Mount Aluminum Cone, Cast-polymer Frame Woofer Extreme Climate Loudspeakers. 1” Black Aluminum Dome Tweeter with Waveguide",
@@ -563,7 +563,7 @@
         {
             "navn": "Pro Ject Debut 3",
             "id": "pro_ject_debut",
-            "andreProdukter": "See other Creek products",
+            "andreProdukter": "See other Pro Ject products",
             "outletPrice": "250.00",
             "pris": "121.00",
             "beskrivelse": "The RMC-1 supports full 4K UHD video, with high speed video switching, in addition to the latest Dolby Atmos and DTS-X object-oriented surround sound formats.It includes 16 fully balanced channels, an all-analogue preamplifier section, precision 32-bit AD/DA conversion, and an advanced 4K UHD video management system. Eight HDMI inputs and dual HDMI outputs support 2.0b and HDCP 2.2, ensuring theatre-like video quality from all 4K UHD HDR10 sources and equipment.",
@@ -608,7 +608,7 @@
         {
             "navn": "Pro Ject RPM 5",
             "id": "pro_ject_rpm_5",
-            "andreProdukter": "See other Creek products",
+            "andreProdukter": "See other Pro Ject products",
             "outletPrice": "5978.00",
             "pris": "4785.00",
             "beskrivelse": "The XMC-2 is a state-of-the-art surround sound processor - designed from the ground up to serve as the nerve center of a modern home theater or surround sound music system. The bit-perfect video switches in the XMC-2 ensure that you’ll get the best possible image quality from the latest HDR and Dolby Vision 4k UHD discs, and the advanced audio decoding engine, audio processing hardware, and room correction options guarantee you true audiophile sound quality and performance. Unlike other surround sound processors, the XMC-2 is not only a superb home theater processor, but also a true audiophile stereo component.",
@@ -653,7 +653,7 @@
         {
             "navn": "Pro Ject RPM 10",
             "id": "pro_ject_rpm_10",
-            "andreProdukter": "See other Creek products",
+            "andreProdukter": "See other Pro Ject products",
             "outletPrice": "",
             "pris": "484.00",
             "beskrivelse": "The BasX A-500 is a five channel power amplifier, combining classical audiophile amplifier architecture – based on a heavy-duty linear power supply, and a carefully designed high current, short signal path, Class A/B output stage – with advanced, microprocessor-controlled monitoring and protection circuitry, to deliver superb sound quality at a truly reasonable price. It’s built to last, with a heavy duty steel chassis, solid milled aluminium faceplate, and high-quality parts and construction. The speaker outputs are heavy duty five-way insulated binding posts that work equally well with bare wire, banana plugs, or spade lugs. Combine the BasX A-500 with a processor at heart of a great home theatre system; use it to upgrade the amplifier section of your AVR, or to run the surround speakers in a big home theatre system; you won’t be disappointed.",

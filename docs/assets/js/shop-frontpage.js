@@ -37,44 +37,44 @@ let categories = [
         permaLink: "?category=streamers"
     },
     {
-        title: "CABLES",
+        title: "PREAMPLIFIERS",
         imgPath: "shoppage_cables_bgimage.jpg",
-        permaLink: "?category=cables"
+        permaLink: "?category=preamplifiers"
     },
     {
-        title: "FURNITURE",
+        title: "POWERAMPLIFIERS",
         imgPath: "shoppage_furniture_bgimage.jpg",
-        permaLink: "?category=furniture"
+        permaLink: "?category=power-amplifiers"
     },
     {
-        title: "HEADPHONES",
+        title: "TUBEAAMPLIFIERS",
         imgPath: "frontpage_b_bgimage.jpg",
-        permaLink: "?category=headphones"
+        permaLink: "?category=tube-amplifiers"
     },
     {
         title: "HOME CINEMA",
         imgPath: "shoppage_homecinema_bgimage.jpg",
-        permaLink: "?category=home-cinema"
+        permaLink: ""
     },
     {
         title: "OUTLET - SAVE UP TO 50%",
         imgPath: "shoppage_outlet_bgimage.jpg",
-        permaLink: "?category=outlet"
+        permaLink: ""
     },
     {
         title: "EBAY SHOP",
         imgPath: "shoppage_ebayshop_bgimage.jpg",
-        permaLink: "?category=ebay-shop"
+        permaLink: ""
     },
     {
         title: "CEILING SPEAKERS",
         imgPath: "shoppage_ceilingspeakers_bgimage.jpg",
-        permaLink: "?category=ceiling-speakers"
+        permaLink: "?category=speakers"
     },
     {
         title: "TVS",
         imgPath: "shoppage_tv_bgimage.jpg",
-        permaLink: "?category=tvs"
+        permaLink: ""
     },
     {
         title: "VINYL LPS",
@@ -84,7 +84,7 @@ let categories = [
     {
         title: "SHOP NOW",
         imgPath: "",
-        permaLink: "?category=all"
+        permaLink: ""
     },
 
 ];
