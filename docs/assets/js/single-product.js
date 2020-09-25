@@ -41,8 +41,6 @@ function setBreadcrumbs(title, permalink, productName) {
 const thumbnails = document.querySelectorAll(".thumbnailContainer__image");
 thumbnails.forEach(image => image.addEventListener("click", changeLargeImg));
 
-const thumbnails = document.querySelectorAll(".thumbnailContainer__image");
-    thumbnails.forEach(image => image.addEventListener("click", changeLargeImg));
 
 function arrange(jsonObj) {
 
