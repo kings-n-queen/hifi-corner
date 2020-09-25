@@ -11,12 +11,7 @@ import filterProductsByManufacturer from "./shop-category-list-filterByManufactu
 import {numbersForFilterPrice, numbersForFilterManufacturer, displayNumbers} from "./shop-category-list-filterNumbers.js";
 import categoryHandler from "./shop-category-list-amplifiers.js";
 
-fetchProducts().then(function(jsonObj) {
-    console.log(urlGetKey("product"));
-    console.log(jsonObj);
-    arrange(jsonObj);
-
-});
+fetchProducts().then(arrange);
 
 function arrange(jsonObj) {
 
@@ -26,31 +21,36 @@ function arrange(jsonObj) {
     // and methods to handle the sorting mechanism
     let sortBox = sort();
 
-    // Create copy of dummy array (this should be filled with data from the actual JSON object)
+    // Create copy of JSON object's products-array
     // Updates the HTML in the sort box when set/changed
     sortBox.products = [...jsonObj.products];
 
-    // Display the products in the list (listView.js)
-    displayProducts(sortBox.products);
+    urlDisplay();
 
     // SORT BY: Price / Name
-    sortBox.addSortListener("sortby", sortUpdate);
+    sortBox.addSortListener("sortby", urlDisplay);
 
     // Ascending- / Descending- button
-    sortBox.addSortListener("asc", sortUpdate);
-    sortBox.addSortListener("desc", sortUpdate);
+    sortBox.addSortListener("asc", urlDisplay);
+    sortBox.addSortListener("desc", urlDisplay);
 
     // VIEW AS: (gridview- / listview- button)
     sortBox.addSortListener("grid", toggleView);
     sortBox.addSortListener("list", toggleView);
 
     // SHOW: Amount display
-    sortBox.addSortListener("count", sortUpdate);
+    sortBox.addSortListener("count", urlDisplay);
 
+    // Display the list, based on parameters in the URL
+    function urlDisplay() {
+        if (!filterAndDisplay("category", "manufacturer")) {
+            sortDisplay(jsonObj.products);
+        }
+    }
 
-    // Sort and display the list
-    function sortUpdate() {
-        sortBox.products = [...jsonObj.products];
+    // Display the list, based on sort-settings
+    function sortDisplay(products){
+        sortBox.products = [...products];
         displayProducts(sortBox.products);
     }
 
@@ -59,28 +59,59 @@ function arrange(jsonObj) {
         toggleViewState(sortBox.gridView ? "grid" : "list");
     }
 
+    function filterAndDisplay(...types){
+        let hasParams = false;
+        types.forEach(type => {
+            let typeValue = urlGetKey(type);
+            if (typeValue) {
+                sortBox.products = jsonObj.products.filter(product => product[type] == typeValue);
+                setBreadcrumbs(typeValue, `?${type}=${typeValue}`);
+                sortDisplay(sortBox.products);
+                hasParams = true;
+            }
+        });
+        return hasParams;
+    }
+    
+    function filterByParam(type){
+        let typeValue = urlGetKey(type);
+        if (typeValue) {
+            let filteredProducts = jsonObj.products.filter(product => product[type] == typeValue);
+            setBreadcrumbs(typeValue, `?${type}=${typeValue}`);
+            return filteredProducts;
+        }
+        return null;
+    }
+
     //#endregion SORT FUNCTIONS
 
     //#region MBC
 
-    addManufacturers(jsonObj.products);
+    addManufacturers(sortBox.products, function(){
+        sortDisplay(filterByParam("manufacturer"));
+    });
 
     //#endregion MBC
 
+    //#region CATEGORY HANDLER
+    
+    categoryHandler(function(){
+        sortDisplay(filterByParam("category"));
+        addManufacturers(sortBox.products);
+    });
+    
+    //#endregion CATEGORY HANDLER
+
+
     //#region BREADCRUMBS
 
-    let dummyBreadcrumbArray = [];
-
-    addBreadcrumbItem(dummyBreadcrumbArray, "Home", "index.html");
-    addBreadcrumbItem(dummyBreadcrumbArray, "Amplifiers", "?category=amplifiers");
-    addBreadcrumbItem(dummyBreadcrumbArray, "Power Amplifiers", "?category=power-amplifiers");
-    addBreadcrumbItem(dummyBreadcrumbArray, "MANLEY MAHI POWER AMPLIFIER", "");
-
-    breadcrumbs(dummyBreadcrumbArray);
-
-    function addBreadcrumbItem(toArray, title, permalink) {
-        toArray.push({ title, permalink });
+    function setBreadcrumbs(title, permalink){
+        let breadCrumbArray = [{title: "Home", permalink: "index.html"}];
+        breadCrumbArray.push({ title, permalink });
+        breadcrumbs(breadCrumbArray);
     }
+
+    breadcrumbs([{title: "Home", permalink: "index.html"}]);
 
     //#endregion BREADCRUMBS
 
@@ -110,23 +141,23 @@ function arrange(jsonObj) {
         })
     });
   
-//#region FILTER NUMBERS
+    //#region FILTER NUMBERS
 
-let amountOfPrice = document.querySelectorAll(".shopBy span");
-window.onload = amountOfPrice.forEach(element => {
-    let number = numbersForFilterPrice(jsonObj.products, element.dataset.minprice, element.dataset.maxprice);
-    displayNumbers(element, number);
-});
+    let amountOfPrice = document.querySelectorAll(".shopBy span");
+    window.onload = amountOfPrice.forEach(element => {
+        let number = numbersForFilterPrice(jsonObj.products, element.dataset.minprice, element.dataset.maxprice);
+        displayNumbers(element, number);
+    });
 
-let amountOfManufaturer = document.querySelectorAll(".manufacturer span");
-window.onload = amountOfManufaturer.forEach(element => {
-    let number = numbersForFilterManufacturer(jsonObj.products, element.dataset.manufacturer);
-    displayNumbers(element, number);
-});
+    let amountOfManufaturer = document.querySelectorAll(".manufacturer span");
+    window.onload = amountOfManufaturer.forEach(element => {
+        let number = numbersForFilterManufacturer(jsonObj.products, element.dataset.manufacturer);
+        displayNumbers(element, number);
+    });
 
-//#endregion FILTER NUMBERS
+    //#endregion FILTER NUMBERS
 
-//#endregion FILTER FUNCTIONS
+    //#endregion FILTER FUNCTIONS
 
     //#region FOOTER
 
