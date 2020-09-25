@@ -3,8 +3,8 @@
             "navn": "Creek Classic CD Player",
             "id": "creek_classic_cd",
             "andreProdukter": "See other Creek products",
-            "outletPrice": "1899.00",
-            "pris": "1399.00",
+            "outletPrice": "",
+            "pris": "1899.00",
             "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
             "billede": ["./assets/images/cd-players/creek_classic_cd.jpg"],
             "category": "cd-players",
@@ -71,7 +71,7 @@
             "andreProdukter": "See other Creek products",
             "outletPrice": "899.00",
             "pris": "399.00",
-            "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+            "beskrivelse": "Sarum T builds on the success of our acclaimed Sarum Super ARAY range and introduces our breakthrough proprietary insulation material, Taylon®, bringing a major performance upgrade. Sarum T brings the remarkable benefits of our proprietary dielectric at a new, more accessible price level. Previous generations of Sarum Super ARAY cables have featured a PTFE dielectric. The upgrade to Taylon® introduces a raft of performance benefits.",
             "billede": ["./assets/images/cd-players/creek_Destiny_cd.jpg"],
             "category": "cd-players",
             "manufacturer": "creek",
@@ -114,9 +114,9 @@
             "navn": "Creek Evo CD Player",
             "id": "creek_evo_cd",
             "andreProdukter": "See other Creek products",
-            "outletPrice": "1299.00",
-            "pris": "999.00",
-            "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+            "outletPrice": "",
+            "pris": "1299.00",
+            "beskrivelse": "IsoLink cables are designed to perfectly complement all our mains conditioning and distribution products, as well as for use in high quality custom installs. Offering excellent value and performance, they are an essential investment for any quality system. The stranded 2.5mm² conductors are high grade Oxygen Free Copper (OFC). A braided copper RF shield protects against local RF interference entering the mains supply. Both outer and inner jackets are in flame-retardant soft PVC according to CEI 20-22/II. A very flexible fire rated 12mm diameter transparent outer jacket finishes this extremely high quality 20A mains cable.",
             "billede": ["./assets/images/cd-players/creek_evo_cd.jpg"],
             "category": "cd-players",
             "manufacturer": "creek",
@@ -159,11 +159,11 @@
             "navn": "Creek Classic DVD Player",
             "id": "creek_classic_dvd_player",
             "andreProdukter": "See other Creek products",
-            "outletPrice": "1299.00",
-            "pris": "999.00",
-            "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+            "outletPrice": "1099.00",
+            "pris": "299.00",
+            "beskrivelse": "The arc is equipped with a position adjustment mechanism of 10-step slider and corresponds to the wide range of cranial form with individual difference",
             "billede": ["./assets/images/dvd-players/creek_classic.jpg"],
-            "category": "DVD-Players",
+            "category": "dvd-players",
             "manufacturer": "creek",
 
             "additionalInformations": {
@@ -204,19 +204,19 @@
             "navn": "Exposure 2010S DVD Player",
             "id": "exposure_2010s_dvd_player",
             "andreProdukter": "See other Creek products",
-            "outletPrice": "1299.00",
-            "pris": "999.00",
-            "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+            "outletPrice": "1691.00",
+            "pris": "658.00",
+            "beskrivelse": "The high-purity copper developed from the necessity of wiring large-scale integration circuits is also known as high-quality audio cables. High-purity copper wire of 99.9999% (6Nines) purity adopted for the cable is further silver-coated and finished with the most suitable structure to drive the earspeaker.",
             "billede": ["./assets/images/dvd-players/exposure_2010S.jpg"],
-            "category": "DVD-Players",
+            "category": "dvd-players",
             "manufacturer": "exposure",
 
             "additionalInformations": {
                 "manufacturer": "Exposure",
                 "manufacturerLink": "",
-                "freeWarranty": "3 years",
+                "freeWarranty": "9 years",
                 "deliveryCharge": "Free",
-                "deliveryTime": "1-5 Working days",
+                "deliveryTime": "1-4 Working days",
                 "cardSurcharges": "No"
             },
 
@@ -249,11 +249,11 @@
             "navn": "Parasound D200 DVD Player",
             "id": "parasound_d200_dvd_player",
             "andreProdukter": "See other Creek products",
-            "outletPrice": "999.00",
-            "pris": "699.00",
-            "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+            "outletPrice": "933.00",
+            "pris": "254.00",
+            "beskrivelse": "Multilayer fixed electrode MLER (Multi-Layer-Elect-Rords) established with SR-009 has evolved to MLER 2. The finish and etching process that smoothes the edge of the electrode opening reduces air resistance and further improves sound permeability. Also, the electrodes themselves are gold plated with high specific gravity to minimize the resonance of the ultra-thin electrode. At the same time, due to the effect of reducing the electric resistance of the electrode itself by gold plating, we have opened up a new ground for high speed, clarity, silky details, and powerful texture.",
             "billede": ["./assets/images/dvd-players/parasound_d200.jpg"],
-            "category": "DVD-Players",
+            "category": "dvd-players",
             "manufacturer": "parasound",
 
             "additionalInformations": {
@@ -294,20 +294,20 @@
             "navn": "Parasound HALOD3 DVD Player",
             "id": "parasound_halod3_dvd_player",
             "andreProdukter": "See other Creek products",
-            "outletPrice": "999.00",
-            "pris": "699.00",
-            "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+            "outletPrice": "1558.00",
+            "pris": "658.00",
+            "beskrivelse": "A modern classic, Sennheiser’s reference class HD 800 headphones deliver sound that is as natural as possible and true in every detail. Improving on a seemingly perfect formula is not a task undertaken lightly, but Sennheiser’s engineers have succeeded in enhancing still further the sound reproduction in the open, circumaural HD 800 S.",
             "billede": ["./assets/images/dvd-players/parasound_halod3.jpg"],
-            "category": "DVD-Players",
+            "category": "dvd-players",
             "manufacturer": "parasound",
 
             "additionalInformations": {
                 "manufacturer": "Parasound",
                 "manufacturerLink": "",
-                "freeWarranty": "3 years",
+                "freeWarranty": "1 years",
                 "deliveryCharge": "Free",
-                "deliveryTime": "1-5 Working days",
-                "cardSurcharges": "No"
+                "deliveryTime": "1-14 Working days",
+                "cardSurcharges": "Yes"
             },
 
             "description": [
@@ -339,19 +339,19 @@
             "navn": "Creek A50I Integrated Amplifier",
             "id": "creek_a50i_integrated_amplifier",
             "andreProdukter": "See other Creek products",
-            "outletPrice": "999.00",
-            "pris": "699.00",
-            "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+            "outletPrice": "",
+            "pris": "2548.00",
+            "beskrivelse": "The RS2e is the little brother of the RS1e but is just as aesthetically pleasing, now utilizing our proprietary curing process that gives a new, lighter look. The RS2e has a 44mm driver and uses The e Series 8 conductor cable design. The hand-crafted mahogany utilizes new advanced damping treatments that help control and dissipate resonances. The RS2e still maintains an overall sound that is pure Grado, with warm harmonic colours, rich full bodied vocals, excellent dynamics, and an ultra-smooth top end. These truly are an audiophile’s dream.",
             "billede": ["./assets/images/integrated-amplifiers/creek_a50I.jpg"],
-            "category": "integrated amplifiers",
+            "category": "integrated-amplifiers",
             "manufacturer": "creek",
 
             "additionalInformations": {
                 "manufacturer": "Creek",
                 "manufacturerLink": "",
-                "freeWarranty": "3 years",
+                "freeWarranty": "9 years",
                 "deliveryCharge": "Free",
-                "deliveryTime": "1-5 Working days",
+                "deliveryTime": "3-5 Working days",
                 "cardSurcharges": "No"
             },
 
@@ -384,20 +384,20 @@
             "navn": "Creek Classic 5350SE Integrated Amplifier",
             "id": "creek_classic_5350se_integrated_amplifier",
             "andreProdukter": "See other Creek products",
-            "outletPrice": "999.00",
-            "pris": "699.00",
-            "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+            "outletPrice": "589.00",
+            "pris": "478.00",
+            "beskrivelse": "Like all the 'Prestige Series' models, the multi-award winning* Grado SR80e is an open-back, on-ear design. It is light, comfortable and built on the same features as the SR60e headphone. However the SR80e utilises a 4 conductor connecting cable and the driver diaphragms are put through a special 'de-stressing' process in order to enhance inner detail. The result is a headset which delivers a wider, more open and dynamic soundstage, but which is also smoother in the treble and deeper and even better controlled in the bass; a sound that is pure Grado.",
             "billede": ["./assets/images/integrated-amplifiers/creek_classic5350SE.jpg"],
-            "category": "integrated amplifiers",
+            "category": "integrated-amplifiers",
             "manufacturer": "creek",
 
             "additionalInformations": {
                 "manufacturer": "Creek",
                 "manufacturerLink": "",
-                "freeWarranty": "3 years",
+                "freeWarranty": "4 years",
                 "deliveryCharge": "Free",
-                "deliveryTime": "1-5 Working days",
-                "cardSurcharges": "No"
+                "deliveryTime": "1-9 Working days",
+                "cardSurcharges": "Yes"
             },
 
             "description": [
@@ -429,42 +429,42 @@
             "navn": "Creek Destiny Amp Integrated Amplifier",
             "id": "creek_destiny_amp_integrated_amplifier",
             "andreProdukter": "See other Creek products",
-            "outletPrice": "999.00",
-            "pris": "699.00",
-            "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+            "outletPrice": "564.00",
+            "pris": "658.00",
+            "beskrivelse": "6.5 Micro-Ceramic Composite (MCC) Cone, Cast-Polymer Frame Woofer. Two 1 Aluminium-Dome Tweeters with Waveguides",
             "billede": ["./assets/images/integrated-amplifiers/creek_destinyamp.jpg"],
-            "category": "integrated amplifiers",
+            "category": "integrated-amplifiers",
             "manufacturer": "creek",
 
             "additionalInformations": {
                 "manufacturer": "Creek",
                 "manufacturerLink": "",
-                "freeWarranty": "3 years",
+                "freeWarranty": "10 years",
                 "deliveryCharge": "Free",
-                "deliveryTime": "1-5 Working days",
-                "cardSurcharges": "No"
+                "deliveryTime": "1-10 Working days",
+                "cardSurcharges": "Yes"
             },
 
             "description": [
 
                 {
                     "key": "Freqency response:",
-                    "value": "+0-3dB, 3Hz to 96kHz at rated output. 0.15dB 20Hz to 20kHz. (Balanced, 200k ohms load) @ 192kHz sample rate."
+                    "value": "+0-8dB, 3Hz to 100kHz at rated output. 0.20dB 20Hz to 40kHz. (Balanced, 200k ohms load) @ 192kHz sample rate."
                 },
 
                 {
                     "key": "Distortion:",
-                    "value": "THD+N Less than .004% at 2V RMS BAL output"
+                    "value": "THD+N Less than .904% at 2V RMS BAL output"
                 },
 
                 {
                     "key": "Signal-noise ratio:",
-                    "value": "110db"
+                    "value": "980db"
                 },
 
                 {
                     "key": "Dynamic ranfe (AES17):",
-                    "value": "111db"
+                    "value": "871db"
                 }
             ]
         },
@@ -474,19 +474,19 @@
             "navn": "Manley Snapper Integrated Amplifier",
             "id": "manley_snapper_integrated_amplifier",
             "andreProdukter": "See other Creek products",
-            "outletPrice": "999.00",
-            "pris": "699.00",
-            "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+            "outletPrice": "2589.00",
+            "pris": "948.00",
+            "beskrivelse": "Bring immersive, cinematically vertical Dolby Atmos sound or surround sound home with the Q50a Dolby Atmos-Enabled Surround Speaker. Equipped with the latest Uni-Q driver array and other advanced technologies, dynamics is excellent while response is accurate and clean.",
             "billede": ["./assets/images/integrated-amplifiers/manley_snapper.jpg"],
-            "category": "integrated amplifiers",
+            "category": "integrated-amplifiers",
             "manufacturer": "manley",
 
             "additionalInformations": {
                 "manufacturer": "Manley",
                 "manufacturerLink": "",
-                "freeWarranty": "3 years",
+                "freeWarranty": "7 years",
                 "deliveryCharge": "Free",
-                "deliveryTime": "1-5 Working days",
+                "deliveryTime": "1-7 Working days",
                 "cardSurcharges": "No"
             },
 
@@ -494,45 +494,44 @@
 
                 {
                     "key": "Freqency response:",
-                    "value": "+0-3dB, 3Hz to 96kHz at rated output. 0.15dB 20Hz to 20kHz. (Balanced, 200k ohms load) @ 192kHz sample rate."
+                    "value": "+0-40dB, 6Hz to 50kHz at rated output. 0.98dB 20Hz to 20kHz. (Balanced, 200k ohms load)"
                 },
 
                 {
                     "key": "Distortion:",
-                    "value": "THD+N Less than .004% at 2V RMS BAL output"
+                    "value": "THD+N Less than .084% at 9V RMS BAL output"
                 },
 
                 {
                     "key": "Signal-noise ratio:",
-                    "value": "110db"
+                    "value": "189db"
                 },
 
                 {
                     "key": "Dynamic ranfe (AES17):",
-                    "value": "111db"
+                    "value": "547db"
                 }
             ]
         },
-
 
 
         {
             "navn": "Manley Stingray Integrated Amplifier",
             "id": "manley_stingray_integrated_amplifier",
             "andreProdukter": "See other Creek products",
-            "outletPrice": "999.00",
-            "pris": "699.00",
-            "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+            "outletPrice": "",
+            "pris": "10597.00",
+            "beskrivelse": "6.5” Flush-Mount Aluminum Cone, Cast-polymer Frame Woofer Extreme Climate Loudspeakers. 1” Black Aluminum Dome Tweeter with Waveguide",
             "billede": ["./assets/images/integrated-amplifiers/Manley_Stingray.jpg"],
-            "category": "integrated amplifiers",
+            "category": "integrated-amplifiers",
             "manufacturer": "manley",
 
             "additionalInformations": {
                 "manufacturer": "Manley",
                 "manufacturerLink": "",
-                "freeWarranty": "3 years",
+                "freeWarranty": "9 years",
                 "deliveryCharge": "Free",
-                "deliveryTime": "1-5 Working days",
+                "deliveryTime": "1-6 Working days",
                 "cardSurcharges": "No"
             },
 
@@ -540,22 +539,22 @@
 
                 {
                     "key": "Freqency response:",
-                    "value": "+0-3dB, 3Hz to 96kHz at rated output. 0.15dB 20Hz to 20kHz. (Balanced, 200k ohms load) @ 192kHz sample rate."
+                    "value": "+0-3dB, 74Hz to 96kHz at rated output. 0.512dB 20Hz to 20kHz. (Balanced, 200k ohms load) @ 192kHz sample rate."
                 },
 
                 {
                     "key": "Distortion:",
-                    "value": "THD+N Less than .004% at 2V RMS BAL output"
+                    "value": "THD+N Less than .884% at 85V RMS BAL output"
                 },
 
                 {
                     "key": "Signal-noise ratio:",
-                    "value": "110db"
+                    "value": "52db"
                 },
 
                 {
                     "key": "Dynamic ranfe (AES17):",
-                    "value": "111db"
+                    "value": "852db"
                 }
             ]
         },
@@ -565,19 +564,19 @@
             "navn": "Pro Ject Debut 3",
             "id": "pro_ject_debut",
             "andreProdukter": "See other Creek products",
-            "outletPrice": "999.00",
-            "pris": "699.00",
-            "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+            "outletPrice": "250.00",
+            "pris": "121.00",
+            "beskrivelse": "The RMC-1 supports full 4K UHD video, with high speed video switching, in addition to the latest Dolby Atmos and DTS-X object-oriented surround sound formats.It includes 16 fully balanced channels, an all-analogue preamplifier section, precision 32-bit AD/DA conversion, and an advanced 4K UHD video management system. Eight HDMI inputs and dual HDMI outputs support 2.0b and HDCP 2.2, ensuring theatre-like video quality from all 4K UHD HDR10 sources and equipment.",
             "billede": ["./assets/images/lps/Pro_ject_Debut_3_bl.jpg", "./assets/images/lps/Pro_ject_Debut_III_red_1.jpg", "./assets/images/lps/Pro_ject_Debut_III_yellow_1.jpg"],
-            "category": "LPS",
+            "category": "lps",
             "manufacturer": "pro_ject",
 
             "additionalInformations": {
                 "manufacturer": "Pro Ject",
                 "manufacturerLink": "",
-                "freeWarranty": "3 years",
+                "freeWarranty": "9 years",
                 "deliveryCharge": "Free",
-                "deliveryTime": "1-5 Working days",
+                "deliveryTime": "1-6 Working days",
                 "cardSurcharges": "No"
             },
 
@@ -585,22 +584,22 @@
 
                 {
                     "key": "Freqency response:",
-                    "value": "+0-3dB, 3Hz to 96kHz at rated output. 0.15dB 20Hz to 20kHz. (Balanced, 200k ohms load) @ 192kHz sample rate."
+                    "value": "+0-85dB, 3Hz to 526kHz at rated output. 0.85dB 20Hz to 20kHz."
                 },
 
                 {
                     "key": "Distortion:",
-                    "value": "THD+N Less than .004% at 2V RMS BAL output"
+                    "value": "THD+N Less than .098% at 5V RMS BAL output"
                 },
 
                 {
                     "key": "Signal-noise ratio:",
-                    "value": "110db"
+                    "value": "962db"
                 },
 
                 {
                     "key": "Dynamic ranfe (AES17):",
-                    "value": "111db"
+                    "value": "852db"
                 }
             ]
         },
@@ -610,17 +609,17 @@
             "navn": "Pro Ject RPM 5",
             "id": "pro_ject_rpm_5",
             "andreProdukter": "See other Creek products",
-            "outletPrice": "999.00",
-            "pris": "699.00",
-            "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+            "outletPrice": "5978.00",
+            "pris": "4785.00",
+            "beskrivelse": "The XMC-2 is a state-of-the-art surround sound processor - designed from the ground up to serve as the nerve center of a modern home theater or surround sound music system. The bit-perfect video switches in the XMC-2 ensure that you’ll get the best possible image quality from the latest HDR and Dolby Vision 4k UHD discs, and the advanced audio decoding engine, audio processing hardware, and room correction options guarantee you true audiophile sound quality and performance. Unlike other surround sound processors, the XMC-2 is not only a superb home theater processor, but also a true audiophile stereo component.",
             "billede": ["./assets/images/lps/Pro_ject_rpm_5.jpg"],
-            "category": "LPS",
+            "category": "lps",
             "manufacturer": "pro_ject",
 
             "additionalInformations": {
                 "manufacturer": "Pro Ject",
                 "manufacturerLink": "",
-                "freeWarranty": "3 years",
+                "freeWarranty": "9 years",
                 "deliveryCharge": "Free",
                 "deliveryTime": "1-5 Working days",
                 "cardSurcharges": "No"
@@ -655,19 +654,19 @@
             "navn": "Pro Ject RPM 10",
             "id": "pro_ject_rpm_10",
             "andreProdukter": "See other Creek products",
-            "outletPrice": "999.00",
-            "pris": "699.00",
-            "beskrivelse": "Marantz developed its own discrete circuit boards to replace standard ICs. These HDAMs consist of discrete surface mount components with short mirror image L/R signal paths. These devices do exactly the same thing as the widely used Op-Amps but outperform these designs dramatically in terms of the Slew Rate and reduced noise level, resulting in more dynamic, accurate and detailed sound. In the CD6007, the proprietary HDAM-SA2 circuit improves on its previous HDAM module for an even more stable power supply. The idling current stability is less influenced by power transistor temperatures to maintain sound performance even at high level output.",
+            "outletPrice": "",
+            "pris": "484.00",
+            "beskrivelse": "The BasX A-500 is a five channel power amplifier, combining classical audiophile amplifier architecture – based on a heavy-duty linear power supply, and a carefully designed high current, short signal path, Class A/B output stage – with advanced, microprocessor-controlled monitoring and protection circuitry, to deliver superb sound quality at a truly reasonable price. It’s built to last, with a heavy duty steel chassis, solid milled aluminium faceplate, and high-quality parts and construction. The speaker outputs are heavy duty five-way insulated binding posts that work equally well with bare wire, banana plugs, or spade lugs. Combine the BasX A-500 with a processor at heart of a great home theatre system; use it to upgrade the amplifier section of your AVR, or to run the surround speakers in a big home theatre system; you won’t be disappointed.",
             "billede": ["./assets/images/lps/Pro_ject_rpm10.jpg"],
-            "category": "LPS",
+            "category": "lps",
             "manufacturer": "pro_ject",
 
             "additionalInformations": {
                 "manufacturer": "Pro Ject",
                 "manufacturerLink": "",
-                "freeWarranty": "3 years",
+                "freeWarranty": "6 years",
                 "deliveryCharge": "Free",
-                "deliveryTime": "1-5 Working days",
+                "deliveryTime": "1-14 Working days",
                 "cardSurcharges": "No"
             },
 
@@ -675,22 +674,22 @@
 
                 {
                     "key": "Freqency response:",
-                    "value": "+0-3dB, 3Hz to 96kHz at rated output. 0.15dB 20Hz to 20kHz. (Balanced, 200k ohms load) @ 192kHz sample rate."
+                    "value": "+0-5dB, 5Hz to 47kHz at rated output. 0.852dB 852Hz to 852kHz."
                 },
 
                 {
                     "key": "Distortion:",
-                    "value": "THD+N Less than .004% at 2V RMS BAL output"
+                    "value": "THD+N Less than .0745% at 8V RMS BAL output"
                 },
 
                 {
                     "key": "Signal-noise ratio:",
-                    "value": "110db"
+                    "value": "963db"
                 },
 
                 {
                     "key": "Dynamic ranfe (AES17):",
-                    "value": "111db"
+                    "value": "741db"
                 }
             ]
         },
@@ -699,20 +698,20 @@
             "navn": "Manley Mahi",
             "id": "manley-mahi",
             "andreProdukter": "See other Manley products",
-            "outletPrice": "699.00",
-            "pris": "499.00",
+            "outletPrice": "2548.00",
+            "pris": "879.00",
             "beskrivelse": "From the transformer to the input terminals, each section of the Artera has been engineered from the ground up to ensure power, musicality and stability. The Artera Stereo produces 140 Watts RMS per channel – ample power for driving first-class loudspeakers, unfaltering even under high dynamic and transient conditions thanks to the patented Current Dumping technology. Special attention has also been paid to the newly developed balanced XLR inputs. The robust connections are yet another string to the Artera Stereo's bow, with an incomparable signal to noise ratio.",
             "billede": ["./assets/images/power-amplifiers/manley_mahi.jpg"],
             "category": "power-amplifiers",
             "manufacturer": "manley",
 
             "additionalInformations": {
-                "manufacturer": "manley",
+                "manufacturer": "Manley",
                 "manufacturerLink": "",
                 "freeWarranty": "2 years",
                 "deliveryCharge": "Free",
-                "deliveryTime": "1-5 Working days",
-                "cardSurcharges": "No"
+                "deliveryTime": "1-4 Working days",
+                "cardSurcharges": "Yes"
             },
 
             "description": [
@@ -742,20 +741,20 @@
             "navn": "Manley Neoclassic 300 b",
             "id": "manley-neoclassic300b",
             "andreProdukter": "See other Manley products",
-            "outletPrice": "900.00",
-            "pris": "799.00",
+            "outletPrice": "905.00",
+            "pris": "548.00",
             "beskrivelse": "From the transformer to the input terminals, each section of the Artera has been engineered from the ground up to ensure power, musicality and stability. The Artera Stereo produces 140 Watts RMS per channel – ample power for driving first-class loudspeakers, unfaltering even under high dynamic and transient conditions thanks to the patented Current Dumping technology. Special attention has also been paid to the newly developed balanced XLR inputs. The robust connections are yet another string to the Artera Stereo's bow, with an incomparable signal to noise ratio.",
             "billede": ["./assets/images/power-amplifiers/manley_neoclassic300b.jpg"],
             "category": "power-amplifiers",
             "manufacturer": "manley",
 
             "additionalInformations": {
-                "manufacturer": "manley",
+                "manufacturer": "Manley",
                 "manufacturerLink": "",
                 "freeWarranty": "4 years",
                 "deliveryCharge": "Free",
-                "deliveryTime": "1-5 Working days",
-                "cardSurcharges": "No"
+                "deliveryTime": "1-10 Working days",
+                "cardSurcharges": "Yes"
             },
 
             "description": [
@@ -785,19 +784,19 @@
             "navn": "Manley Snapper",
             "id": "manley-snapper",
             "andreProdukter": "See other Manley products",
-            "outletPrice": "499.00",
-            "pris": "369.00",
+            "outletPrice": "450.00",
+            "pris": "257.00",
             "beskrivelse": "If a tube fails, Adaptive AutoBias will instantly put the amplifier into protection mode so no parts can get damaged. A red LED will light up in front of the tube that needs replacing. Simply plug in another tube, and listen. No guesswork. No smoking amp. No getting out the soldering iron or dropping your amp off at UPS. ",
             "billede": ["./assets/images/power-amplifiers/manley_snapper.jpg"],
             "category": "power-amplifiers",
             "manufacturer": "manley",
 
             "additionalInformations": {
-                "manufacturer": "manley",
+                "manufacturer": "Manley",
                 "manufacturerLink": "",
                 "freeWarranty": "1 years",
                 "deliveryCharge": "Free",
-                "deliveryTime": "1-5 Working days",
+                "deliveryTime": "1-8 Working days",
                 "cardSurcharges": "No"
             },
 
@@ -828,19 +827,19 @@
             "navn": "Manley Snapper",
             "id": "manley-snapper",
             "andreProdukter": "See other Manley products",
-            "outletPrice": "499.00",
-            "pris": "369.00",
+            "outletPrice": "9945.00",
+            "pris": "8568.00",
             "beskrivelse": "If a tube fails, Adaptive AutoBias will instantly put the amplifier into protection mode so no parts can get damaged. A red LED will light up in front of the tube that needs replacing. Simply plug in another tube, and listen. No guesswork. No smoking amp. No getting out the soldering iron or dropping your amp off at UPS. ",
             "billede": ["./assets/images/power-amplifiers/manley_snapper.jpg"],
             "category": "power-amplifiers",
             "manufacturer": "manley",
 
             "additionalInformations": {
-                "manufacturer": "manley",
+                "manufacturer": "Manley",
                 "manufacturerLink": "",
-                "freeWarranty": "1 years",
+                "freeWarranty": "9 years",
                 "deliveryCharge": "Free",
-                "deliveryTime": "1-5 Working days",
+                "deliveryTime": "1-10 Working days",
                 "cardSurcharges": "No"
             },
 
@@ -848,21 +847,21 @@
 
                 {
                     "key": "Dimentions (W × H × D):",
-                    "value": "431 × 110 × 454mm"
+                    "value": "487 × 456 × 416mm"
                 },
                 {
                     "key": "Front Panel Height:",
-                    "value": "4U / 486.8mm"
+                    "value": "15U / 856.8mm"
                 },
 
                 {
                     "key": "Power Requirements:",
-                    "value": "300V, 30Hz"
+                    "value": "524V, 52Hz"
                 },
 
                 {
                     "key": "Power Comsumption:",
-                    "value": "250w"
+                    "value": "745w"
                 }
             ]
         },
@@ -871,19 +870,19 @@
                 "navn": "Parasound Haloa 23",
                 "id": "parasound-haloa23",
                 "andreProdukter": "See other Parasound products",
-                "outletPrice": "2.210.00",
-                "pris": "1.999.00",
+                "outletPrice": "2847.000",
+                "pris": "1999.00",
                 "beskrivelse": "Do you have some classic rock albums you used to love so much that have now ended up left on the shelf, un-played for years? How about jazz or classical recordings from the 60’s? Every audiophile has albums that they used to play, but stopped because they are harsh, brittle, or bright. There is a solution. ",
                 "billede": ["./assets/images/power-amplifiers/parasound_haloa23.jpg"],
                 "category": "power-amplifiers",
                 "manufacturer": "parasound",
         
                 "additionalInformations": {
-                    "manufacturer": "parasound",
+                    "manufacturer": "Parasound",
                     "manufacturerLink": "",
                     "freeWarranty": "2 years",
                     "deliveryCharge": "Free",
-                    "deliveryTime": "1-5 Working days",
+                    "deliveryTime": "1-7 Working days",
                     "cardSurcharges": "No"
                 },
         
@@ -912,15 +911,15 @@
                 "navn": "Creek OBH 22 Passive Premp",
                 "id": "creek_OBH_22_Passive_Preamp",
                 "andreProdukter": "See other Creek products",
-                "outletPrice": "1.210.00",
-                "pris": "1.000.00",
+                "outletPrice": "",
+                "pris": "5054.00",
                 "beskrivelse": "Do you have some classic rock albums you used to love so much that have now ended up left on the shelf, un-played for years? How about jazz or classical recordings from the 60’s? Every audiophile has albums that they used to play, but stopped because they are harsh, brittle, or bright. There is a solution. ",
-                "billede": ["./assets/images/power-amplifiers/Creek_OBH_22_Passive_Preamp.jpg"],
+                "billede": ["./assets/images/preamplifiers/Creek_OBH_22_Passive_Preamp.jpg"],
                 "category": "preamplifiers",
                 "manufacturer": "creek",
             
                 "additionalInformations": {
-                    "manufacturer": "creek",
+                    "manufacturer": "Creek",
                     "manufacturerLink": "",
                     "freeWarranty": "1 years",
                     "deliveryCharge": "Free",
@@ -953,19 +952,19 @@
                 "navn": "Creek OBH 22 Passive Premp",
                 "id": "creek_OBH_22_Passive_Preamp",
                 "andreProdukter": "See other Creek products",
-                "outletPrice": "1.210.00",
-                "pris": "1.000.00",
+                "outletPrice": "6973.00",
+                "pris": "4597.00",
                 "beskrivelse": "Do you have some classic rock albums you used to love so much that have now ended up left on the shelf, un-played for years? How about jazz or classical recordings from the 60’s? Every audiophile has albums that they used to play, but stopped because they are harsh, brittle, or bright. There is a solution. ",
-                "billede": ["./assets/images/power-amplifiers/Creek_OBH_22_Passive_Preamp.jpg"],
+                "billede": ["./assets/images/preamplifiers/Creek_OBH_22_Passive_Preamp.jpg"],
                 "category": "preamplifiers",
                 "manufacturer": "creek",
             
                 "additionalInformations": {
-                    "manufacturer": "creek",
+                    "manufacturer": "Creek",
                     "manufacturerLink": "",
                     "freeWarranty": "1 years",
                     "deliveryCharge": "Free",
-                    "deliveryTime": "1-5 Working days",
+                    "deliveryTime": "1-6 Working days",
                     "cardSurcharges": "No"
                 },
             
@@ -973,19 +972,19 @@
             
                 {
                     "key": "Power:",
-                    "value": "Stereo Ultra-linear -50 watts x 2 (EL34) (8Ω, 1% THD)"
+                    "value": "Stereo Ultra-linear -850 watts x 5 (EL34) (4Ω, 41% THD)"
                 },
                 {
                     "key": "Freq. Response:",
-                    "value": "-20Hz-70kHz +/- 1dB 8Hz-75kHz +/- 3dB"
+                    "value": "-85Hz-41kHz +/- 5dB 52Hz-55kHz +/- 5dB"
                 },
                 {
                     "key": "S/N Ratio:",
-                    "value": "91 dB, 110 dBA"
+                    "value": "89 dB, 852 dBA"
                 },
                 {
                     "key": "Input Impedance :",
-                    "value": "200kΩ"
+                    "value": "855kΩ"
                 }
             ]
         },
@@ -994,20 +993,20 @@
                 "navn": "Parasound Classic 7100",
                 "id": "parasound_classic7100",
                 "andreProdukter": "See other Parasound products",
-                "outletPrice": "510.00",
+                "outletPrice": "505.00",
                 "pris": "499.00",
                 "beskrivelse": "FBA-800 is our most advanced power amplifier. The floating bridge design combines four 20 Watt amplifiers in a single stereo chassis and provides several key benefits. Each channel consists of two amplifiers working as voltage amplifiers driving an output stage of bridged power transistors. The advantages are a low noise floor, better power output relative to the voltage rails (x2) and with the fixed current of the class A mode, low output impedance and better load tolerance.",
-                "billede": ["./assets/images/power-amplifiers/parasound_classic7100.jpg"],
+                "billede": ["./assets/images/preamplifiers/parasound_classic7100.jpg"],
                 "category": "preamplifiers",
                 "manufacturer": "parasound",
                 
                 "additionalInformations": {
-                    "manufacturer": "parasound",
+                    "manufacturer": "Parasound",
                     "manufacturerLink": "",
-                    "freeWarranty": "2 years",
+                    "freeWarranty": "8 years",
                     "deliveryCharge": "Free",
-                    "deliveryTime": "1-5 Working days",
-                    "cardSurcharges": "No"
+                    "deliveryTime": "1-9 Working days",
+                    "cardSurcharges": "Yes"
                 },
                 
                 "description": [
@@ -1018,15 +1017,15 @@
                 },
                 {
                     "key": "Freq. Response:",
-                    "value": "-50Hz-70kHz +/- 8dB 8Hz-80kHz +/- 4dB"
+                    "value": "-52Hz-852kHz +/- 52dB 55Hz-52kHz +/- 5dB"
                 },
                 {
                     "key": "S/N Ratio:",
-                    "value": "40 dB, 810 dBA"
+                    "value": "65 dB, 625 dBA"
                 },
                 {
                     "key": "Input Impedance :",
-                    "value": "100kΩ"
+                    "value": "852kΩ"
                 }
             ]
         },
@@ -1035,39 +1034,39 @@
                 "navn": "Parasound Halop 3",
                 "id": "parasound_halop3",
                 "andreProdukter": "See other Parasound products",
-                "outletPrice": "610.00",
-                "pris": "599.00",
+                "outletPrice": "889.00",
+                "pris": "498.00",
                 "beskrivelse": "FBA-800 is our most advanced power amplifier. The floating bridge design combines four 20 Watt amplifiers in a single stereo chassis and provides several key benefits. Each channel consists of two amplifiers working as voltage amplifiers driving an output stage of bridged power transistors. The advantages are a low noise floor, better power output relative to the voltage rails (x2) and with the fixed current of the class A mode, low output impedance and better load tolerance.",
-                "billede": ["./assets/images/power-amplifiers/parasound_halop3.jpg"],
+                "billede": ["./assets/images/preamplifiers/parasound_halop3.jpg"],
                 "category": "preamplifiers",
                 "manufacturer": "parasound",
                     
                 "additionalInformations": {
-                    "manufacturer": "parasound",
+                    "manufacturer": "Parasound",
                     "manufacturerLink": "",
-                    "freeWarranty": "2 years",
+                    "freeWarranty": "6 years",
                     "deliveryCharge": "Free",
-                    "deliveryTime": "1-5 Working days",
-                    "cardSurcharges": "No"
+                    "deliveryTime": "1-4 Working days",
+                    "cardSurcharges": "Yes"
                     },
                     
                 "description": [
                     
                 {
                     "key": "Power:",
-                    "value": "Stereo Ultra-linear -70 watts x 2 (EL34) (9Ω, 5% THD)"
+                    "value": "Stereo Ultra-linear -4520 watts x 2 (EL34) (9Ω, 5% THD)"
                 },
                 {
                     "key": "Freq. Response:",
-                    "value": "-50Hz-70kHz +/- 9dB 8Hz-80kHz +/- 4dB"
+                    "value": "-63Hz-8520kHz +/- 41dB 78Hz-852kHz +/- 41dB"
                 },
                 {
                     "key": "S/N Ratio:",
-                    "value": "10 dB, 710 dBA"
+                    "value": "741 dB, 9623 dBA"
                 },
                 {
                     "key": "Input Impedance :",
-                    "value": "150kΩ"
+                    "value": "258kΩ"
                 }
             ]
         },
@@ -1076,59 +1075,60 @@
                 "navn": "Project Prebox",
                 "id": "project_prebox",
                 "andreProdukter": "See other Prebox products",
-                "outletPrice": "710.00",
-                "pris": "659.00",
+                "outletPrice": "798.00",
+                "pris": "648.00",
                 "beskrivelse": "These features make it a perfect match with the preamp REVO SC-2, which expresses the same sound personality. But, also for people who want to combine it with other preamps, the REVO PA-160MR can become a perfect partner. For example, with the best tube preamps you can enhance the characteristics of sound, giving an extraordinary ability to drive the speakers without introducing any harshness in the sound and the listening fatigue often present in solid state amplifiers.",
-                "billede": ["./assets/images/power-amplifiers/Project_prebox.jpg"],
+                "billede": ["./assets/images/preamplifiers/Project_prebox.jpg"],
                 "category": "preamplifiers",
                 "manufacturer": "project",
                         
                 "additionalInformations": {
                     "manufacturer": "project",
                     "manufacturerLink": "",
-                    "freeWarranty": "1 years",
+                    "freeWarranty": "3 years",
                     "deliveryCharge": "Free",
-                    "deliveryTime": "1-5 Working days",
-                    "cardSurcharges": "No"
+                    "deliveryTime": "1-2 Working days",
+                    "cardSurcharges": "Yes"
                 },
                         
                 "description": [
                         
                 {
                     "key": "Power:",
-                    "value": "Stereo Ultra-linear -20 watts x 1 (EL34) (40Ω, 3% THD)"
+                    "value": "x 852 (EL34) (520Ω, 1% THD)"
                 },
                 {
                     "key": "Freq. Response:",
-                    "value": "20Hz-80kHz +/- 8dB 1Hz-50kHz +/- 4dB"
+                    "value": "852Hz-863kHz +/-"
                 },
                 {
                     "key": "S/N Ratio:",
-                    "value": "80 dB, 500 dBA"
+                    "value": "250 dB"
                 },
                 {
                     "key": "Input Impedance :",
-                    "value": "480kΩ"
+                    "value": "528kΩ"
                 }
             ]
         },
+
         {
             "navn": "Jolida JD102b",
             "id": "jolida_jd102b",
             "andreProdukter": "See other Jolida products",
             "outletPrice": "",
-            "pris": "650",
+            "pris": "2094.88",
             "beskrivelse": "Great sounding, musical amp for small systems or entry level tube amp. High Quality construction, built to last. Heavy gauge steel chassis. Uses Push-Pull EL84/6BQ5s and three 12AX7s which are easy to source and inexpensive. Complete integrated amp with four pairs of inputs and four and eight ohm outputs. Easy to maintain.",
             "billede": ["./assets/images/tube-amplifiers/jolida_JD102b.jpg"],
             "category": "tube-amplifiers",
             "manufacturer": "jolida",
 
             "additionalInformations": {
-                "manufacturer": "jolida",
+                "manufacturer": "Jolida",
                 "manufacturerLink": "",
-                "freeWarranty": "1 year",
+                "freeWarranty": "6 year",
                 "deliveryCharge": "Free",
-                "deliveryTime": "1-5 Working days",
+                "deliveryTime": "1-15 Working days",
                 "cardSurcharges": "No"
             },
 
@@ -1176,23 +1176,24 @@
 
             ]
         },
+
 		{
             "navn": "Jolida JD202a",
             "id": "jolida_jd202a",
             "andreProdukter": "See other jolida products",
-            "outletPrice": "",
-            "pris": "995.00",
+            "outletPrice": "998.00",
+            "pris": "256.00",
             "beskrivelse": "Fully Integrated Stereo Amplifier: Input 350mV driving 40 watts, maximum 60 watts output. Multiple Inputs: Front mounted selector switch-CD, Tuner and Aux (for TV, DVD Player, VCR or computer). Custom Wound Audio Transformers with a core of German grain oriented silicon steel. 15th generation proprietary design. Secondary can be configured for a 4 ohm or 8 ohm load. State of the Art Components: ALPS or Panasonic audio potentiometer, gold plated RCA input jacks, gold plated five way speaker connectors. Low Feedback Design: Only 9 dB.",
             "billede": ["./assets/images/tube-amplifiers/jolida_JD202a.jpg"],
             "category": "tube-amplifiers",
             "manufacturer": "jolida",
 
             "additionalInformations": {
-                "manufacturer": "jolida",
+                "manufacturer": "Jolida",
                 "manufacturerLink": "",
-                "freeWarranty": "1 year",
+                "freeWarranty": "5 year",
                 "deliveryCharge": "Free",
-                "deliveryTime": "1-5 Working days",
+                "deliveryTime": "1-4 Working days",
                 "cardSurcharges": "No"
             },
 
@@ -1239,7 +1240,9 @@
                 }
 
             ]
-        },{
+        },
+        
+        {
             "navn": "Jolida JD300b",
             "id": "jolida_jd300b",
             "andreProdukter": "See other jolida products",
@@ -1253,9 +1256,9 @@
             "additionalInformations": {
                 "manufacturer": "jolida",
                 "manufacturerLink": "",
-                "freeWarranty": "1 year",
+                "freeWarranty": "9 year",
                 "deliveryCharge": "Free",
-                "deliveryTime": "1-5 Working days",
+                "deliveryTime": "1-2 Working days",
                 "cardSurcharges": "No"
             },
 
@@ -1302,23 +1305,25 @@
                 }
 
             ]
-        },{
+        },
+
+        {
             "navn": "Jolida JD302b",
             "id": "jolida_jd302b",
             "andreProdukter": "See other jolida products",
-            "outletPrice": "925.00",
-            "pris": "899.99",
+            "outletPrice": "",
+            "pris": "900.99",
             "beskrivelse": "The JD-302B is a very well built unit, weighing in at approximately 39 pounds. Sprouting from its matte black top panel are pair of 12AX7 preamp tubes, a pair of 12AT7 driver tubes, and a quartet of EL34 output tubes. All of the tubes are of Chinese manufacture",
             "billede": ["./assets/images/tube-amplifiers/jolida_JD302b.jpg"],
             "category": "tube-amplifiers",
             "manufacturer": "jolida",
 
             "additionalInformations": {
-                "manufacturer": "jolida",
+                "manufacturer": "Jolida",
                 "manufacturerLink": "",
                 "freeWarranty": "2 years",
                 "deliveryCharge": "Free",
-                "deliveryTime": "1-5 Working days",
+                "deliveryTime": "1-8 Working days",
                 "cardSurcharges": "No"
             },
 
@@ -1365,23 +1370,24 @@
                 }
 
             ]
-        },{
+        },
+        {
             "navn": "Jolida JD502b",
             "id": "jolida_jd502b",
             "andreProdukter": "See other jolida products",
-            "outletPrice": "1799.99",
-            "pris": "1249.99",
+            "outletPrice": "",
+            "pris": "1547.99",
             "beskrivelse": "Uncompromised Build and Quality – An Incredible Value As Well. Fully Integrated Stereo Amplifier: Input 600mV driving 60 watts, maximum 85 watts output. Multiple Inputs: Front mounted selector switch-CD, Tape Recorder, Tuner and Aux (for TV, DVD Player, VCR or Computer).",
             "billede": ["./assets/images/tube-amplifiers/jolida_JD502b.jpg"],
             "category": "tube-amplifiers",
             "manufacturer": "jolida",
 
             "additionalInformations": {
-                "manufacturer": "jolida",
+                "manufacturer": "Jolida",
                 "manufacturerLink": "",
                 "freeWarranty": "2 years",
                 "deliveryCharge": "Free",
-                "deliveryTime": "1-5 Working days",
+                "deliveryTime": "1-9 Working days",
                 "cardSurcharges": "No"
             },
 
@@ -1389,63 +1395,65 @@
 
                 {
                     "key": "Max Power Output:",
-                    "value": "85 W per channel"
+                    "value": "852 W per channel"
                 },
 
                 {
                     "key": "Rated Output Power:",
-                    "value": "60 W per channel"
+                    "value": "10 W per channel"
                 },
 
                 {
                     "key": "Bandwidth:",
-                    "value": "15Hz to 80KHz"
+                    "value": "63Hz to 85KHz"
                 },
 
                 {
                     "key": "Distortion THD:",
-                    "value": "Less than 1%"
+                    "value": "Less than 5%"
                 },
 
                 {
                     "key": "Circuit Type:",
-                    "value": "Ultra Linear, Class AB"
+                    "value": "Ultra Linear"
                 },
 
                 {
                     "key": "Negative Feedback:",
-                    "value": "< 5dB"
+                    "value": "< 10dB"
                 },
 
                 {
                     "key": "Input Impedance:",
-                    "value": "100K ohms"
+                    "value": "852K ohms"
                 },
 
                 {
                     "key": "Weight",
-                    "value": "39 pounds"
+                    "value": "47 pounds"
                 }
 
             ]
-        },{
+        },
+        
+        {
             "navn": "Boesendorfer VCS Wall",
             "id": "boesendorfer_vcs_wall",
             "andreProdukter": "See other Boesendorfer products",
-            "outletPrice": "3999.99",
-            "pris": "1249.99",
+            "outletPrice": "8975.50",
+            "pris": "1547.99",
             "beskrivelse": "Fully Integrated Stereo speaker: Input 350mV driving 40 watts, maximum 60 watts output. Multiple Inputs: Front mounted selector switch-CD, Tuner and Aux (for TV, DVD Player, VCR or computer). Custom Wound Audio Transformers with a core of German grain oriented silicon steel. 15th generation proprietary design. Secondary can be configured for a 4 ohm or 8 ohm load. State of the Art Components: ALPS or Panasonic audio potentiometer, gold plated RCA input jacks, gold plated five way speaker connectors. Low Feedback Design: Only 9 dB.",
             "billede": ["./assets/images/speakers/boesendorfer_vcs_wall.gif"],
             "category": "speakers",
             "manufacturer": "boesendorfer",
 
             "additionalInformations": {
-                "manufacturer": "boesendorfer",
+                "manufacturer": "Boesendorfer",
                 "manufacturerLink": "",
-                "freeWarranty": "3 years",
+                "freeWarranty": "8 years",
                 "deliveryCharge": "Free",
-                "deliveryTime": "1-5 Working days",
-                "cardSurcharges": "No"
+                "deliveryTime": "1-4 Working days",
+                "cardSurcharges": "Yes"
             },
 
             "description": [
@@ -1491,24 +1499,26 @@
                 }
 
             ]
-        },{
+        },
+        
+        {
             "navn": "Epos M5",
-            "id": "boesendorfer_vcs_wall",
-            "andreProdukter": "See other Boesendorfer products",
-            "outletPrice": "",
-            "pris": "650.00",
+            "id": "boesendorfer_m5",
+            "andreProdukter": "See other Epos products",
+            "outletPrice": "332.04",
+            "pris": "650.99",
             "beskrivelse": "The M5 is a shielded, biwirable, two-way bass-reflex design. The 1 dome tweeter has a gold-anodized diaphragm of aluminum alloy terminated with a polyamide suspension. The tweeter's rear-cavity loading and high-efficiency neodymium magnet are claimed to improve its transient response and eliminate temporal smearing",
             "billede": ["./assets/images/speakers/epos_m5.gif"],
             "category": "speakers",
-            "manufacturer": "boesendorfer",
+            "manufacturer": "Epos",
 
             "additionalInformations": {
-                "manufacturer": "boesendorfer",
+                "manufacturer": "Epos",
                 "manufacturerLink": "",
-                "freeWarranty": "3 years",
+                "freeWarranty": "2 years",
                 "deliveryCharge": "Free",
-                "deliveryTime": "1-5 Working days",
-                "cardSurcharges": "No"
+                "deliveryTime": "1-2 Working days",
+                "cardSurcharges": "Yes"
             },
 
             "description": [
@@ -1554,7 +1564,9 @@
                 }
 
             ]
-        },{
+        },
+        
+        {
             "navn": "Harbeth HL7 ES2",
             "id": "harbeth_hl7es2",
             "andreProdukter": "See other Harbeth products",
@@ -1566,12 +1578,12 @@
             "manufacturer": "harbeth",
 
             "additionalInformations": {
-                "manufacturer": "harbeth",
+                "manufacturer": "Harbeth",
                 "manufacturerLink": "",
-                "freeWarranty": "3 years",
+                "freeWarranty": "5 years",
                 "deliveryCharge": "Free",
-                "deliveryTime": "1-5 Working days",
-                "cardSurcharges": "No"
+                "deliveryTime": "1-7 Working days",
+                "cardSurcharges": "Yes"
             },
 
             "description": [
@@ -1617,11 +1629,13 @@
                 }
 
             ]
-        },{
+        },
+        
+        {
             "navn": "Harbeth Monitor 30",
             "id": "harbeth_monitor30",
             "andreProdukter": "See other Harbeth products",
-            "outletPrice": "",
+            "outletPrice": "2789.00",
             "pris": "3195.00",
             "beskrivelse": "The Harbeth Monitor 30 was designed to slot right into professional applications of the old BBC LS5/9 monitor, for which it is a drop-in replacement. It is designed for medium-sized rooms, offering lower bass response and higher sound pressure levels than the near-field, small room-only, Monitor 20/HL P3ES-2/LS3/5a.",
             "billede": ["./assets/images/speakers/harbeth_monitor30.jpg"],
@@ -1629,11 +1643,11 @@
             "manufacturer": "harbeth",
 
             "additionalInformations": {
-                "manufacturer": "harbeth",
+                "manufacturer": "Harbeth",
                 "manufacturerLink": "",
                 "freeWarranty": "3 years",
                 "deliveryCharge": "Free",
-                "deliveryTime": "1-5 Working days",
+                "deliveryTime": "1-8 Working days",
                 "cardSurcharges": "No"
             },
 
@@ -1684,7 +1698,7 @@
             "navn": "Harbeth P3 ES2",
             "id": "harbeth_p3es2",
             "andreProdukter": "See other Harbeth products",
-            "outletPrice": "",
+            "outletPrice": "1250.00",
             "pris": "1595.00",
             "beskrivelse": "The Harbeth Monitor 30 was designed to slot right into professional applications of the old BBC LS5/9 monitor, for which it is a drop-in replacement. It is designed for medium-sized rooms, offering lower bass response and higher sound pressure levels than the near-field, small room-only, Monitor 20/HL P3ES-2/LS3/5a.",
             "billede": ["./assets/images/speakers/harbeth_p3es2.jpg"],
@@ -1692,11 +1706,11 @@
             "manufacturer": "harbeth",
 
             "additionalInformations": {
-                "manufacturer": "harbeth",
+                "manufacturer": "Harbeth",
                 "manufacturerLink": "",
-                "freeWarranty": "3 years",
+                "freeWarranty": "9 years",
                 "deliveryCharge": "Free",
-                "deliveryTime": "1-5 Working days",
+                "deliveryTime": "1-2 Working days",
                 "cardSurcharges": "No"
             },
 
