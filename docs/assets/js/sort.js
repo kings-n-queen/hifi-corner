@@ -175,7 +175,6 @@ function extractPrice(price) {
 
 function objectSort(arr, sortKey, ascending = true) {
     key = sortKey;
-    console.log(key)
     direction = ascending ? 1 : -1;
     arr.sort(compare);
 }

@@ -2,6 +2,7 @@ let breadcrumbsContainer = document.querySelector(".breadcrumbs");
 breadcrumbsContainer.innerHTML = "";
 
 function breadcrumbs(array) {
+    breadcrumbsContainer.innerHTML = "";
     let arr = [];
     array.forEach((obj, index) => {
         let permalink;
