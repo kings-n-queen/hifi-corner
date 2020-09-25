@@ -20,7 +20,7 @@ fetchProducts().then(function(jsonObj) {
     }
 
 
-    productDetailsName(product.navn, product.beskrivelse, product.category, product.andreProdukter, product.pris);
+    productDetailsName(product.navn, product.beskrivelse, product.manufacturer, product.andreProdukter, product.pris);
     specs(product.description);
     singlePageImage(product);
     additionalInfo(product);
