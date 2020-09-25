@@ -1119,7 +1119,7 @@
             "outletPrice": "",
             "pris": "650",
             "beskrivelse": "Great sounding, musical amp for small systems or entry level tube amp. High Quality construction, built to last. Heavy gauge steel chassis. Uses Push-Pull EL84/6BQ5s and three 12AX7s which are easy to source and inexpensive. Complete integrated amp with four pairs of inputs and four and eight ohm outputs. Easy to maintain.",
-            "billede": ["./assets/images/cd-players/jolida_JD102b.jpg"],
+            "billede": ["./assets/images/tube-amplifiers/jolida_JD102b.jpg"],
             "category": "tube-amplifiers",
             "manufacturer": "jolida",
 
@@ -1183,7 +1183,7 @@
             "outletPrice": "",
             "pris": "995.00",
             "beskrivelse": "Fully Integrated Stereo Amplifier: Input 350mV driving 40 watts, maximum 60 watts output. Multiple Inputs: Front mounted selector switch-CD, Tuner and Aux (for TV, DVD Player, VCR or computer). Custom Wound Audio Transformers with a core of German grain oriented silicon steel. 15th generation proprietary design. Secondary can be configured for a 4 ohm or 8 ohm load. State of the Art Components: ALPS or Panasonic audio potentiometer, gold plated RCA input jacks, gold plated five way speaker connectors. Low Feedback Design: Only 9 dB.",
-            "billede": ["./assets/images/cd-players/jolida_JD202a.jpg"],
+            "billede": ["./assets/images/tube-amplifiers/jolida_JD202a.jpg"],
             "category": "tube-amplifiers",
             "manufacturer": "jolida",
 
@@ -1246,7 +1246,7 @@
             "outletPrice": "",
             "pris": "1450.00",
             "beskrivelse": "Fully Integrated Stereo Amplifier with remote control. Input 500mV driving 9 watts, maximum 12 watts output. Multiple Inputs: Front mounted selector switch-CD, Tape Recorder, Tuner and Aux. (for TV, DVD Player, VCR or Computer).",
-            "billede": ["./assets/images/cd-players/jolida_JD300b.jpg"],
+            "billede": ["./assets/images/tube-amplifiers/jolida_JD300b.jpg"],
             "category": "tube-amplifiers",
             "manufacturer": "jolida",
 
@@ -1309,7 +1309,7 @@
             "outletPrice": "925.00",
             "pris": "899.99",
             "beskrivelse": "The JD-302B is a very well built unit, weighing in at approximately 39 pounds. Sprouting from its matte black top panel are pair of 12AX7 preamp tubes, a pair of 12AT7 driver tubes, and a quartet of EL34 output tubes. All of the tubes are of Chinese manufacture",
-            "billede": ["./assets/images/cd-players/jolida_JD302b.jpg"],
+            "billede": ["./assets/images/tube-amplifiers/jolida_JD302b.jpg"],
             "category": "tube-amplifiers",
             "manufacturer": "jolida",
 
@@ -1372,7 +1372,7 @@
             "outletPrice": "1799.99",
             "pris": "1249.99",
             "beskrivelse": "Uncompromised Build and Quality – An Incredible Value As Well. Fully Integrated Stereo Amplifier: Input 600mV driving 60 watts, maximum 85 watts output. Multiple Inputs: Front mounted selector switch-CD, Tape Recorder, Tuner and Aux (for TV, DVD Player, VCR or Computer).",
-            "billede": ["./assets/images/cd-players/jolida_JD502b.jpg"],
+            "billede": ["./assets/images/tube-amplifiers/jolida_JD502b.jpg"],
             "category": "tube-amplifiers",
             "manufacturer": "jolida",
 
@@ -1435,7 +1435,7 @@
             "outletPrice": "3999.99",
             "pris": "1249.99",
             "beskrivelse": "Fully Integrated Stereo speaker: Input 350mV driving 40 watts, maximum 60 watts output. Multiple Inputs: Front mounted selector switch-CD, Tuner and Aux (for TV, DVD Player, VCR or computer). Custom Wound Audio Transformers with a core of German grain oriented silicon steel. 15th generation proprietary design. Secondary can be configured for a 4 ohm or 8 ohm load. State of the Art Components: ALPS or Panasonic audio potentiometer, gold plated RCA input jacks, gold plated five way speaker connectors. Low Feedback Design: Only 9 dB.",
-            "billede": ["./assets/images/cd-players/boesendorfer_vcs_wall.gif"],
+            "billede": ["./assets/images/speakers/boesendorfer_vcs_wall.gif"],
             "category": "speakers",
             "manufacturer": "boesendorfer",
 
@@ -1624,7 +1624,7 @@
             "outletPrice": "",
             "pris": "3195.00",
             "beskrivelse": "The Harbeth Monitor 30 was designed to slot right into professional applications of the old BBC LS5/9 monitor, for which it is a drop-in replacement. It is designed for medium-sized rooms, offering lower bass response and higher sound pressure levels than the near-field, small room-only, Monitor 20/HL P3ES-2/LS3/5a.",
-            "billede": ["./assets/images/cd-players/harbeth_monitor30.jpg"],
+            "billede": ["./assets/images/speakers/harbeth_monitor30.jpg"],
             "category": "speakers",
             "manufacturer": "harbeth",
 
@@ -1687,7 +1687,7 @@
             "outletPrice": "",
             "pris": "1595.00",
             "beskrivelse": "The Harbeth Monitor 30 was designed to slot right into professional applications of the old BBC LS5/9 monitor, for which it is a drop-in replacement. It is designed for medium-sized rooms, offering lower bass response and higher sound pressure levels than the near-field, small room-only, Monitor 20/HL P3ES-2/LS3/5a.",
-            "billede": ["./assets/images/cd-players/harbeth_p3es2.jpg"],
+            "billede": ["./assets/images/speakers/harbeth_p3es2.jpg"],
             "category": "speakers",
             "manufacturer": "harbeth",
 
