@@ -45,5 +45,4 @@ function arrange(jsonObj) {
 
     footer();
     search();
-
 }
