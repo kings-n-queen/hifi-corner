@@ -39,7 +39,7 @@ function arrange(jsonObj) {
 }
 
 function setBreadcrumbs(title, permalink, productName) {
-    let breadCrumbArray = [{ title: "Home", permalink: "index.html" }];
+    let breadCrumbArray = [{ title: "Home", permalink: "shop-category-list.html" }];
     breadCrumbArray.push({ title, permalink });
     breadCrumbArray.push({ title: productName, permalink: "" });
     breadcrumbs(breadCrumbArray);

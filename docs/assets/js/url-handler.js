@@ -1,4 +1,7 @@
 function setURL(url) {
+    if (url[url.length - 1] == "#") {
+        return;
+    }
     window.history.pushState({}, "", url);
 }
 

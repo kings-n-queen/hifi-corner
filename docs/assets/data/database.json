@@ -1080,10 +1080,10 @@
                 "beskrivelse": "These features make it a perfect match with the preamp REVO SC-2, which expresses the same sound personality. But, also for people who want to combine it with other preamps, the REVO PA-160MR can become a perfect partner. For example, with the best tube preamps you can enhance the characteristics of sound, giving an extraordinary ability to drive the speakers without introducing any harshness in the sound and the listening fatigue often present in solid state amplifiers.",
                 "billede": ["./assets/images/preamplifiers/Project_prebox.jpg"],
                 "category": "preamplifiers",
-                "manufacturer": "project",
+                "manufacturer": "pro_ject",
                         
                 "additionalInformations": {
-                    "manufacturer": "project",
+                    "manufacturer": "Pro Ject",
                     "manufacturerLink": "",
                     "freeWarranty": "3 years",
                     "deliveryCharge": "Free",
@@ -1254,7 +1254,7 @@
             "manufacturer": "jolida",
 
             "additionalInformations": {
-                "manufacturer": "jolida",
+                "manufacturer": "Jolida",
                 "manufacturerLink": "",
                 "freeWarranty": "9 year",
                 "deliveryCharge": "Free",
@@ -1503,7 +1503,7 @@
         
         {
             "navn": "Epos M5",
-            "id": "boesendorfer_m5",
+            "id": "epos_m5",
             "andreProdukter": "See other Epos products",
             "outletPrice": "332.04",
             "pris": "650.99",

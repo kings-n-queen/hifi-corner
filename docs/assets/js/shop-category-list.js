@@ -11,11 +11,14 @@ import filterProductsByManufacturer from "./shop-category-list-filterByManufactu
 import {numbersForFilterPrice, numbersForFilterManufacturer, displayNumbers} from "./shop-category-list-filterNumbers.js";
 import categoryHandler from "./shop-category-list-amplifiers.js";
 import subcategoryControl from "./subcategory-links.js";
+import searchObject from "./search-object.js";
 
 fetchProducts().then(arrange);
 subcategoryControl();
 
 function arrange(jsonObj) {
+
+    window.addEventListener('popstate', urlDisplay);
 
     //#region SORT FUNCTIONS
 
@@ -25,9 +28,7 @@ function arrange(jsonObj) {
 
     // Create copy of JSON object's products-array
     // Updates the HTML in the sort box when set/changed
-    sortBox.products = [...jsonObj.products];
-
-    urlDisplay();
+    sortBox.products = jsonObj.products;
 
     // SORT BY: Price / Name
     sortBox.addSortListener("sortby", urlDisplay);
@@ -45,14 +46,15 @@ function arrange(jsonObj) {
 
     // Display the list, based on parameters in the URL
     function urlDisplay() {
-        if (!filterAndDisplay("category", "manufacturer")) {
+        if (!filterAndDisplay("category", "manufacturer", "search")) {
             sortDisplay(jsonObj.products);
+            breadcrumbs([{title: "Home", permalink: "shop-category-list.html"}]);
         }
     }
 
     // Display the list, based on sort-settings
     function sortDisplay(products){
-        sortBox.products = [...products];
+        sortBox.products = products;
         displayProducts(sortBox.products);
     }
 
@@ -61,36 +63,45 @@ function arrange(jsonObj) {
         toggleViewState(sortBox.gridView ? "grid" : "list");
     }
 
-    function filterAndDisplay(...types){
+    function filterAndDisplay(...params){
         let hasParams = false;
-        types.forEach(type => {
-            let typeValue = urlGetKey(type);
-            if (typeValue) {
-                sortBox.products = jsonObj.products.filter(product => product[type] == typeValue);
-                setBreadcrumbs(typeValue, `?${type}=${typeValue}`);
-                sortDisplay(sortBox.products);
+        params.forEach(param => {
+            let paramValue = urlGetKey(param);
+            if (paramValue) {
+                if (param === "search") {
+                    sortBox.products = jsonObj.products.filter(obj => searchObject(paramValue, obj));
+                    setBreadcrumbs();
+                } else {
+                    sortBox.products = jsonObj.products.filter(product => product[param] == paramValue);
+                    setBreadcrumbs(paramValue, `?${param}=${paramValue}`);
+                }
+                displayProducts(sortBox.products);
                 hasParams = true;
             }
         });
         return hasParams;
     }
     
-    function filterByParam(type){
-        let typeValue = urlGetKey(type);
+    function filterByParam(param, showBreadcrumbs = true){
+        let typeValue = urlGetKey(param);
         if (typeValue) {
-            let filteredProducts = jsonObj.products.filter(product => product[type] == typeValue);
-            setBreadcrumbs(typeValue, `?${type}=${typeValue}`);
+            let filteredProducts = jsonObj.products.filter(product => product[param] == typeValue);
+            if (showBreadcrumbs) {
+                setBreadcrumbs(typeValue, `?${param}=${typeValue}`);
+            }
             return filteredProducts;
         }
         return null;
     }
 
+    urlDisplay();
+
     //#endregion SORT FUNCTIONS
 
     //#region MBC
 
-    addManufacturers(sortBox.products, function(){
-        sortDisplay(filterByParam("manufacturer"));
+    addManufacturers(jsonObj.products, function(){
+        sortDisplay(filterByParam("manufacturer", false));
     });
 
     //#endregion MBC
@@ -98,7 +109,7 @@ function arrange(jsonObj) {
     //#region CATEGORY HANDLER
     
     categoryHandler(function(){
-        sortDisplay(filterByParam("category"));
+        sortDisplay(filterByParam("category") || sortBox.products);
         addManufacturers(sortBox.products);
     });
     
@@ -107,13 +118,13 @@ function arrange(jsonObj) {
 
     //#region BREADCRUMBS
 
-    function setBreadcrumbs(title, permalink){
-        let breadCrumbArray = [{title: "Home", permalink: "index.html"}];
-        breadCrumbArray.push({ title, permalink });
+    function setBreadcrumbs(title = "", permalink = ""){
+        let breadCrumbArray = [{title: "Home", permalink: "shop-category-list.html"}];
+        if (title) {
+            breadCrumbArray.push({ title, permalink });
+        }
         breadcrumbs(breadCrumbArray);
     }
-
-    breadcrumbs([{title: "Home", permalink: "index.html"}]);
 
     //#endregion BREADCRUMBS
 
@@ -125,7 +136,7 @@ function arrange(jsonObj) {
             if (event.target.classList.contains("subCategory")) {
                 event.preventDefault();
                 let productsFilteredByPrice = filterProductsByPrice(jsonObj.products, event.target.dataset.minprice, event.target.dataset.maxprice);
-                sortBox.products = [...productsFilteredByPrice];
+                sortBox.products = productsFilteredByPrice;
                 displayProducts(sortBox.products);
             }
         })
@@ -139,7 +150,7 @@ function arrange(jsonObj) {
                 setURL(event.target.href);
                 console.log(urlGetKey("manufacturer"));
                 let productsFilteredByManufacturer = filterProductsByManufacturer(jsonObj.products, urlGetKey("manufacturer"));
-                sortBox.products = [...productsFilteredByManufacturer];
+                sortBox.products = productsFilteredByManufacturer;
                 displayProducts(sortBox.products);
             }
         })
