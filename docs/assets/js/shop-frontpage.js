@@ -89,6 +89,8 @@ let categories = [
 
 ];
 
+shuffleCategories(categories);
+
 categories.forEach(category => {
     shopCategoriesGrid.appendChild(
         categoryLink(
@@ -98,6 +100,13 @@ categories.forEach(category => {
         )
     );
 });
+
+function shuffleCategories(array){
+    for (let i = array.length - 2; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
 
 function categoryLink(title, imgPath, permaLink) {
     let link = document.createElement("A");

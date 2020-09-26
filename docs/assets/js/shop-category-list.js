@@ -109,8 +109,8 @@ function arrange(jsonObj) {
     //#region CATEGORY HANDLER
     
     categoryHandler(function(){
-        sortDisplay(filterByParam("category") || sortBox.products);
-        addManufacturers(sortBox.products);
+        sortDisplay(filterByParam("category") || sortBox.allProducts);
+        addManufacturers(sortBox.allProducts);
     });
     
     //#endregion CATEGORY HANDLER
