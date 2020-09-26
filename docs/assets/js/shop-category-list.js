@@ -100,7 +100,7 @@ function arrange(jsonObj) {
 
     //#region MBC
 
-    addManufacturers(jsonObj.products, function(){
+    addManufacturers(sortBox.allProducts, function(){
         sortDisplay(filterByParam("manufacturer", false));
     });
 
