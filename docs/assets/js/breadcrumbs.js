@@ -24,7 +24,7 @@ function createLinkElement(title, link) {
     let linkElm = document.createElement("A");
     linkElm.classList.add("breadcrumbs__link");
     linkElm.href = link;
-    linkElm.textContent = title;
+    linkElm.textContent = fixTitle(title);
     return linkElm;
 }
 
@@ -42,5 +42,14 @@ function createSeparator(character) {
     return separatorElm;
 }
 
+function fixTitle(title){
+    title = title.replace("-", " ");
+    title = title.replace("_", " ");
+    title = title[0].toUpperCase() + title.slice(1);
+    title = title.replace("Cd p", "CD P");
+    title = title.replace("Dvd p", "DVD P");
+    title = title.replace("Lps", "LPs");
+    return title;
+}
 
 export default breadcrumbs;

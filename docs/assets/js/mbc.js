@@ -20,6 +20,11 @@ function viewAllManufacturers() {
         mbcShowAll.addEventListener("click", function(event) {
             event.preventDefault();
             mbcList.classList.toggle("js-showAll");
+            if (mbcList.classList.contains("js-showAll")) {
+                this.textContent = "Collapse";
+            } else {
+                this.textContent = "View All";
+            }
         });
     }
 }
@@ -29,20 +34,17 @@ function addManufacturers(objArr, callback) {
     if (callback) {
         clickCallback = callback;
     }
-    let names = [];
-    let permalinks = {};
-    for (let i = 0; i < objArr.length; i++) {
-        const obj = objArr[i];
-        if (!names.includes(obj.additionalInformations.manufacturer)) {
-            let name = obj.additionalInformations.manufacturer;
-            names.push(name);
-            permalinks[name] = `?manufacturer=${obj.manufacturer}`;
-        }
-    }
-    names.sort();
-    names.forEach(name => {
-        addManufacturer(name, permalinks[name]);
+
+    // Kan det her laves mere effektivt?
+    let mapped = objArr.map(obj => obj.additionalInformations.manufacturer);
+    let names = Array.from(new Set(mapped));
+    names.sort().forEach(name => {
+        // Det burde ikke være nødvendigt at bruge find, da vi har hele objektet til at starte med (før uniques og sort)
+        // Men hvordan skal det omstruktureres, så vi får et unikt array med objekter {}?
+        let manufacturer = objArr.find(obj => obj.additionalInformations.manufacturer === name).manufacturer;
+        addManufacturer(name, `?manufacturer=${manufacturer}`);
     });
+    
     if (names.length > 7) {
         mbcShowAll.classList.remove("js-hidden");
         mbcShowAll.classList.remove("js-showAll");
