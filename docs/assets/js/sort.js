@@ -7,6 +7,7 @@ let sortCountCallback;
 
 let sortBox = {
     productsArray: null,
+    allProducts: null,
     sortBy: "pris",
     ascending: true,
     gridView: true,
@@ -15,7 +16,8 @@ let sortBox = {
         return this.productsArray;
     },
     set products(value) {
-        this.productsArray = value;
+        this.productsArray = [...value];
+        this.allProducts = [...value];
         let totalProductCount = this.productsArray.length;
         objectSort(this.productsArray, this.sortBy, this.ascending);
         let displayAmount = Math.min(this.productsArray.length, this.maxDisplayCount);
