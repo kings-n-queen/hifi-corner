@@ -35,7 +35,7 @@ function addManufacturers(objArr, callback) {
         clickCallback = callback;
     }
 
-    // Kan det her laves mere effektivt?
+    // Kan det her laves mere effektivt(?)
     let mapped = objArr.map(obj => obj.additionalInformations.manufacturer);
     let names = Array.from(new Set(mapped));
     names.sort().forEach(name => {
